@@ -3,13 +3,15 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Form1": 5,
+    "Container1": 6,
+    "Container2": 8,
+    "Container3": 14,
     "Host": 3,
     "Screen1": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/10/2024 01:42:35",
+  "HeaderLastSavedDateTimeUTC": "09/12/2024 22:39:39",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -17,16 +19,20 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "form": 0
+    "groupContainer": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Form1": {},
+    "Container1": {},
+    "Container2": {},
+    "Container3": {},
     "Host": {},
     "Screen1": {}
   },
@@ -34,16 +40,24 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Form1": 0,
+    "Container1": 0,
+    "Container2": 0,
+    "Container3": 0,
     "Host": 0,
     "Screen1": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1361812,
-    "ControlCount": {}
+    "AnalysisLoadTime": 0.1463496,
+    "ControlCount": {
+      "form": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 1.5730651
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

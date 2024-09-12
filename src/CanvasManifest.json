@@ -10,7 +10,7 @@
     "MSAppStructureVersion": "2.0"
   },
   "Properties": {
-    "AppCopilotSchemaName": null,
+    "AppCopilotSchemaName": "",
     "AppCreationSource": "AppFromScratch",
     "AppDescription": "",
     "AppPreviewFlagsMap": {
@@ -80,6 +80,7 @@
       "powerfxdecimal": false,
       "powerfxv1": false,
       "primaryoutputpropertycoerciondeprecated": true,
+      "proactivecontrolrename": false,
       "projectionmapping": true,
       "reliableconcurrent": true,
       "reservedkeywords": false,
@@ -116,7 +117,7 @@
     "Id": "34e97382-a9db-4000-b30e-72e5e6a2915f",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "Beats Webapp",
     "OriginatingVersion": "1.343",
     "ParserErrorCount": 0,

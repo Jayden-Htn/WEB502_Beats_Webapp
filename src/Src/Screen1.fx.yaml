@@ -1,7 +1,21 @@
 Screen1 As screen:
 
-    Form1 As form:
-        X: =40
-        Y: =40
+    Container1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =122
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
         ZIndex: =1
+
+        Container2 As groupContainer.horizontalAutoLayoutContainer:
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =1
+
+        Container3 As groupContainer.horizontalAutoLayoutContainer:
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
 

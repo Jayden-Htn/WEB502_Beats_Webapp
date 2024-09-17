@@ -1,21 +1,21 @@
 "HomeScreen As screen.'autoLayout_HeaderFooter_ver1.0'":
+    Fill: =RGBA(36, 33, 38, 1)
 
-    ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
-        Fill: =RGBA(245, 245, 245, 1)
+    H_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(28, 28, 28, 1)
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
-        LayoutGap: =16
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        PaddingBottom: =16
-        PaddingLeft: =16
-        PaddingRight: =16
-        PaddingTop: =16
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =1366
         ZIndex: =1
 
-        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+        H_Header As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
@@ -23,41 +23,57 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            RadiusBottomLeft: =8
-            RadiusBottomRight: =8
-            RadiusTopLeft: =8
-            RadiusTopRight: =8
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
             ZIndex: =2
 
-            "'Nav Bar_1' As 'Nav Bar'":
+            H_NavBar As NavBar:
                 FillPortions: =1
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
 
-        MainContainer1 As groupContainer.verticalAutoLayoutContainer:
+        H_Body As groupContainer.verticalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(255, 255, 255, 1)
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            RadiusBottomLeft: =8
-            RadiusBottomRight: =8
-            RadiusTopLeft: =8
-            RadiusTopRight: =8
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
             ZIndex: =3
 
-        FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            Label3 As label:
+                Align: =Align.Center
+                Text: ="Home"
+                ZIndex: =1
+
+        H_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
-            Fill: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(19, 16, 22, 1)
             FillPortions: =0
             Height: =75
+            LayoutJustifyContent: =LayoutJustifyContent.Center
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            RadiusBottomLeft: =8
-            RadiusBottomRight: =8
-            RadiusTopLeft: =8
-            RadiusTopRight: =8
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
             ZIndex: =4
+
+            Label1 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
+                Color: =RGBA(255, 255, 255, 1)
+                FillPortions: =1
+                Size: =10
+                Text: ="Built by Jayden Houghton"
+                Width: =200
+                ZIndex: =1
 

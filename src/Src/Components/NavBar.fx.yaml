@@ -1,4 +1,4 @@
-"'Nav Bar' As CanvasComponent":
+NavBar As CanvasComponent:
     Fill: =RGBA(19, 16, 22, 1)
     Height: =75
     Width: =1366
@@ -31,8 +31,8 @@
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Width: =1291
-        X: =75
+        Width: =1066
+        X: =299
         ZIndex: =2
 
         Home As label:
@@ -50,7 +50,7 @@
             DisabledBorderColor: =RGBA(186, 202, 226, 1)
             DisabledColor: =RGBA(250, 100, 44, 1)
             Height: =100
-            OnSelect: =Navigate(About, ScreenTransition.Fade)
+            OnSelect: =Navigate(AboutScreen)
             Text: ="About"
             ZIndex: =2
 
@@ -59,7 +59,17 @@
             Color: =RGBA(250, 100, 44, 1)
             DisabledColor: =RGBA(250, 100, 44, 1)
             Height: =100
-            OnSelect: =Navigate(Account, ScreenTransition.Fade)
+            OnSelect: =Navigate(AccountScreen)
             Text: ="Account"
             ZIndex: =3
+
+    Label2 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =22
+        Text: ="Beats Nelson"
+        Width: =224
+        X: =75
+        ZIndex: =3
 

@@ -6,63 +6,6 @@ NavBar As CanvasComponent:
     Y: =0
     ZIndex: =1
 
-    Logo As groupContainer.horizontalAutoLayoutContainer:
-        Height: =75
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =75
-        ZIndex: =1
-
-        Image1 As image:
-            Height: =75
-            Image: =Logo_1
-            Width: =75
-            ZIndex: =1
-
-    Links As groupContainer.horizontalAutoLayoutContainer:
-        Fill: =RGBA(19, 16, 22, 1)
-        Height: =75
-        LayoutJustifyContent: =LayoutJustifyContent.End
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =1066
-        X: =299
-        ZIndex: =2
-
-        Home As label:
-            AlignInContainer: =AlignInContainer.Center
-            Color: =RGBA(250, 100, 44, 1)
-            DisabledColor: =RGBA(250, 100, 44, 1)
-            Height: =100
-            OnSelect: =Navigate(HomeScreen)
-            Text: ="Home"
-            ZIndex: =1
-
-        About As label:
-            AlignInContainer: =AlignInContainer.Center
-            Color: =RGBA(250, 100, 44, 1)
-            DisabledBorderColor: =RGBA(186, 202, 226, 1)
-            DisabledColor: =RGBA(250, 100, 44, 1)
-            Height: =100
-            OnSelect: =Navigate(AboutScreen)
-            Text: ="About"
-            ZIndex: =2
-
-        Account As label:
-            AlignInContainer: =AlignInContainer.Center
-            Color: =RGBA(250, 100, 44, 1)
-            DisabledColor: =RGBA(250, 100, 44, 1)
-            Height: =100
-            OnSelect: =Navigate(AccountScreen)
-            Text: ="Account"
-            ZIndex: =3
-
     Label2 As label:
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold

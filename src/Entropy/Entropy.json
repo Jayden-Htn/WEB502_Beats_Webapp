@@ -1,6 +1,7 @@
 {
   "ComponentIndexes": {
-    "Nav Bar": 2
+    "Nav Bar": 2,
+    "Nav Bar_1": 2
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -21,12 +22,13 @@
     "MainContainer1": 13,
     "MainContainer2": 8,
     "Nav Bar": 4,
+    "Nav Bar_1": 23,
     "ScreenContainer1": 11,
     "ScreenContainer2": 6
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/17/2024 02:02:27",
+  "HeaderLastSavedDateTimeUTC": "09/17/2024 02:19:43",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -71,6 +73,7 @@
     "MainContainer1": {},
     "MainContainer2": {},
     "Nav Bar": {},
+    "Nav Bar_1": {},
     "ScreenContainer1": {},
     "ScreenContainer2": {}
   },
@@ -94,6 +97,7 @@
     "MainContainer1": 0,
     "MainContainer2": 0,
     "Nav Bar": 0,
+    "Nav Bar_1": 0,
     "ScreenContainer1": 0,
     "ScreenContainer2": 0
   },
@@ -106,7 +110,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.2398932,
     "ControlCount": {
-      "704cebd900874ecc844136eeff5e53d8": 2,
+      "704cebd900874ecc844136eeff5e53d8": 3,
       "groupContainer": 8,
       "label": 2,
       "screen": 2

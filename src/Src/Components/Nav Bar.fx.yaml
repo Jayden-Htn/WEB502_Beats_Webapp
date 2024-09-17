@@ -28,23 +28,27 @@
         Home As label:
             Align: =Align.Center
             AlignInContainer: =AlignInContainer.Center
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(250, 100, 44, 1)
+            DisabledColor: =RGBA(250, 100, 44, 1)
             Height: =100
-            Text: ="Account"
+            Text: ="Home"
             ZIndex: =1
 
         About As label:
             Align: =Align.Center
             AlignInContainer: =AlignInContainer.Center
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(250, 100, 44, 1)
+            DisabledBorderColor: =RGBA(186, 202, 226, 1)
+            DisabledColor: =RGBA(250, 100, 44, 1)
             Height: =100
-            Text: ="Account"
+            Text: ="About"
             ZIndex: =2
 
         Account As label:
             Align: =Align.Center
             AlignInContainer: =AlignInContainer.Center
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(250, 100, 44, 1)
+            DisabledColor: =RGBA(250, 100, 44, 1)
             Height: =100
             Text: ="Account"
             ZIndex: =3

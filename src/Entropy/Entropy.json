@@ -4,28 +4,38 @@
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "About Screen": 14,
+    "About": 21,
+    "About Screen": 5,
+    "Account": 22,
     "App": 1,
-    "FooterContainer1": 13,
-    "FooterContainer2": 18,
-    "HeaderContainer1": 11,
-    "HeaderContainer2": 16,
-    "Home Screen": 9,
+    "FooterContainer1": 14,
+    "FooterContainer2": 9,
+    "HeaderContainer1": 12,
+    "HeaderContainer2": 7,
+    "Home": 20,
+    "Home Screen": 10,
     "Host": 3,
-    "MainContainer1": 12,
-    "MainContainer2": 17,
-    "Nav Bar": 19,
-    "ScreenContainer1": 10,
-    "ScreenContainer2": 15
+    "Image1": 19,
+    "Links": 18,
+    "Logo": 17,
+    "MainContainer1": 13,
+    "MainContainer2": 8,
+    "Nav Bar": 4,
+    "ScreenContainer1": 11,
+    "ScreenContainer2": 6
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/17/2024 01:39:48",
+  "HeaderLastSavedDateTimeUTC": "09/17/2024 01:59:27",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "Logo_1": "a944ddd7-24e6-46c5-b5a8-e4248e82f4a1.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "Logo_1": "https://docserverpwaprodeau.blob.core.windows.net/1c361cb3-eb14-48ff-8bf0-6f191fb25cab-1/resource/f81232a3-4191-489d-94c8-b999d0055d28.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-17T01%3A54%3A52Z&ske=2024-09-18T02%3A09%3A52Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-18T02%3A09%3A52Z&sr=b&sp=r&sig=7ly1vs9AwmTZBzsEObKVnZTV84CI6TFYkF5qv205t8o%3D"
+  },
   "OrderComponentMetadata": {
     "704cebd900874ecc844136eeff5e53d8": 0
   },
@@ -39,17 +49,25 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "groupContainer": 0
+    "groupContainer": 0,
+    "image": 1,
+    "label": 2
   },
   "OverridablePropertiesEntry": {
+    "About": {},
     "About Screen": {},
+    "Account": {},
     "App": {},
     "FooterContainer1": {},
     "FooterContainer2": {},
     "HeaderContainer1": {},
     "HeaderContainer2": {},
+    "Home": {},
     "Home Screen": {},
     "Host": {},
+    "Image1": {},
+    "Links": {},
+    "Logo": {},
     "MainContainer1": {},
     "MainContainer2": {},
     "Nav Bar": {},
@@ -59,14 +77,20 @@
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
+    "About": 0,
     "About Screen": 0,
+    "Account": 0,
     "App": 0,
     "FooterContainer1": 0,
     "FooterContainer2": 0,
     "HeaderContainer1": 0,
     "HeaderContainer2": 0,
+    "Home": 0,
     "Home Screen": 0,
     "Host": 0,
+    "Image1": 0,
+    "Links": 0,
+    "Logo": 0,
     "MainContainer1": 0,
     "MainContainer2": 0,
     "Nav Bar": 0,
@@ -74,17 +98,20 @@
     "ScreenContainer2": 0
   },
   "ResourcesJsonIndices": {
+    "Image-Logo_1": 1,
     "Image-SampleImage": 0
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.167147,
+    "AnalysisLoadTime": 0.2398932,
     "ControlCount": {
-      "groupContainer": 3,
-      "screen": 1
+      "704cebd900874ecc844136eeff5e53d8": 2,
+      "groupContainer": 8,
+      "label": 2,
+      "screen": 2
     },
-    "DeserializationLoadTime": 1.3782094
+    "DeserializationLoadTime": 0.6202293
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

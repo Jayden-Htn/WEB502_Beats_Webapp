@@ -40,7 +40,7 @@
             Color: =RGBA(250, 100, 44, 1)
             DisabledColor: =RGBA(250, 100, 44, 1)
             Height: =100
-            OnSelect: =Navigate(Home)
+            OnSelect: =Navigate(HomeScreen)
             Text: ="Home"
             ZIndex: =1
 
@@ -50,6 +50,7 @@
             DisabledBorderColor: =RGBA(186, 202, 226, 1)
             DisabledColor: =RGBA(250, 100, 44, 1)
             Height: =100
+            OnSelect: =Navigate(About, ScreenTransition.Fade)
             Text: ="About"
             ZIndex: =2
 
@@ -58,6 +59,7 @@
             Color: =RGBA(250, 100, 44, 1)
             DisabledColor: =RGBA(250, 100, 44, 1)
             Height: =100
+            OnSelect: =Navigate(Account, ScreenTransition.Fade)
             Text: ="Account"
             ZIndex: =3
 

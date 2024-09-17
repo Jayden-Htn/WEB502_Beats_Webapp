@@ -2,7 +2,7 @@
   "ComponentAllowCustomization": true,
   "ComponentChangedSinceFileImport": true,
   "ComponentDefinitionInfo": {
-    "AllowAccessToGlobals": false,
+    "AllowAccessToGlobals": true,
     "Children": [
       {
         "AllowAccessToGlobals": true,
@@ -941,7 +941,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Navigate(Home)",
+                "InvariantScript": "Navigate(HomeScreen)",
                 "Property": "OnSelect",
                 "RuleProviderType": "User"
               }
@@ -1046,7 +1046,15 @@
               "PaddingTop",
               "PaddingRight",
               "PaddingBottom",
-              "PaddingLeft"
+              "PaddingLeft",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "false",
+                "InvariantPropertyName": "OnSelect",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              }
             ],
             "ControlUniqueId": "21",
             "DynamicProperties": [
@@ -1346,6 +1354,12 @@
                 "InvariantScript": "5",
                 "Property": "PaddingLeft",
                 "RuleProviderType": "Unknown"
+              },
+              {
+                "Category": "Behavior",
+                "InvariantScript": "Navigate(About, ScreenTransition.Fade)",
+                "Property": "OnSelect",
+                "RuleProviderType": "User"
               }
             ],
             "StyleName": "defaultLabelStyle",
@@ -1441,7 +1455,15 @@
               "PaddingTop",
               "PaddingRight",
               "PaddingBottom",
-              "PaddingLeft"
+              "PaddingLeft",
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "false",
+                "InvariantPropertyName": "OnSelect",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
+              }
             ],
             "ControlUniqueId": "22",
             "DynamicProperties": [
@@ -1741,6 +1763,12 @@
                 "InvariantScript": "5",
                 "Property": "PaddingLeft",
                 "RuleProviderType": "Unknown"
+              },
+              {
+                "Category": "Behavior",
+                "InvariantScript": "Navigate(Account, ScreenTransition.Fade)",
+                "Property": "OnSelect",
+                "RuleProviderType": "User"
               }
             ],
             "StyleName": "defaultLabelStyle",
@@ -2042,7 +2070,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638621363806075663",
+    "LastModifiedTimestamp": "638621368599834786",
     "Name": "Nav Bar",
     "Rules": [
       {
@@ -2084,7 +2112,7 @@
     ]
   },
   "ComponentManifest": {
-    "AllowAccessToGlobals": false,
+    "AllowAccessToGlobals": true,
     "AllowCustomization": true,
     "Description": "",
     "Name": "Nav Bar",
@@ -2101,7 +2129,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621363806075663",
+  "LastModifiedTimestamp": "638621368599834786",
   "Name": "704cebd900874ecc844136eeff5e53d8",
   "OverridableProperties": {},
   "Version": "1.0"

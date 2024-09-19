@@ -24,8 +24,7 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =2
 
-            H_NavBar As NavBar:
-                FillPortions: =1
+            NavBar_1 As NavBar:
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
 

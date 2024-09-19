@@ -7,7 +7,9 @@ NavBar As CanvasComponent:
     ZIndex: =1
 
     Label2 As label:
+        BorderColor: =RGBA(0, 18, 107, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         FontWeight: =FontWeight.Bold
         Height: =75
         Size: =22
@@ -15,4 +17,53 @@ NavBar As CanvasComponent:
         Width: =224
         X: =75
         ZIndex: =3
+
+    Image1 As image:
+        BorderColor: =App.Theme.Colors.Darker40
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Image: =Logo_1
+        Width: =75
+        Y: =40
+        ZIndex: =4
+
+    Links As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =75
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutJustifyContent: =LayoutJustifyContent.End
+        LayoutMode: =LayoutMode.Auto
+        Width: =1036
+        X: =330
+        ZIndex: =5
+
+        HomeLabel As label:
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(250, 100, 44, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            OnSelect: =Navigate(HomeScreen)
+            Size: =13
+            Text: ="Home"
+            ZIndex: =1
+
+        AboutLabel As label:
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(250, 100, 44, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            OnSelect: =Navigate(HomeScreen)
+            Size: =13
+            Text: ="About"
+            ZIndex: =2
+
+        AccountLabel As label:
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(250, 100, 44, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            OnSelect: =Navigate(HomeScreen)
+            Size: =13
+            Text: ="Account"
+            ZIndex: =3
 

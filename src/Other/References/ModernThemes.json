@@ -3,6 +3,15 @@
     {
       "EntityName": "PowerAppsTheme",
       "ThemeName": "PowerAppsTheme"
+    },
+    {
+      "BasePaletteColor": "#FA642C",
+      "EntityName": "Beats",
+      "Font": "Segoe UI",
+      "HueTorsion": 0,
+      "ThemeName": "Beats",
+      "ThemePrimaryColorLocked": false,
+      "Vibrancy": 0
     }
   ]
 }

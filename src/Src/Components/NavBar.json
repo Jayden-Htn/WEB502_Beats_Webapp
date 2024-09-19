@@ -50,7 +50,15 @@
           "PaddingTop",
           "PaddingRight",
           "PaddingBottom",
-          "PaddingLeft"
+          "PaddingLeft",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "false",
+            "InvariantPropertyName": "OnSelect",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          }
         ],
         "ControlUniqueId": "39",
         "HasDynamicProperties": false,
@@ -241,6 +249,12 @@
             "InvariantScript": "0",
             "Property": "PaddingLeft",
             "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Behavior",
+            "InvariantScript": "Navigate(HomeScreen)",
+            "Property": "OnSelect",
+            "RuleProviderType": "User"
           }
         ],
         "StyleName": "defaultImageStyle",
@@ -2055,7 +2069,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638623779563846439",
+    "LastModifiedTimestamp": "638623781336847544",
     "Name": "NavBar",
     "Rules": [
       {
@@ -2114,7 +2128,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638623779563846439",
+  "LastModifiedTimestamp": "638623781336847544",
   "Name": "704cebd900874ecc844136eeff5e53d8",
   "OverridableProperties": {},
   "Version": "1.0"

@@ -2,75 +2,52 @@
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
-    ScreenContainer3 As groupContainer.verticalAutoLayoutContainer:
+    Ac_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
-        Fill: =RGBA(245, 245, 245, 1)
+        Fill: =RGBA(28, 28, 28, 1)
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
-        LayoutGap: =16
+        LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        PaddingBottom: =16
-        PaddingLeft: =16
-        PaddingRight: =16
-        PaddingTop: =16
-        RadiusBottomLeft: =4
-        RadiusBottomRight: =4
-        RadiusTopLeft: =4
-        RadiusTopRight: =4
-        Width: =Parent.Width
-        ZIndex: =1
+        Width: =1366
+        ZIndex: =2
 
-        HeaderContainer3 As groupContainer.horizontalAutoLayoutContainer:
+        Ac_Header As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
             Height: =75
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            RadiusBottomLeft: =4
-            RadiusBottomRight: =4
-            RadiusTopLeft: =4
-            RadiusTopRight: =4
             ZIndex: =2
 
-            Header1 As Header:
-                DisplayMode: =DisplayMode.Edit
-                Height: =75
-                LayoutMinHeight: =75
-                LayoutMinWidth: =Parent.Width
-                OnSelectLogo: =false
-                Title: ="Header"
-                UserEmail: =User().Email
-                UserImage: =User().Image
-                UserName: =User().FullName
-                Width: =Parent.Width
-                X: =0
-                Y: =0
-                ZIndex: =3
+            NavBar_3 As NavBar:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
 
-        MainContainer3 As groupContainer.horizontalAutoLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
+        Ac_Body As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
-            LayoutAlignItems: =LayoutAlignItems.Stretch
-            LayoutGap: =16
+            Fill: =RGBA(255, 255, 255, 1)
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutGap: =
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            LayoutWrap: =true
-            PaddingBottom: =2
-            PaddingLeft: =2
-            PaddingRight: =2
-            PaddingTop: =2
-            RadiusBottomLeft: =4
-            RadiusBottomRight: =4
-            RadiusTopLeft: =4
-            RadiusTopRight: =4
-            ZIndex: =4
+            ZIndex: =3
+
+            Label4_1 As label:
+                BorderColor: =App.Theme.Colors.Darker40
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =App.Theme.Font
+                Size: =13
+                Text: ="Account"
+                ZIndex: =1
 
             FormContainer1 As groupContainer.verticalAutoLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.Light
                 FillPortions: =7
                 LayoutDirection: =LayoutDirection.Vertical
@@ -87,7 +64,7 @@
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
-                ZIndex: =5
+                ZIndex: =2
 
                 Form1 As form.PowerApps_CoreControls_Form:
                     BorderColor: =App.Theme.Colors.Darker40
@@ -146,4 +123,29 @@
                         X: =0
                         Y: =0
                         ZIndex: =9
+
+        Ac_Footer As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(19, 16, 22, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =4
+
+            Label1_2 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
+                BorderColor: =App.Theme.Colors.Darker40
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FillPortions: =1
+                Font: =App.Theme.Font
+                Size: =10
+                Text: ="Built by Jayden Houghton"
+                Width: =200
+                ZIndex: =1
 

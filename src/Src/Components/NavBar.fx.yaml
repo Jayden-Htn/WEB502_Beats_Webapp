@@ -1,5 +1,5 @@
 NavBar As CanvasComponent:
-    Fill: =RGBA(19, 16, 22, 1)
+    Fill: =RGBA(250, 100, 44, 1)
     Height: =75
     Width: =1366
     X: =0
@@ -30,7 +30,7 @@ NavBar As CanvasComponent:
 
         HomeLabel As label:
             BorderColor: =App.Theme.Colors.Darker40
-            Color: =RGBA(250, 100, 44, 1)
+            Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =App.Theme.Font
             OnSelect: =Navigate(HomeScreen)
@@ -40,7 +40,7 @@ NavBar As CanvasComponent:
 
         AboutLabel As label:
             BorderColor: =App.Theme.Colors.Darker40
-            Color: =RGBA(250, 100, 44, 1)
+            Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =App.Theme.Font
             OnSelect: =Navigate(AboutScreen)
@@ -50,7 +50,7 @@ NavBar As CanvasComponent:
 
         AccountLabel As label:
             BorderColor: =App.Theme.Colors.Darker40
-            Color: =RGBA(250, 100, 44, 1)
+            Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =App.Theme.Font
             OnSelect: =Navigate(AccountScreen)
@@ -62,9 +62,15 @@ NavBar As CanvasComponent:
         BorderColor: =App.Theme.Colors.Darker40
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Image: =Logo
+        Height: =65
+        Image: ='Logo-Crop-2'
         OnSelect: =Navigate(HomeScreen)
-        Width: =75
-        Y: =40
+        RadiusBottomLeft: =200
+        RadiusBottomRight: =200
+        RadiusTopLeft: =200
+        RadiusTopRight: =200
+        Width: =65
+        X: =5
+        Y: =5
         ZIndex: =6
 

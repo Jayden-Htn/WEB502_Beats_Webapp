@@ -13,63 +13,161 @@
         Width: =1366
         ZIndex: =1
 
-        H_Header As groupContainer.horizontalAutoLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
+        H_NavBar As NavBar:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+
+        H_Body As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
-            Fill: =RGBA(255, 255, 255, 1)
-            FillPortions: =0
-            Height: =75
+            Fill: =RGBA(255, 255, 255, 0)
+            LayoutAlignItems: =LayoutAlignItems.Stretch
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
             ZIndex: =2
 
-            NavBar_1 As NavBar:
-                LayoutMinHeight: =640
-                LayoutMinWidth: =640
+            H_Article As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.Light
+                Fill: =RGBA(19, 16, 22, 1)
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =20
+                LayoutMode: =LayoutMode.Auto
+                PaddingBottom: =30
+                PaddingLeft: =30
+                PaddingRight: =30
+                PaddingTop: =30
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =1
 
-        H_Body As groupContainer.verticalAutoLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
-            DropShadow: =DropShadow.Light
-            Fill: =RGBA(255, 255, 255, 1)
-            LayoutDirection: =LayoutDirection.Vertical
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
+                Jumbo As label:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    AutoHeight: =true
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =RGBA(250, 100, 44, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FillPortions: =1
+                    Font: =App.Theme.Font
+                    PaddingBottom: =50
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =20
+                    Size: =40
+                    Text: ="Affordable drum lessons in Nelson, NZ"
+                    ZIndex: =1
+
+                Container8 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Fill: =RGBA(27, 139, 122, 1)
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =30
+                    RadiusBottomRight: =30
+                    RadiusTopLeft: =30
+                    RadiusTopRight: =30
+                    Width: =700
+                    ZIndex: =4
+
+                    TextCanvas3 As Text:
+                        Align: ='TextCanvas.Align'.Start
+                        AlignInContainer: =AlignInContainer.Center
+                        AutoHeight: =true
+                        DisplayMode: =DisplayMode.Edit
+                        FillPortions: =1
+                        FontColor: =RGBA(255, 255, 255, 0)
+                        Height: =32
+                        PaddingLeft: =40
+                        PaddingRight: =40
+                        Size: =30
+                        Text: ="Read more about our tutor, lesson plans and pricing!"
+                        Width: =96
+                        X: =0
+                        Y: =0
+                        ZIndex: =1
+
+                    Icon2 As icon.Link:
+                        AlignInContainer: =AlignInContainer.Stretch
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Color: =RGBA(255, 255, 255, 1)
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(250, 100, 44, 1)
+                        FillPortions: =0.25
+                        Icon: =Icon.ChevronRight
+                        OnSelect: =Navigate(AboutScreen)
+                        PaddingBottom: =20
+                        PaddingTop: =20
+                        ZIndex: =4
+
+                Container8_1 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Fill: =RGBA(27, 139, 122, 1)
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =30
+                    RadiusBottomRight: =30
+                    RadiusTopLeft: =30
+                    RadiusTopRight: =30
+                    ZIndex: =5
+
+                    TextCanvas3_1 As Text:
+                        AlignInContainer: =AlignInContainer.Stretch
+                        DisplayMode: =DisplayMode.Edit
+                        FillPortions: =1
+                        FontColor: =RGBA(255, 255, 255, 0)
+                        Height: =32
+                        PaddingLeft: =40
+                        PaddingRight: =40
+                        Size: =30
+                        Text: ="Sign up to start booking lessons today with our built-in calendar!"
+                        Width: =96
+                        X: =0
+                        Y: =0
+                        ZIndex: =1
+
+                    Icon2_1 As icon.Link:
+                        AlignInContainer: =AlignInContainer.Stretch
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Color: =RGBA(255, 255, 255, 1)
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(250, 100, 44, 1)
+                        FillPortions: =0.25
+                        Icon: =Icon.ChevronRight
+                        OnSelect: =Navigate(AccountScreen)
+                        PaddingBottom: =20
+                        PaddingTop: =20
+                        ZIndex: =4
+
+            H_Aside As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.Light
+                FillPortions: =0.8
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =2
+
+                Image1 As image:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    Fill: =RGBA(6, 7, 6, 1)
+                    FillPortions: =1
+                    Height: =620
+                    Image: ='Drums-Crop'
+                    ImagePosition: =ImagePosition.Fill
+                    ZIndex: =1
+
+        H_Footer As Footer:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
             ZIndex: =3
-
-            Label3 As label:
-                Align: =Align.Center
-                BorderColor: =App.Theme.Colors.Darker40
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Font: =App.Theme.Font
-                Size: =13
-                Text: ="Home"
-                ZIndex: =1
-
-        H_Footer As groupContainer.horizontalAutoLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
-            DropShadow: =DropShadow.Light
-            Fill: =RGBA(19, 16, 22, 1)
-            FillPortions: =0
-            Height: =75
-            LayoutJustifyContent: =LayoutJustifyContent.Center
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            ZIndex: =4
-
-            Label1 As label:
-                Align: =Align.Center
-                AlignInContainer: =AlignInContainer.Center
-                BorderColor: =App.Theme.Colors.Darker40
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FillPortions: =1
-                Font: =App.Theme.Font
-                Size: =10
-                Text: ="Built by Jayden Houghton"
-                Width: =200
-                ZIndex: =1
 

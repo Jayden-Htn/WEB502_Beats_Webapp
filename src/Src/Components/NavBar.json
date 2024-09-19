@@ -18,8 +18,22 @@
           },
           "ImagePosition",
           "ImageRotation",
-          "X",
-          "Y",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "X",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Y",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           {
             "AFDDataSourceName": "",
             "AutoRuleBindingEnabled": false,
@@ -28,7 +42,14 @@
             "IsLockable": false,
             "NameMapSourceSchema": "?"
           },
-          "Height",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Height",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "Fill",
           "DisabledFill",
           "PressedFill",
@@ -41,16 +62,72 @@
           "BorderStyle",
           "DisplayMode",
           "ZIndex",
-          "RadiusTopLeft",
-          "RadiusTopRight",
-          "RadiusBottomLeft",
-          "RadiusBottomRight",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "RadiusTopLeft",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "RadiusTopRight",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "RadiusBottomLeft",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "RadiusBottomRight",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "BorderThickness",
           "FocusedBorderThickness",
-          "PaddingTop",
-          "PaddingRight",
-          "PaddingBottom",
-          "PaddingLeft",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "PaddingTop",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "PaddingRight",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "PaddingBottom",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "PaddingLeft",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           {
             "AFDDataSourceName": "",
             "AutoRuleBindingEnabled": false,
@@ -78,7 +155,7 @@
         "Rules": [
           {
             "Category": "Data",
-            "InvariantScript": "Logo",
+            "InvariantScript": "'Logo-Crop-2'",
             "Property": "Image",
             "RuleProviderType": "Unknown"
           },
@@ -96,25 +173,25 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "0",
+            "InvariantScript": "5",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "40",
+            "InvariantScript": "5",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "75",
+            "InvariantScript": "65",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "100",
+            "InvariantScript": "65",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -192,25 +269,25 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "0",
+            "InvariantScript": "200",
             "Property": "RadiusTopLeft",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "0",
+            "InvariantScript": "200",
             "Property": "RadiusTopRight",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "0",
+            "InvariantScript": "200",
             "Property": "RadiusBottomLeft",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "0",
+            "InvariantScript": "200",
             "Property": "RadiusBottomRight",
             "RuleProviderType": "Unknown"
           },
@@ -433,7 +510,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "RGBA(250, 100, 44, 1)",
+                "InvariantScript": "RGBA(255, 255, 255, 1)",
                 "Property": "Color",
                 "RuleProviderType": "Unknown"
               },
@@ -821,7 +898,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "RGBA(250, 100, 44, 1)",
+                "InvariantScript": "RGBA(255, 255, 255, 1)",
                 "Property": "Color",
                 "RuleProviderType": "Unknown"
               },
@@ -1209,7 +1286,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "RGBA(250, 100, 44, 1)",
+                "InvariantScript": "RGBA(255, 255, 255, 1)",
                 "Property": "Color",
                 "RuleProviderType": "Unknown"
               },
@@ -2069,12 +2146,12 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638623781336847544",
+    "LastModifiedTimestamp": "638623830961573628",
     "Name": "NavBar",
     "Rules": [
       {
         "Category": "Design",
-        "InvariantScript": "RGBA(19, 16, 22, 1)",
+        "InvariantScript": "RGBA(250, 100, 44, 1)",
         "Property": "Fill",
         "RuleProviderType": "System"
       },
@@ -2128,7 +2205,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638623781336847544",
+  "LastModifiedTimestamp": "638623830961573628",
   "Name": "704cebd900874ecc844136eeff5e53d8",
   "OverridableProperties": {},
   "Version": "1.0"

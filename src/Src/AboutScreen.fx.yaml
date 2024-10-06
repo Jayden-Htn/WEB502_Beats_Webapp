@@ -2,16 +2,31 @@
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
+    HtmlText1_1 As htmlViewer:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        Font: =App.Theme.Font
+        Height: =768
+        HtmlText: |-
+            =$"<div style='width:100%;height:{App.Height-1}px; background: rgb(21,19,20);
+            background: linear-gradient(135deg, rgba(21,19,20,1) 0%, rgba(93,35,31,1) 100%);'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =13
+        Width: =1365
+        X: =1
+        ZIndex: =1
+
     A_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
-        Fill: =RGBA(28, 28, 28, 1)
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =1366
-        ZIndex: =1
+        ZIndex: =2
 
         A_Header As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -22,30 +37,128 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            ZIndex: =2
+            ZIndex: =1
 
             NavBar_2 As NavBar:
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
 
-        A_Body As groupContainer.verticalAutoLayoutContainer:
+        H_Body_1 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
-            Fill: =RGBA(255, 255, 255, 1)
-            LayoutDirection: =LayoutDirection.Vertical
-            LayoutGap: =
+            LayoutAlignItems: =LayoutAlignItems.Stretch
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            ZIndex: =3
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            X: =20
+            Y: =20
+            ZIndex: =2
 
-            Label4 As label:
-                BorderColor: =App.Theme.Colors.Darker40
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Font: =App.Theme.Font
-                Size: =13
-                Text: ="About"
+            H_Article_1 As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.Light
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =20
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                PaddingBottom: =30
+                PaddingLeft: =30
+                PaddingRight: =30
+                PaddingTop: =30
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
                 ZIndex: =1
+
+                Jumbo_1 As label:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    AutoHeight: =true
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =RGBA(250, 100, 44, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =App.Theme.Font
+                    LayoutMinHeight: =20
+                    PaddingBottom: =20
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =20
+                    Size: =26
+                    Text: ="About Beats Nelson"
+                    ZIndex: =1
+
+                Label3_1 As label:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =RGBA(255, 255, 255, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =App.Theme.Font
+                    Height: =80
+                    LayoutMinHeight: =140
+                    PaddingBottom: =0
+                    Size: =15
+                    Text: ="Beats Nelson is run by Jayden Houghton, who has over 13 years drumming experience and 3 years of drum tutoring experience. He has played in over a dozen bands, from orchestras to rock bands, jazz ensembles to brass bands."
+                    VerticalAlign: =VerticalAlign.Top
+                    ZIndex: =3
+
+                Label3_2 As label:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =RGBA(255, 255, 255, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =App.Theme.Font
+                    Height: =104
+                    LayoutMinHeight: =140
+                    PaddingBottom: =0
+                    Size: =15
+                    Text: ="At Beats Nelson, we offer drum lessons to students of all ages and skill levels. We start beginners off with the essential rudiments and techniques to build a strong foundation, then expand student's skills with new rhythms, different styles of music and advanced techniques."
+                    VerticalAlign: =VerticalAlign.Top
+                    ZIndex: =4
+
+                Label3_3 As label:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =RGBA(255, 255, 255, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =
+                    Height: =100
+                    LayoutMinHeight: =140
+                    PaddingBottom: =0
+                    Size: =15
+                    Text: ="Lessons cost $25 per half hour lesson, or $45 for a full hour. Payment can be in cash or using the online payment gateway. Bookings can be made online under your account."
+                    VerticalAlign: =VerticalAlign.Top
+                    ZIndex: =5
+
+            H_Aside_1 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.Light
+                FillPortions: =0.8
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =2
+
+                Image1_1 As image:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    FillPortions: =1
+                    Height: =620
+                    Image: =Profile
+                    ImagePosition: =ImagePosition.Fill
+                    ZIndex: =1
 
         A_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -57,7 +170,7 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            ZIndex: =4
+            ZIndex: =3
 
             Label1_1 As label:
                 Align: =Align.Center

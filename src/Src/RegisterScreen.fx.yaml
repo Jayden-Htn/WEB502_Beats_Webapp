@@ -1,0 +1,192 @@
+"RegisterScreen As screen.'headerFormLayout_ver1.0'":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    R_GradientBackground As htmlViewer:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        Font: =App.Theme.Font
+        Height: =768
+        HtmlText: |-
+            =$"<div style='width:100%;height:{App.Height-1}px; background: rgb(21,19,20);
+            background: linear-gradient(135deg, rgba(21,19,20,1) 0%, rgba(93,35,31,1) 100%);'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =13
+        Width: =1365
+        X: =1
+        ZIndex: =1
+
+    R_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        ZIndex: =2
+
+        R_Header As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            NavBar_4 As NavBar_Unauthorised:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+
+        R_Body As groupContainer.verticalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutGap: =
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            FormContainer1_1 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                FillPortions: =7
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =16
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                LayoutOverflowY: =LayoutOverflow.Scroll
+                PaddingBottom: =15
+                PaddingLeft: =15
+                PaddingRight: =15
+                PaddingTop: =15
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =4
+
+                Form1_1 As form.PowerApps_CoreControls_Form:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    BorderColor: =App.Theme.Colors.Darker40
+                    DataSource: =Users
+                    DefaultMode: =FormMode.New
+                    FillPortions: =0.56
+                    LayoutMinHeight: =200
+                    LayoutMinWidth: =0
+                    NumberOfColumns: =1
+                    SnapToColumns: =false
+                    UseFluentV9Cards: =true
+                    Width: =400
+                    ZIndex: =5
+
+                    DataCard1_1 As typedDataCard.blankCard:
+                        BorderColor: =App.Theme.Colors.Darker40
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =320
+                        Width: =396
+                        WidthFit: =true
+                        X: =0
+                        Y: =0
+                        ZIndex: =6
+
+                        SubmitButton1_1 As Button:
+                            AccessibleLabel: ="Submit form button"
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            OnSelect: |
+                                =SubmitForm(Form1_1);
+                                ResetForm(Form1_1);
+                            Text: ="Submit"
+                            Width: =120
+                            X: =140
+                            Y: =286
+                            ZIndex: =1
+
+                        "TextInputCanvas2_1 As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Password"
+                            Type: ='TextInputCanvas.Type'.Password
+                            Width: =320
+                            X: =40
+                            Y: =232
+                            ZIndex: =2
+
+                        "TextInputCanvas1_1 As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Email address"
+                            Width: =320
+                            X: =40
+                            Y: =179
+                            ZIndex: =3
+
+                        "TextInputCanvas1_2 As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Parent last name"
+                            Width: =320
+                            X: =40
+                            Y: =125
+                            ZIndex: =4
+
+                        "TextInputCanvas1_3 As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Parent first name"
+                            Width: =320
+                            X: =40
+                            Y: =72
+                            ZIndex: =5
+
+                        Label6_1 As label:
+                            Align: =Align.Center
+                            BorderColor: =App.Theme.Colors.Darker40
+                            Color: =RGBA(255, 255, 255, 1)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            Font: =App.Theme.Font
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =20
+                            Text: ="Register"
+                            X: =125
+                            Y: =18
+                            ZIndex: =6
+
+        R_Footer As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(19, 16, 22, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =11
+
+            Label1_3 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
+                BorderColor: =App.Theme.Colors.Darker40
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FillPortions: =1
+                Font: =App.Theme.Font
+                Size: =10
+                Text: ="Built by Jayden Houghton"
+                Width: =200
+                ZIndex: =12
+

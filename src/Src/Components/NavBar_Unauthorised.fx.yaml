@@ -1,4 +1,4 @@
-NavBar As CanvasComponent:
+NavBar_Unauthorised As CanvasComponent:
     Fill: =RGBA(250, 100, 44, 1)
     Height: =75
     Width: =1366
@@ -22,8 +22,10 @@ NavBar As CanvasComponent:
         DropShadow: =DropShadow.Light
         Height: =75
         LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutGap: =20
         LayoutJustifyContent: =LayoutJustifyContent.End
         LayoutMode: =LayoutMode.Auto
+        PaddingRight: =40
         Width: =1036
         X: =330
         ZIndex: =5
@@ -36,6 +38,7 @@ NavBar As CanvasComponent:
             OnSelect: =Navigate(HomeScreen)
             Size: =13
             Text: ="Home"
+            Width: =80
             ZIndex: =1
 
         AboutLabel As label:
@@ -46,6 +49,7 @@ NavBar As CanvasComponent:
             OnSelect: =Navigate(AboutScreen)
             Size: =13
             Text: ="About"
+            Width: =80
             ZIndex: =2
 
         AccountLabel As label:
@@ -53,10 +57,22 @@ NavBar As CanvasComponent:
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =App.Theme.Font
-            OnSelect: =Navigate(AccountScreen)
+            OnSelect: =Navigate(LoginScreen)
             Size: =13
-            Text: ="Account"
+            Text: ="Login"
+            Width: =80
             ZIndex: =3
+
+        AccountLabel_1 As label:
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            OnSelect: =Navigate(RegisterScreen)
+            Size: =13
+            Text: ="Register"
+            Width: =80
+            ZIndex: =4
 
     Image2 As image:
         BorderColor: =App.Theme.Colors.Darker40

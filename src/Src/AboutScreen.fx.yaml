@@ -2,7 +2,7 @@
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
-    HtmlText1_1 As htmlViewer:
+    A_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         Font: =App.Theme.Font
         Height: =768
@@ -39,11 +39,11 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =1
 
-            NavBar_2 As NavBar:
+            NavBar_2 As NavBar_Unauthorised:
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
 
-        H_Body_1 As groupContainer.horizontalAutoLayoutContainer:
+        A_Body_1 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
             LayoutAlignItems: =LayoutAlignItems.Stretch
             LayoutMinHeight: =100
@@ -57,7 +57,7 @@
             Y: =20
             ZIndex: =2
 
-            H_Article_1 As groupContainer.verticalAutoLayoutContainer:
+            A_Article_1 As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.Light
                 LayoutDirection: =LayoutDirection.Vertical
@@ -137,7 +137,7 @@
                     VerticalAlign: =VerticalAlign.Top
                     ZIndex: =5
 
-            H_Aside_1 As groupContainer.horizontalAutoLayoutContainer:
+            A_Aside_1 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.Light
                 FillPortions: =0.8

@@ -1,0 +1,27 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": true,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "NavBar_Authorised",
+    "TemplateGuid": "45cb4180255041549b968ea67a1bca19"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": false,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "638638660728803169",
+  "Name": "45cb4180255041549b968ea67a1bca19",
+  "OverridableProperties": {},
+  "TemplateOriginalName": "704cebd900874ecc844136eeff5e53d8",
+  "Version": "1.0"
+}

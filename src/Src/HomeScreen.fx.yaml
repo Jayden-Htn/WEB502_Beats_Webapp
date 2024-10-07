@@ -2,7 +2,7 @@
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
-    HtmlText1 As htmlViewer:
+    H_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         Font: =App.Theme.Font
         Height: =768
@@ -27,7 +27,7 @@
         Width: =1366
         ZIndex: =2
 
-        H_NavBar As NavBar:
+        H_NavBar As NavBar_Unauthorised:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
 
@@ -199,7 +199,7 @@
                             DisabledColor: =RGBA(250, 100, 44, 1)
                             FillPortions: =0.25
                             Icon: =Icon.ChevronRight
-                            OnSelect: =Navigate(AccountScreen)
+                            OnSelect: =Navigate(LoginScreen)
                             PaddingBottom: =20
                             PaddingTop: =20
                             ZIndex: =4

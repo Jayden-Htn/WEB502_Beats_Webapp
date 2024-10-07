@@ -107,7 +107,7 @@
                                 =Set(
                                   varUser,
                                   LookUp(Users, 
-                                  Username = L_Username.Text && Password = L_Password.Text)
+                                  Email = L_Email.Text && Password = L_Password.Text)
                                 );
                                 If(
                                   !IsBlank(varUser),

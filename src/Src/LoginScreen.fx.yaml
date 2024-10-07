@@ -106,8 +106,7 @@
                             OnSelect: |-
                                 =Set(
                                   varUser,
-                                  LookUp(Users, 
-                                  Email = L_Email.Text && Password = L_Password.Text)
+                                  LookUp(Users, Email = L_Email.Value && Password = L_Password.Value)
                                 );
                                 If(
                                   !IsBlank(varUser),
@@ -130,7 +129,7 @@
                             Y: =72
                             ZIndex: =2
 
-                        "L_Username As 'Text input'":
+                        "L_Email As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Password"

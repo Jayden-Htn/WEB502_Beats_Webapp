@@ -139,6 +139,8 @@
     "HomeScreen",
     "AboutScreen",
     "LoginScreen",
-    "RegisterScreen"
+    "RegisterScreen",
+    "ProfileScreen",
+    "BookingScreen"
   ]
 }

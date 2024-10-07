@@ -73,7 +73,7 @@
                 RadiusTopRight: =4
                 ZIndex: =4
 
-                Form1_1 As form.PowerApps_CoreControls_Form:
+                RegisterForm As form.PowerApps_CoreControls_Form:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     BorderColor: =App.Theme.Colors.Darker40
                     DataSource: =Users
@@ -103,16 +103,46 @@
                             AccessibleLabel: ="Submit form button"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
-                            OnSelect: |
-                                =SubmitForm(Form1_1);
-                                ResetForm(Form1_1);
+                            OnSelect: |-
+                                =Set(
+                                    varUser,
+                                    LookUp(Users, Email = L_Email.Value)
+                                );
+                                If(
+                                    IsBlank(varUser),
+                                    Patch(
+                                        Users,
+                                        Defaults(Users),
+                                        {
+                                            FirstName: R_FirstName.Value,
+                                            LastName: R_LastName.Value,
+                                            Email: R_Email.Value,
+                                            PhoneNumber: R_PhoneNumber.Value,
+                                            Password: R_Password.Value
+                                        }
+                                    );
+                                    Notify("Registration Successful!", NotificationType.Success);
+                                    Navigate(ProfileScreen),
+                                    Notify("Email already in use.", NotificationType.Error)
+                                );
+                                ResetForm(RegisterForm);
                             Text: ="Submit"
                             Width: =120
                             X: =140
                             Y: =286
                             ZIndex: =1
 
-                        "TextInputCanvas2_1 As 'Text input'":
+                        "R_PhoneNumber As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Password"
+                            Type: ='TextInputCanvas.Type'.Password
+                            Width: =320
+                            X: =60
+                            Y: =60
+                            ZIndex: =2
+
+                        "R_Password As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Password"
@@ -120,34 +150,34 @@
                             Width: =320
                             X: =40
                             Y: =232
-                            ZIndex: =2
+                            ZIndex: =3
 
-                        "TextInputCanvas1_1 As 'Text input'":
+                        "R_Email As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Email address"
                             Width: =320
                             X: =40
                             Y: =179
-                            ZIndex: =3
+                            ZIndex: =4
 
-                        "TextInputCanvas1_2 As 'Text input'":
+                        "R_LastName As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Parent last name"
                             Width: =320
                             X: =40
                             Y: =125
-                            ZIndex: =4
+                            ZIndex: =5
 
-                        "TextInputCanvas1_3 As 'Text input'":
+                        "R_FirstName As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Parent first name"
                             Width: =320
                             X: =40
                             Y: =72
-                            ZIndex: =5
+                            ZIndex: =6
 
                         Label6_1 As label:
                             Align: =Align.Center
@@ -163,7 +193,7 @@
                             Text: ="Register"
                             X: =125
                             Y: =18
-                            ZIndex: =6
+                            ZIndex: =7
 
         R_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

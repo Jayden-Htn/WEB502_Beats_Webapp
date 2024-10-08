@@ -105,21 +105,30 @@
                             Height: =32
                             OnSelect: |-
                                 =If(
-                                    IsBlank(L_Email.Value) || 
-                                    IsBlank(L_Password.Value),
+                                    IsBlank(L_Email.Value) || IsBlank(L_Password.Value),
                                     LoginSubmitButton.DisplayMode.Disabled,
                                     LoginSubmitButton.DisplayMode.Edit
                                 );
                                 Set(
-                                  varUser,
-                                  LookUp(Users, Email = L_Email.Value && Password = L_Password.Value)
+                                    varUser,
+                                    LookUp(
+                                        Users,
+                                        Email = L_Email.Value
+                                    )
                                 );
                                 If(
-                                  !IsBlank(varUser),
-                                  Notify("Login Successful!", NotificationType.Success),
-                                  Navigate(HomeScreen),
-                                  Notify("Invalid Username or Password!", NotificationType.Error)
-                                )
+                                    !IsBlank(varUser) && varUser.Password = L_Password.Value,
+                                    Notify(
+                                        "Login Successful!",
+                                        NotificationType.Success
+                                    ),
+                                    Navigate(ProfileScreen),
+                                    Notify(
+                                        "Invalid Username or Password!",
+                                        NotificationType.Error
+                                    )
+                                );
+                                ResetForm(LoginForm);
                             Text: ="Submit"
                             Width: =120
                             X: =140

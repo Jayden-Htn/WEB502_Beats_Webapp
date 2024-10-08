@@ -99,7 +99,7 @@
                         Y: =0
                         ZIndex: =1
 
-                        SubmitButton1 As Button:
+                        LoginSubmitButton As Button:
                             AccessibleLabel: ="Submit form button"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
@@ -107,8 +107,8 @@
                                 =If(
                                     IsBlank(L_Email.Value) || 
                                     IsBlank(L_Password.Value),
-                                    DisplayMode.Disabled,
-                                    DisplayMode.Edit
+                                    LoginSubmitButton.DisplayMode.Disabled,
+                                    LoginSubmitButton.DisplayMode.Edit
                                 );
                                 Set(
                                   varUser,

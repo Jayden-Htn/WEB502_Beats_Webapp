@@ -113,10 +113,12 @@
                                     RegisterSubmitButton.DisplayMode.Disabled,
                                     RegisterSubmitButton.DisplayMode.Edit
                                 );
+                                
                                 Set(
                                     varUser,
-                                    LookUp(Users, Email = L_Email.Value)
+                                    LookUp(Users, Email = R_Email.Value)
                                 );
+                                
                                 If(
                                     IsBlank(varUser),
                                     Patch(
@@ -126,14 +128,15 @@
                                             FirstName: R_FirstName.Value,
                                             LastName: R_LastName.Value,
                                             Email: R_Email.Value,
-                                            PhoneNumber: R_Password.Value,
-                                            Password: R_PhoneNumber.Value
+                                            PhoneNumber: R_PhoneNumber.Value,
+                                            Password: R_Password.Value
                                         }
                                     );
                                     Notify("Registration Successful!", NotificationType.Success);
                                     Navigate(ProfileScreen),
                                     Notify("Email already in use.", NotificationType.Error)
                                 );
+                                
                                 ResetForm(RegisterForm);
                             Text: ="Submit"
                             Width: =120
@@ -155,7 +158,7 @@
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Phone number"
-                            Type: ='TextInputCanvas.Type'.Password
+                            Type: ='TextInputCanvas.Type'.Text
                             Width: =320
                             X: =40
                             Y: =232

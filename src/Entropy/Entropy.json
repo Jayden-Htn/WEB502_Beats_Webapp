@@ -29,19 +29,19 @@
     "A_Header_2": 52,
     "A_ScreenWrapper": 24,
     "A_ScreenWrapper_2": 51,
-    "AboutLabel": 8,
-    "AboutLabel_1": 19,
+    "AboutLabel": 19,
+    "AboutLabel_1": 11,
     "AboutScreen": 23,
-    "AccountLabel": 9,
-    "AccountLabel_1": 10,
-    "AccountLabel_2": 20,
-    "AccountLabel_3": 21,
+    "AccountLabel": 20,
+    "AccountLabel_1": 21,
+    "AccountLabel_2": 12,
+    "AccountLabel_3": 13,
     "App": 1,
     "BookingScreen": 50,
-    "Box": 13,
+    "Box": 5,
     "Container8": 107,
     "Container8_1": 110,
-    "Footer": 12,
+    "Footer": 4,
     "FormContainer1": 70,
     "FormContainer1_1": 85,
     "H_Article": 103,
@@ -52,8 +52,8 @@
     "H_GradientBackground": 99,
     "H_NavBar": 101,
     "H_ScreenWrapper": 100,
-    "HomeLabel": 7,
-    "HomeLabel_1": 18,
+    "HomeLabel": 18,
+    "HomeLabel_1": 10,
     "HomeScreen": 98,
     "Host": 3,
     "Icon2": 108,
@@ -62,8 +62,8 @@
     "Image1_1": 34,
     "Image1_2": 46,
     "Image1_3": 61,
-    "Image2": 11,
-    "Image2_1": 22,
+    "Image2": 22,
+    "Image2_1": 14,
     "Jumbo": 104,
     "Jumbo_1": 29,
     "Jumbo_2": 44,
@@ -75,14 +75,14 @@
     "L_Header": 67,
     "L_Password": 74,
     "L_ScreenWrapper": 66,
-    "Label1": 14,
+    "Label1": 6,
     "Label1_1": 36,
     "Label1_2": 78,
     "Label1_3": 96,
     "Label1_4": 48,
     "Label1_5": 63,
-    "Label2": 5,
-    "Label2_1": 16,
+    "Label2": 16,
+    "Label2_1": 8,
     "Label3": 105,
     "Label3_1": 30,
     "Label3_2": 31,
@@ -93,8 +93,8 @@
     "Label5": 113,
     "Label6": 73,
     "Label6_1": 88,
-    "Links": 6,
-    "Links_1": 17,
+    "Links": 17,
+    "Links_1": 9,
     "LoginCard": 72,
     "LoginForm": 71,
     "LoginScreen": 65,
@@ -104,8 +104,8 @@
     "NavBar_4": 83,
     "NavBar_5": 41,
     "NavBar_6": 53,
-    "NavBar_Authorised": 15,
-    "NavBar_Unauthorised": 4,
+    "NavBar_Authorised": 7,
+    "NavBar_Unauthorised": 15,
     "P_Body": 42,
     "P_Footer": 47,
     "P_GradientBackground": 49,
@@ -131,7 +131,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/08/2024 04:19:50",
+  "HeaderLastSavedDateTimeUTC": "10/08/2024 04:31:11",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ade7df42-a62c-4b54-bdbe-bb93e405ba06": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/ed3572af571a4940a7296938aa3e91b3\""
@@ -147,23 +147,23 @@
     "Profile": "d9ad99d2-18ea-4392-86de-741fe70a0c2f.jpg"
   },
   "LocalResourceRootPaths": {
-    "Drums-Crop": "https://docserverpwaprodeau.blob.core.windows.net/cf9f2b5c-bbd5-4c7e-87bc-9193a61c5b8d-1/resource/Assets0Images022d5d459-2f7a-4220-b132-96b92b4bd2f4.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T03%3A40%3A54Z&ske=2024-10-09T03%3A55%3A54Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T03%3A55%3A54Z&sr=b&sp=r&sig=JFk58%2F598oLq5Xm9P8csYgWno0rMcjmUVDMKl4XmHBs%3D",
-    "Logo": "https://docserverpwaprodeau.blob.core.windows.net/cf9f2b5c-bbd5-4c7e-87bc-9193a61c5b8d-1/resource/Assets0Images09e840065-8a0b-428c-ad1f-c25fc3ddeb36.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T03%3A40%3A54Z&ske=2024-10-09T03%3A55%3A54Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T03%3A55%3A54Z&sr=b&sp=r&sig=d9%2FyyFc%2FGKyQ07ErpecImM7kSwzjpgo83%2F%2BaupVU1cg%3D",
-    "Logo_1": "https://docserverpwaprodeau.blob.core.windows.net/cf9f2b5c-bbd5-4c7e-87bc-9193a61c5b8d-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T03%3A40%3A54Z&ske=2024-10-09T03%3A55%3A54Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T03%3A55%3A54Z&sr=b&sp=r&sig=RgIBRVIO37HuPRCkX6ehKV%2BoK6wZaK9lSf6UznztZP8%3D",
-    "Logo-Crop": "https://docserverpwaprodeau.blob.core.windows.net/cf9f2b5c-bbd5-4c7e-87bc-9193a61c5b8d-1/resource/Assets0Images0792eb525-b4da-42ef-9d93-8b06db9e4e49.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T03%3A40%3A54Z&ske=2024-10-09T03%3A55%3A54Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T03%3A55%3A54Z&sr=b&sp=r&sig=FB%2Ff19eZHTs7U2%2F%2Bvu%2Bq2ILQPYwK1QOHNoiepIoMcVg%3D",
-    "Logo-Crop-2": "https://docserverpwaprodeau.blob.core.windows.net/cf9f2b5c-bbd5-4c7e-87bc-9193a61c5b8d-1/resource/Assets0Images084021282-73f9-4fea-8985-137064228231.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T03%3A40%3A54Z&ske=2024-10-09T03%3A55%3A54Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T03%3A55%3A54Z&sr=b&sp=r&sig=h33Dw6L%2BP6utcUy8etQwuuWNeNQXD1g2wcS0w869oI8%3D",
-    "Man-Playing-Drums": "https://docserverpwaprodeau.blob.core.windows.net/cf9f2b5c-bbd5-4c7e-87bc-9193a61c5b8d-1/resource/Assets0Images05b5191e4-b5b9-4b31-a18b-f30477b53e6d.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T03%3A40%3A54Z&ske=2024-10-09T03%3A55%3A54Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T03%3A55%3A54Z&sr=b&sp=r&sig=DwEMOmmTht0vrrbA1q1HI2SJmcw0xQX6BRoudgo1oSk%3D",
-    "Profile": "https://docserverpwaprodeau.blob.core.windows.net/cf9f2b5c-bbd5-4c7e-87bc-9193a61c5b8d-1/resource/Assets0Images0d9ad99d2-18ea-4392-86de-741fe70a0c2f.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T03%3A40%3A54Z&ske=2024-10-09T03%3A55%3A54Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T03%3A55%3A54Z&sr=b&sp=r&sig=ejp6MKiW3dDWk6n9R4daoGRKHKFc84ArN1sMeI0SchI%3D"
+    "Drums-Crop": "https://docserverpwaprodseau.blob.core.windows.net/f9c6d241-09e1-42b3-9314-f21c9d5f5910-1/resource/Assets0Images022d5d459-2f7a-4220-b132-96b92b4bd2f4.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T04%3A20%3A21Z&ske=2024-10-09T04%3A35%3A21Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T04%3A35%3A21Z&sr=b&sp=r&sig=VHriJRKc251%2B8iM1wSz5ZBCEkKomSLHwrty4O7gPqj0%3D",
+    "Logo": "https://docserverpwaprodseau.blob.core.windows.net/f9c6d241-09e1-42b3-9314-f21c9d5f5910-1/resource/Assets0Images09e840065-8a0b-428c-ad1f-c25fc3ddeb36.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T04%3A20%3A21Z&ske=2024-10-09T04%3A35%3A21Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T04%3A35%3A21Z&sr=b&sp=r&sig=0BxD6IBSyhpRZVcF654SnUjKEW2IN2nBBJQt%2BNF0cbM%3D",
+    "Logo_1": "https://docserverpwaprodseau.blob.core.windows.net/f9c6d241-09e1-42b3-9314-f21c9d5f5910-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T04%3A20%3A21Z&ske=2024-10-09T04%3A35%3A21Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T04%3A35%3A21Z&sr=b&sp=r&sig=IcEy83b8goWPRMs4Z71hRR1zoHz8ckY%2BrR7bFU1gaB4%3D",
+    "Logo-Crop": "https://docserverpwaprodseau.blob.core.windows.net/f9c6d241-09e1-42b3-9314-f21c9d5f5910-1/resource/Assets0Images0792eb525-b4da-42ef-9d93-8b06db9e4e49.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T04%3A20%3A21Z&ske=2024-10-09T04%3A35%3A21Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T04%3A35%3A21Z&sr=b&sp=r&sig=rzHi0XLd1sltw1vE1UE%2FtnLfr6hm2D8ysgBWFzkl9RQ%3D",
+    "Logo-Crop-2": "https://docserverpwaprodseau.blob.core.windows.net/f9c6d241-09e1-42b3-9314-f21c9d5f5910-1/resource/Assets0Images084021282-73f9-4fea-8985-137064228231.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T04%3A20%3A21Z&ske=2024-10-09T04%3A35%3A21Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T04%3A35%3A21Z&sr=b&sp=r&sig=%2FdPefOTCSTReb3vzO6Y7Fu%2Fu2lPX35NXcgnpd6PWXL0%3D",
+    "Man-Playing-Drums": "https://docserverpwaprodseau.blob.core.windows.net/f9c6d241-09e1-42b3-9314-f21c9d5f5910-1/resource/Assets0Images05b5191e4-b5b9-4b31-a18b-f30477b53e6d.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T04%3A20%3A21Z&ske=2024-10-09T04%3A35%3A21Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T04%3A35%3A21Z&sr=b&sp=r&sig=x28VN36rkhZhxxTeB3j1KuOnESScu21mAojJoIEbm6A%3D",
+    "Profile": "https://docserverpwaprodseau.blob.core.windows.net/f9c6d241-09e1-42b3-9314-f21c9d5f5910-1/resource/Assets0Images0d9ad99d2-18ea-4392-86de-741fe70a0c2f.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-08T04%3A20%3A21Z&ske=2024-10-09T04%3A35%3A21Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-09T04%3A35%3A21Z&sr=b&sp=r&sig=QRuT6X4CR7I4FOW%2BiYaKurJz6F10M30YOvVnpXvtUrA%3D"
   },
   "OrderComponentMetadata": {
-    "2ef70503b6ee469493d3be44f117f8b9": 1,
-    "45cb4180255041549b968ea67a1bca19": 2,
-    "704cebd900874ecc844136eeff5e53d8": 0
+    "2ef70503b6ee469493d3be44f117f8b9": 0,
+    "45cb4180255041549b968ea67a1bca19": 1,
+    "704cebd900874ecc844136eeff5e53d8": 2
   },
   "OrderComponentTemplate": {
-    "2ef70503b6ee469493d3be44f117f8b9": 1,
-    "45cb4180255041549b968ea67a1bca19": 2,
-    "704cebd900874ecc844136eeff5e53d8": 0
+    "2ef70503b6ee469493d3be44f117f8b9": 0,
+    "45cb4180255041549b968ea67a1bca19": 1,
+    "704cebd900874ecc844136eeff5e53d8": 2
   },
   "OrderDataSource": {
     "CustomGallerySample": 0,
@@ -588,7 +588,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.8099899,
+    "AnalysisLoadTime": 1.3124262,
     "ControlCount": {
       "2ef70503b6ee469493d3be44f117f8b9": 2,
       "45cb4180255041549b968ea67a1bca19": 1,
@@ -605,7 +605,7 @@
       "screen": 6,
       "typedDataCard": 2
     },
-    "DeserializationLoadTime": 2.6044044
+    "DeserializationLoadTime": 3.3667177
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

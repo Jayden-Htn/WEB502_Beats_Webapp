@@ -104,7 +104,13 @@
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             OnSelect: |-
-                                =Set(
+                                =If(
+                                    IsBlank(L_Email.Value) || 
+                                    IsBlank(L_Password.Value),
+                                    DisplayMode.Disabled,
+                                    DisplayMode.Edit
+                                );
+                                Set(
                                   varUser,
                                   LookUp(Users, Email = L_Email.Value && Password = L_Password.Value)
                                 );

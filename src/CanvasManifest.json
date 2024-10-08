@@ -119,13 +119,13 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
-    "Name": "Beats Webapp",
+    "Name": "Beats Webapp Backup",
     "OriginatingVersion": "1.343",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Beats Webapp",
+    "AppName": "Beats Webapp Backup",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",

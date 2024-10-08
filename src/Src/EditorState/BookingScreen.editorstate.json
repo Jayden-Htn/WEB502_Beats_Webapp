@@ -573,7 +573,7 @@
       "MetaDataIDKey": "",
       "Name": "A_Body_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1013,7 +1013,7 @@
       "MetaDataIDKey": "",
       "Name": "A_GradientBackground_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1229,7 +1229,7 @@
       "MetaDataIDKey": "%HeaderContainer.ID%",
       "Name": "A_Header_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1498,7 +1498,7 @@
       "MetaDataIDKey": "",
       "Name": "A_ScreenWrapper_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

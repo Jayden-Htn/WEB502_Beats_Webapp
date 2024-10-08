@@ -28,6 +28,21 @@
         Width: =1366
         ZIndex: =2
 
+        A_Header_2 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =1
+
+            NavBar_6 As NavBar_Unauthorised:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+
         A_Body_3 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
             LayoutAlignItems: =LayoutAlignItems.Stretch
@@ -145,21 +160,6 @@
                     ImagePosition: =ImagePosition.Fill
                     ZIndex: =9
 
-        A_Header_2 As groupContainer.horizontalAutoLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
-            DropShadow: =DropShadow.Light
-            Fill: =RGBA(255, 255, 255, 1)
-            FillPortions: =0
-            Height: =75
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            ZIndex: =10
-
-            NavBar_6 As NavBar_Unauthorised:
-                LayoutMinHeight: =640
-                LayoutMinWidth: =640
-
         A_Footer_2 As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light
@@ -170,7 +170,7 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            ZIndex: =11
+            ZIndex: =3
 
             Label1_5 As label:
                 Align: =Align.Center

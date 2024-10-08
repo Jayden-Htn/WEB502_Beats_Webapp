@@ -47,19 +47,18 @@
             DropShadow: =DropShadow.Light
             LayoutDirection: =LayoutDirection.Vertical
             LayoutGap: =
-            LayoutMinHeight: =100
+            LayoutMinHeight: =200
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
             FormContainer1_1 As groupContainer.verticalAutoLayoutContainer:
                 DropShadow: =DropShadow.Light
-                FillPortions: =7
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutGap: =16
                 LayoutJustifyContent: =LayoutJustifyContent.Center
-                LayoutMinHeight: =100
+                LayoutMinHeight: =200
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 LayoutOverflowY: =LayoutOverflow.Scroll
@@ -78,8 +77,9 @@
                     BorderColor: =App.Theme.Colors.Darker40
                     DataSource: =Users
                     DefaultMode: =FormMode.New
-                    FillPortions: =0.56
-                    LayoutMinHeight: =200
+                    FillPortions: =0
+                    Height: =380
+                    LayoutMinHeight: =400
                     LayoutMinWidth: =0
                     NumberOfColumns: =1
                     SnapToColumns: =false
@@ -87,12 +87,12 @@
                     Width: =400
                     ZIndex: =5
 
-                    DataCard1_1 As typedDataCard.blankCard:
+                    RegisterCard As typedDataCard.blankCard:
                         BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DisplayMode: =DisplayMode.Edit
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =320
+                        Height: =380
                         Width: =396
                         WidthFit: =true
                         X: =0
@@ -117,8 +117,8 @@
                                             FirstName: R_FirstName.Value,
                                             LastName: R_LastName.Value,
                                             Email: R_Email.Value,
-                                            PhoneNumber: R_PhoneNumber.Value,
-                                            Password: R_Password.Value
+                                            PhoneNumber: R_Password.Value,
+                                            Password: R_PhoneNumber.Value
                                         }
                                     );
                                     Notify("Registration Successful!", NotificationType.Success);
@@ -129,23 +129,23 @@
                             Text: ="Submit"
                             Width: =120
                             X: =140
-                            Y: =286
+                            Y: =337
                             ZIndex: =1
-
-                        "R_PhoneNumber As 'Text input'":
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =32
-                            Placeholder: ="Password"
-                            Type: ='TextInputCanvas.Type'.Password
-                            Width: =320
-                            X: =60
-                            Y: =60
-                            ZIndex: =2
 
                         "R_Password As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Password"
+                            Type: ='TextInputCanvas.Type'.Password
+                            Width: =320
+                            X: =40
+                            Y: =284
+                            ZIndex: =2
+
+                        "R_PhoneNumber As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Phone number"
                             Type: ='TextInputCanvas.Type'.Password
                             Width: =320
                             X: =40

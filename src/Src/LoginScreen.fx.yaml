@@ -73,7 +73,7 @@
                 RadiusTopRight: =4
                 ZIndex: =2
 
-                Form1 As form.PowerApps_CoreControls_Form:
+                LoginForm As form.PowerApps_CoreControls_Form:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     BorderColor: =App.Theme.Colors.Darker40
                     DataSource: =Users
@@ -87,7 +87,7 @@
                     Width: =400
                     ZIndex: =6
 
-                    DataCard1 As typedDataCard.blankCard:
+                    LoginCard As typedDataCard.blankCard:
                         BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DisplayMode: =DisplayMode.Edit

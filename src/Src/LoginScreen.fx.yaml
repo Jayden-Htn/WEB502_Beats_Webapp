@@ -109,24 +109,19 @@
                                     LoginSubmitButton.DisplayMode.Disabled,
                                     LoginSubmitButton.DisplayMode.Edit
                                 );
+                                
                                 Set(
                                     varUser,
                                     LookUp(
-                                        Users,
-                                        Email = L_Email.Value
+                                        Users, Email = L_Email.Value
                                     )
                                 );
+                                
                                 If(
                                     !IsBlank(varUser) && varUser.Password = L_Password.Value,
-                                    Notify(
-                                        "Login Successful!",
-                                        NotificationType.Success
-                                    ),
+                                    Notify("Login Successful!", NotificationType.Success);
                                     Navigate(ProfileScreen),
-                                    Notify(
-                                        "Invalid Username or Password!",
-                                        NotificationType.Error
-                                    )
+                                    Notify("Invalid Username or Password!", NotificationType.Error)
                                 );
                                 ResetForm(LoginForm);
                             Text: ="Submit"

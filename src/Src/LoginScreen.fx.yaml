@@ -101,16 +101,17 @@
 
                         LoginSubmitButton As Button:
                             AccessibleLabel: ="Submit form button"
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =32
-                            OnSelect: |-
+                            BorderStyle: =BorderStyle.Solid
+                            BorderThickness: =2
+                            DisplayMode: |-
                                 =If(
                                     IsBlank(L_Email.Value) || IsBlank(L_Password.Value),
-                                    LoginSubmitButton.DisplayMode.Disabled,
-                                    LoginSubmitButton.DisplayMode.Edit
-                                );
-                                
-                                Set(
+                                    DisplayMode.Disabled,
+                                    DisplayMode.Edit
+                                )
+                            Height: =32
+                            OnSelect: |-
+                                =Set(
                                     varUser,
                                     LookUp(
                                         Users, Email = L_Email.Value

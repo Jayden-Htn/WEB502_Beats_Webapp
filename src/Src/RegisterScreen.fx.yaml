@@ -101,7 +101,17 @@
 
                         RegisterSubmitButton As Button:
                             AccessibleLabel: ="Submit form button"
-                            DisplayMode: =DisplayMode.Edit
+                            DisplayMode: |-
+                                =If(
+                                    IsBlank(R_FirstName.Value) || 
+                                    IsBlank(R_LastName.Value) || 
+                                    IsBlank(R_Email.Value) || 
+                                    IsBlank(R_PhoneNumber.Value) || 
+                                    IsBlank(R_Password.Value),
+                                    DisplayMode.Disabled,
+                                    DisplayMode.Edit
+                                )
+                            FontWeight: =FontWeight.Normal
                             Height: =32
                             OnSelect: |-
                                 =Set(
@@ -123,11 +133,10 @@
                                         }
                                     );
                                     Notify("Registration Successful!", NotificationType.Success);
+                                    ResetForm(RegisterForm);
                                     Navigate(ProfileScreen),
                                     Notify("Email already in use.", NotificationType.Error)
                                 );
-                                
-                                ResetForm(RegisterForm);
                             Text: ="Submit"
                             Width: =120
                             X: =140
@@ -175,6 +184,8 @@
                         "R_FirstName As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
+                            OnChange: |-
+                                =UpdateContext({forceUpdate: Now()})
                             Placeholder: ="Parent first name"
                             Width: =320
                             X: =40

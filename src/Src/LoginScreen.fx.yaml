@@ -105,7 +105,7 @@
                             BorderThickness: =2
                             DisplayMode: |-
                                 =If(
-                                    IsBlank(L_Email.Value) || IsBlank(L_Password.Value),
+                                    IsBlank(L_Password.Value) || IsBlank(L_Email.Value),
                                     DisplayMode.Disabled,
                                     DisplayMode.Edit
                                 )
@@ -114,16 +114,19 @@
                                 =Set(
                                     varUser,
                                     LookUp(
-                                        Users, Email = L_Email.Value
+                                        Users,
+                                        Email = Trim(L_Email.Value)
                                     )
                                 );
                                 
+                                
                                 If(
-                                    !IsBlank(varUser) && varUser.Password = L_Password.Value,
+                                    !IsBlank(varUser) && varUser.Password = Trim(L_Password.Value),
                                     Notify("Login Successful!", NotificationType.Success);
                                     Navigate(ProfileScreen),
                                     Notify("Invalid Username or Password!", NotificationType.Error)
                                 );
+                                
                                 ResetForm(LoginForm);
                             Text: ="Submit"
                             Width: =120
@@ -134,20 +137,20 @@
                         "L_Password As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
-                            Placeholder: ="Email address"
-                            Width: =320
-                            X: =40
-                            Y: =72
-                            ZIndex: =2
-
-                        "L_Email As 'Text input'":
-                            DisplayMode: =DisplayMode.Edit
-                            Height: =32
                             Placeholder: ="Password"
                             Type: ='TextInputCanvas.Type'.Password
                             Width: =320
                             X: =40
                             Y: =122
+                            ZIndex: =2
+
+                        "L_Email As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Email address"
+                            Width: =320
+                            X: =40
+                            Y: =72
                             ZIndex: =3
 
                         Label6 As label:

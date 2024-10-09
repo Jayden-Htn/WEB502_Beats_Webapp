@@ -39,9 +39,10 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =1
 
-            NavBar_5 As NavBar_Unauthorised:
+            NavBar_Authorised_1 As NavBar_Authorised:
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
+                Visible: =true
 
         P_Body As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.Light

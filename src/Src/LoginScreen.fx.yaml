@@ -123,6 +123,7 @@
                                 If(
                                     !IsBlank(varUser) && varUser.Password = Trim(L_Password.Value),
                                     Notify("Login Successful!", NotificationType.Success);
+                                    Set(varAuthorised, true);
                                     Navigate(ProfileScreen),
                                     Notify("Invalid Username or Password!", NotificationType.Error)
                                 );

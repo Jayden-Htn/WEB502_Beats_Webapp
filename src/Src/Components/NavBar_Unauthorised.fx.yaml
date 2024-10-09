@@ -52,7 +52,7 @@ NavBar_Unauthorised As CanvasComponent:
             Width: =80
             ZIndex: =2
 
-        AccountLabel As label:
+        LoginLabel As label:
             BorderColor: =App.Theme.Colors.Darker40
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -60,10 +60,11 @@ NavBar_Unauthorised As CanvasComponent:
             OnSelect: =Navigate(LoginScreen)
             Size: =13
             Text: ="Login"
+            Visible: =!varAuthorised
             Width: =80
             ZIndex: =3
 
-        AccountLabel_1 As label:
+        RegisterLabel As label:
             BorderColor: =App.Theme.Colors.Darker40
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -71,6 +72,7 @@ NavBar_Unauthorised As CanvasComponent:
             OnSelect: =Navigate(RegisterScreen)
             Size: =13
             Text: ="Register"
+            Visible: =!varAuthorised
             Width: =80
             ZIndex: =4
 

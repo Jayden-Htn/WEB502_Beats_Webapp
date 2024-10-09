@@ -1242,6 +1242,14 @@
                 "InvariantPropertyName": "OnSelect",
                 "IsLockable": false,
                 "NameMapSourceSchema": "?"
+              },
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "true",
+                "InvariantPropertyName": "Visible",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
               }
             ],
             "ControlUniqueId": "9",
@@ -1303,7 +1311,7 @@
             "IsLocked": false,
             "LayoutName": "",
             "MetaDataIDKey": "",
-            "Name": "AccountLabel",
+            "Name": "LoginLabel",
             "OptimizeForDevices": "Off",
             "Parent": "Links",
             "PersistMetaDataIDKey": false,
@@ -1544,6 +1552,12 @@
                 "RuleProviderType": "Unknown"
               },
               {
+                "Category": "Design",
+                "InvariantScript": "!varAuthorised",
+                "Property": "Visible",
+                "RuleProviderType": "User"
+              },
+              {
                 "Category": "Behavior",
                 "InvariantScript": "Navigate(LoginScreen)",
                 "Property": "OnSelect",
@@ -1637,6 +1651,14 @@
                 "InvariantPropertyName": "OnSelect",
                 "IsLockable": false,
                 "NameMapSourceSchema": "?"
+              },
+              {
+                "AFDDataSourceName": "",
+                "AutoRuleBindingEnabled": false,
+                "AutoRuleBindingString": "true",
+                "InvariantPropertyName": "Visible",
+                "IsLockable": false,
+                "NameMapSourceSchema": "?"
               }
             ],
             "ControlUniqueId": "10",
@@ -1698,7 +1720,7 @@
             "IsLocked": false,
             "LayoutName": "",
             "MetaDataIDKey": "",
-            "Name": "AccountLabel_1",
+            "Name": "RegisterLabel",
             "OptimizeForDevices": "Off",
             "Parent": "Links",
             "PersistMetaDataIDKey": false,
@@ -1742,14 +1764,14 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Self.Fill",
-                "Property": "HoverFill",
+                "InvariantScript": "Self.Color",
+                "Property": "PressedColor",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Self.Fill",
-                "Property": "PressedFill",
+                "InvariantScript": "Self.Color",
+                "Property": "HoverColor",
                 "RuleProviderType": "Unknown"
               },
               {
@@ -1767,7 +1789,7 @@
               {
                 "Category": "Design",
                 "InvariantScript": "Self.BorderColor",
-                "Property": "FocusedBorderColor",
+                "Property": "PressedBorderColor",
                 "RuleProviderType": "Unknown"
               },
               {
@@ -1785,7 +1807,7 @@
               {
                 "Category": "Design",
                 "InvariantScript": "Self.BorderColor",
-                "Property": "PressedBorderColor",
+                "Property": "FocusedBorderColor",
                 "RuleProviderType": "Unknown"
               },
               {
@@ -1802,14 +1824,14 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Self.Color",
-                "Property": "HoverColor",
+                "InvariantScript": "Self.Fill",
+                "Property": "PressedFill",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Self.Color",
-                "Property": "PressedColor",
+                "InvariantScript": "Self.Fill",
+                "Property": "HoverFill",
                 "RuleProviderType": "Unknown"
               },
               {
@@ -1937,6 +1959,12 @@
                 "InvariantScript": "5",
                 "Property": "PaddingLeft",
                 "RuleProviderType": "Unknown"
+              },
+              {
+                "Category": "Design",
+                "InvariantScript": "!varAuthorised",
+                "Property": "Visible",
+                "RuleProviderType": "User"
               },
               {
                 "Category": "Behavior",
@@ -2611,7 +2639,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638640358431753680",
+    "LastModifiedTimestamp": "638640431042312218",
     "Name": "NavBar_Unauthorised",
     "Rules": [
       {
@@ -2670,7 +2698,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638640358431753680",
+  "LastModifiedTimestamp": "638640431042312218",
   "Name": "704cebd900874ecc844136eeff5e53d8",
   "OverridableProperties": {},
   "Version": "1.0"

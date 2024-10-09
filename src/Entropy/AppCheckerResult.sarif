@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NavBar_Unauthorised.Links.AccountLabel.FocusedBorderThickness"
+                  "fullyQualifiedName": "NavBar_Unauthorised.Links.LoginLabel.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NavBar_Unauthorised.Links.AccountLabel.FocusedBorderThickness",
+                  "fullyQualifiedName": "NavBar_Unauthorised.Links.LoginLabel.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "NavBar_Unauthorised",
-                "type": "NavBar_Unauthorised.Links.AccountLabel"
+                "type": "NavBar_Unauthorised.Links.LoginLabel"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NavBar_Unauthorised.Links.AccountLabel.TabIndex"
+                  "fullyQualifiedName": "NavBar_Unauthorised.Links.LoginLabel.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NavBar_Unauthorised.Links.AccountLabel.TabIndex",
+                  "fullyQualifiedName": "NavBar_Unauthorised.Links.LoginLabel.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "NavBar_Unauthorised",
-                "type": "NavBar_Unauthorised.Links.AccountLabel"
+                "type": "NavBar_Unauthorised.Links.LoginLabel"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NavBar_Unauthorised.Links.AccountLabel_1.FocusedBorderThickness"
+                  "fullyQualifiedName": "NavBar_Unauthorised.Links.RegisterLabel.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NavBar_Unauthorised.Links.AccountLabel_1.FocusedBorderThickness",
+                  "fullyQualifiedName": "NavBar_Unauthorised.Links.RegisterLabel.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "NavBar_Unauthorised",
-                "type": "NavBar_Unauthorised.Links.AccountLabel_1"
+                "type": "NavBar_Unauthorised.Links.RegisterLabel"
               }
             }
           ],
@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NavBar_Unauthorised.Links.AccountLabel_1.TabIndex"
+                  "fullyQualifiedName": "NavBar_Unauthorised.Links.RegisterLabel.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NavBar_Unauthorised.Links.AccountLabel_1.TabIndex",
+                  "fullyQualifiedName": "NavBar_Unauthorised.Links.RegisterLabel.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "NavBar_Unauthorised",
-                "type": "NavBar_Unauthorised.Links.AccountLabel_1"
+                "type": "NavBar_Unauthorised.Links.RegisterLabel"
               }
             }
           ],

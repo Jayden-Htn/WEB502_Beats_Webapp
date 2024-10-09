@@ -1,5 +1,6 @@
 App As appinfo:
     BackEnabled: =true
+    OnStart: =Set(varAuthorised, false)
     Theme: =Beats
 
     Host As hostControl.DefaultHostControlVariant:

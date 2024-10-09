@@ -39,7 +39,7 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =2
 
-            NavBar_3 As NavBar_Unauthorised:
+            NavBar_3 As NavBar:
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
 

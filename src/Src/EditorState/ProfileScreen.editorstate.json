@@ -1486,7 +1486,7 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
-    "NavBar_Authorised_1": {
+    "NavBar_Unauthorised_1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -1515,8 +1515,7 @@
         },
         "X",
         "Y",
-        "ZIndex",
-        "Visible"
+        "ZIndex"
       ],
       "DynamicProperties": [
         {
@@ -1570,7 +1569,7 @@
         "Description": ""
       },
       "MetaDataIDKey": "",
-      "Name": "NavBar_Authorised_1",
+      "Name": "NavBar_Unauthorised_1",
       "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
@@ -1604,11 +1603,6 @@
           "Category": "Design",
           "PropertyName": "ZIndex",
           "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Visible",
-          "RuleProviderType": "User"
         }
       ],
       "StyleName": "",

@@ -1,4 +1,4 @@
-NavBar_Unauthorised As CanvasComponent:
+NavBar As CanvasComponent:
     Fill: =RGBA(250, 100, 44, 1)
     Height: =75
     Width: =1366
@@ -75,6 +75,30 @@ NavBar_Unauthorised As CanvasComponent:
             Visible: =!varAuthorised
             Width: =80
             ZIndex: =4
+
+        ProfileLabel As label:
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            OnSelect: =Navigate(ProfileScreen)
+            Size: =13
+            Text: ="Profile"
+            Visible: =varAuthorised
+            Width: =80
+            ZIndex: =5
+
+        BookingLabel As label:
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            OnSelect: =Navigate(BookingScreen)
+            Size: =13
+            Text: ="Booking"
+            Visible: =varAuthorised
+            Width: =80
+            ZIndex: =6
 
     Image2 As image:
         BorderColor: =App.Theme.Colors.Darker40

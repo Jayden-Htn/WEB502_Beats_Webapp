@@ -39,7 +39,7 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =1
 
-            NavBar_6 As NavBar_Unauthorised:
+            NavBar_6 As NavBar:
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
 
@@ -89,53 +89,8 @@
                     PaddingRight: =0
                     PaddingTop: =20
                     Size: =26
-                    Text: ="About Beats Nelson"
+                    Text: ="Booking"
                     ZIndex: =4
-
-                Label3_7 As label:
-                    AlignInContainer: =AlignInContainer.Stretch
-                    BorderColor: =App.Theme.Colors.Darker40
-                    Color: =RGBA(255, 255, 255, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    Font: =App.Theme.Font
-                    Height: =80
-                    LayoutMinHeight: =140
-                    PaddingBottom: =0
-                    Size: =15
-                    Text: ="Beats Nelson is run by Jayden Houghton, who has over 13 years drumming experience and 3 years of drum tutoring experience. He has played in over a dozen bands, from orchestras to rock bands, jazz ensembles to brass bands."
-                    VerticalAlign: =VerticalAlign.Top
-                    ZIndex: =5
-
-                Label3_8 As label:
-                    AlignInContainer: =AlignInContainer.Stretch
-                    BorderColor: =App.Theme.Colors.Darker40
-                    Color: =RGBA(255, 255, 255, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    Font: =
-                    Height: =100
-                    LayoutMinHeight: =140
-                    PaddingBottom: =0
-                    Size: =15
-                    Text: ="Lessons cost $25 per half hour lesson, or $45 for a full hour. Payment can be in cash or using the online payment gateway. Bookings can be made online under your account."
-                    VerticalAlign: =VerticalAlign.Top
-                    ZIndex: =6
-
-                Label3_9 As label:
-                    AlignInContainer: =AlignInContainer.Stretch
-                    BorderColor: =App.Theme.Colors.Darker40
-                    Color: =RGBA(255, 255, 255, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    Font: =App.Theme.Font
-                    Height: =104
-                    LayoutMinHeight: =140
-                    PaddingBottom: =0
-                    Size: =15
-                    Text: ="At Beats Nelson, we offer drum lessons to students of all ages and skill levels. We start beginners off with the essential rudiments and techniques to build a strong foundation, then expand student's skills with new rhythms, different styles of music and advanced techniques."
-                    VerticalAlign: =VerticalAlign.Top
-                    ZIndex: =7
 
             A_Aside_3 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer

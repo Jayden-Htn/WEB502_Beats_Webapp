@@ -104,17 +104,7 @@
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             OnSelect: |-
-                                =If(
-                                    IsBlank(R_FirstName.Value) || 
-                                    IsBlank(R_LastName.Value) || 
-                                    IsBlank(R_Email.Value) || 
-                                    IsBlank(R_PhoneNumber.Value) || 
-                                    IsBlank(R_Password.Value),
-                                    RegisterSubmitButton.DisplayMode.Disabled,
-                                    RegisterSubmitButton.DisplayMode.Edit
-                                );
-                                
-                                Set(
+                                =Set(
                                     varUser,
                                     LookUp(Users, Email = R_Email.Value)
                                 );

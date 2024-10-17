@@ -2,7 +2,7 @@
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
     OnVisible: |-
-        =If(varChild, 
+        =If(IsBlank(varChild), 
             Set(C_Name.Value, varChild.Name); 
             Set(C_BirthdayPicker.Value, varChild.Birthday); 
             Set(C_ExperienceDropdown.Value, varChild.ExperienceLevel)

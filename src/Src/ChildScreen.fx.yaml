@@ -1,12 +1,7 @@
 "ChildScreen As screen.'autoLayout_HeaderFooter_ver1.0'":
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
-    OnVisible: |-
-        =If(IsBlank(varChild), 
-            Set(C_Name.Value, varChild.Name); 
-            Set(C_BirthdayPicker.Value, varChild.Birthday); 
-            Set(C_ExperienceDropdown.Value, varChild.ExperienceLevel)
-        );
+    OnVisible: =
 
     C_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -157,6 +152,8 @@
                         "C_BirthdayPicker As 'Date picker'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
+                            Placeholder: ="Date of birth"
+                            SelectedDate: =varChild.DoB
                             Width: =320
                             X: =40
                             Y: =131
@@ -168,6 +165,7 @@
                             OnChange: |-
                                 =UpdateContext({forceUpdate: Now()})
                             Placeholder: ="Full name"
+                            Value: =varChild.Name
                             Width: =320
                             X: =40
                             Y: =72

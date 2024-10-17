@@ -140,6 +140,7 @@
                             ZIndex: =1
 
                         C_ExperienceDropdown As Dropdown.pcfdataset:
+                            DefaultSelectedItems: =varChild.ExperienceLevel
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Items: =["Beginner", "Elementry", "Intermediate", "Advanced"]

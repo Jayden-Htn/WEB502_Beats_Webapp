@@ -60,7 +60,7 @@ NavBar As CanvasComponent:
             OnSelect: =Navigate(LoginScreen)
             Size: =13
             Text: ="Login"
-            Visible: =!varAuthorised
+            Visible: =IsBlank(varUser)
             Width: =80
             ZIndex: =3
 
@@ -72,7 +72,7 @@ NavBar As CanvasComponent:
             OnSelect: =Navigate(RegisterScreen)
             Size: =13
             Text: ="Register"
-            Visible: =!varAuthorised
+            Visible: =IsBlank(varUser)
             Width: =80
             ZIndex: =4
 
@@ -84,7 +84,7 @@ NavBar As CanvasComponent:
             OnSelect: =Navigate(ProfileScreen)
             Size: =13
             Text: ="Profile"
-            Visible: =varAuthorised
+            Visible: =!IsBlank(varUser)
             Width: =80
             ZIndex: =5
 
@@ -96,9 +96,23 @@ NavBar As CanvasComponent:
             OnSelect: =Navigate(BookingScreen)
             Size: =13
             Text: ="Booking"
-            Visible: =varAuthorised
+            Visible: =!IsBlank(varUser)
             Width: =80
             ZIndex: =6
+
+        LogoutLabel As label:
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            OnSelect: |-
+                =Set(varUser, Blank());
+                Navigate(HomeScreen);
+            Size: =13
+            Text: ="Booking"
+            Visible: =!IsBlank(varUser)
+            Width: =80
+            ZIndex: =7
 
     Image2 As image:
         BorderColor: =App.Theme.Colors.Darker40

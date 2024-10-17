@@ -58,7 +58,7 @@
             Y: =20
             ZIndex: =2
 
-            A_Article_2 As groupContainer.verticalAutoLayoutContainer:
+            P_Article As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.Light
                 LayoutDirection: =LayoutDirection.Vertical
@@ -132,28 +132,126 @@
                         Text: =varUser.PhoneNumber
                         ZIndex: =3
 
-            A_Aside_2 As groupContainer.horizontalAutoLayoutContainer:
+                Jumbo_4 As label:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    AutoHeight: =true
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =RGBA(250, 100, 44, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =App.Theme.Font
+                    LayoutMinHeight: =20
+                    PaddingBottom: =20
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =20
+                    Size: =26
+                    Text: ="Children"
+                    ZIndex: =11
+
+            P_Aside As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.Light
                 FillPortions: =0.8
+                LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
+                PaddingBottom: =20
+                PaddingLeft: =20
+                PaddingRight: =20
+                PaddingTop: =20
                 RadiusBottomLeft: =4
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
                 ZIndex: =8
 
-                Image1_2 As image:
+                Jumbo_5 As label:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    AutoHeight: =true
                     BorderColor: =App.Theme.Colors.Darker40
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
-                    FillPortions: =1
-                    Height: =620
-                    Image: =Profile
-                    ImagePosition: =ImagePosition.Fill
-                    ZIndex: =9
+                    Color: =RGBA(250, 100, 44, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =App.Theme.Font
+                    LayoutMinHeight: =20
+                    PaddingBottom: =20
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =20
+                    Size: =26
+                    Text: ="Upcoming Lessons"
+                    ZIndex: =1
+
+                Gallery3 As gallery.galleryVertical:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    DelayItemLoading: =true
+                    Height: =180
+                    Items: =Lessons
+                    Layout: =Layout.Vertical
+                    LayoutMinHeight: =150
+                    LayoutMinWidth: =320
+                    LoadingSpinner: =LoadingSpinner.Data
+                    TemplateSize: =100
+                    ZIndex: =2
+
+                    Rectangle5 As rectangle:
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Fill: =App.Theme.Colors.Primary
+                        Height: =4
+                        OnSelect: =Select(Parent)
+                        Width: =550
+                        Y: =93
+                        ZIndex: =1
+
+                    LblDuration As label:
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Color: =RGBA(214, 221, 224, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        Font: =App.Theme.Font
+                        OnSelect: =Select(Parent)
+                        Size: =13
+                        Text: =ThisItem.Duration
+                        X: =167
+                        Y: =40
+                        ZIndex: =2
+
+                    LblTime As label:
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Color: =RGBA(214, 221, 224, 1)
+                        DisabledColor: =RGBA(214, 221, 224, 1)
+                        Font: =App.Theme.Font
+                        OnSelect: =Select(Parent)
+                        Size: =13
+                        Text: =ThisItem.StartTime
+                        Width: =59
+                        X: =91
+                        Y: =40
+                        ZIndex: =3
+
+                    LblDate As label:
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Color: =RGBA(214, 221, 224, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        Font: =App.Theme.Font
+                        OnSelect: =Select(Parent)
+                        Size: =13
+                        Text: =ThisItem.Date
+                        Width: =91
+                        Y: =40
+                        ZIndex: =4
+
+                    LblName As label:
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Color: =RGBA(255, 255, 255, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        Font: =App.Theme.Font
+                        OnSelect: =Select(Parent)
+                        Size: =16
+                        Text: |
+                            =ThisItem.Student
+                        ZIndex: =5
 
         P_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

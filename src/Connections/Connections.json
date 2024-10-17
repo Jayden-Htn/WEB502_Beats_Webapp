@@ -8,6 +8,12 @@
     "datasets": {
       "me,b%2521YrEc6LzO-UGApM16PhmIjV7XA06H245Jr93_MOWUa9OUVRW4Q731Q5C8bv3qO8zi,01TAP6CPAFWOXO2KON6NA3AHKKVGGLSAH6": {
         "dataSources": {
+          "Children": {
+            "tableName": "{7CCD51A7-F7B6-4AE0-8A20-DE6241C76037}"
+          },
+          "Lessons": {
+            "tableName": "{5D96CD23-02BD-4DFE-8315-F0BAC756443F}"
+          },
           "Users": {
             "tableName": "{5471D402-6ECC-4371-9D86-66BDF296EFCE}"
           }
@@ -15,7 +21,9 @@
       }
     },
     "dataSources": [
-      "Users"
+      "Users",
+      "Lessons",
+      "Children"
     ],
     "dependencies": {},
     "dependents": [],

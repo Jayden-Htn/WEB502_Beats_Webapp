@@ -136,7 +136,7 @@
                     DropShadow: =DropShadow.Light
                     FillPortions: =0
                     Height: =70
-                    LayoutGap: =20
+                    LayoutGap: =10
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
@@ -168,6 +168,7 @@
                         AlignInContainer: =AlignInContainer.Center
                         DisplayMode: =DisplayMode.Edit
                         Height: =32
+                        IconStyle: ='Icon.IconStyle'.Filled
                         LayoutMinHeight: =32
                         LayoutMinWidth: =32
                         Width: =32
@@ -179,7 +180,7 @@
                     BorderColor: =App.Theme.Colors.Darker40
                     DelayItemLoading: =true
                     Height: =220
-                    Items: =Filter(Children, ParentID = varUser);
+                    Items: =Filter(Children, ParentID = varUser.Email)
                     Layout: =Layout.Vertical
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0
@@ -205,7 +206,9 @@
                         DisabledColor: =RGBA(244, 244, 244, 1)
                         Height: =50
                         Icon: =Icon.ChevronRight
-                        OnSelect: =Select(Parent)
+                        OnSelect: |-
+                            =Set(varChild, Parent);
+                            Navigate(ChildScreen);
                         PaddingBottom: =12
                         PaddingLeft: =12
                         PaddingRight: =12
@@ -273,7 +276,7 @@
                     BorderColor: =App.Theme.Colors.Darker40
                     DelayItemLoading: =true
                     Height: =180
-                    Items: =Lessons
+                    Items: =Filter(Lessons, ParentID = varUser.Email)
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =150
                     LayoutMinWidth: =320

@@ -12,6 +12,7 @@
       "Duration": "Duration",
       "Notes": "Notes",
       "Paid": "Paid",
+      "ParentID": "ParentID",
       "StartTime": "StartTime",
       "Student": "Student",
       "StudentLevel": "StudentLevel"

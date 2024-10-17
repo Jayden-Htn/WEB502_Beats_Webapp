@@ -1,0 +1,211 @@
+"ChildScreen As screen.'autoLayout_HeaderFooter_ver1.0'":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+    OnVisible: =
+
+    C_GradientBackground As htmlViewer:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        Font: =App.Theme.Font
+        Height: =768
+        HtmlText: |-
+            =$"<div style='width:100%;height:{App.Height-1}px; background: rgb(21,19,20);
+            background: linear-gradient(135deg, rgba(21,19,20,1) 0%, rgba(93,35,31,1) 100%);'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =13
+        Width: =1365
+        X: =1
+        ZIndex: =1
+
+    C_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        ZIndex: =2
+
+        C_Header As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =1
+
+            NavBar_Unauthorised_2 As NavBar:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+
+        C_Body As groupContainer.verticalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutGap: =
+            LayoutMinHeight: =200
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            FormContainer1_2 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =16
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =200
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                LayoutOverflowY: =LayoutOverflow.Scroll
+                PaddingBottom: =15
+                PaddingLeft: =15
+                PaddingRight: =15
+                PaddingTop: =15
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =4
+
+                ChildForm As form.PowerApps_CoreControls_Form:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    BorderColor: =App.Theme.Colors.Darker40
+                    DataSource: =Users
+                    DefaultMode: =FormMode.New
+                    FillPortions: =0
+                    Height: =300
+                    LayoutMinHeight: =400
+                    LayoutMinWidth: =0
+                    NumberOfColumns: =1
+                    SnapToColumns: =false
+                    UseFluentV9Cards: =true
+                    Width: =400
+                    ZIndex: =5
+
+                    ChildCard As typedDataCard.blankCard:
+                        BorderColor: =App.Theme.Colors.Darker40
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =300
+                        Width: =396
+                        WidthFit: =true
+                        X: =0
+                        Y: =0
+                        ZIndex: =6
+
+                        ChildSubmitButton As Button:
+                            AccessibleLabel: ="Submit form button"
+                            DisplayMode: |-
+                                =If(
+                                    IsBlank(C_Name.Value) || 
+                                    IsBlank(C_Birthday.Value) || 
+                                    IsBlank(C_ExperienceLevel.Value) || 
+                                    IsBlank(R_PhoneNumber_1.Value) || 
+                                    IsBlank(R_Password_1.Value),
+                                    DisplayMode.Disabled,
+                                    DisplayMode.Edit
+                                )
+                            FontWeight: =FontWeight.Normal
+                            Height: =32
+                            OnSelect: |-
+                                =If(
+                                    IsBlank(varUser),
+                                    Patch(
+                                        Users,
+                                        Defaults(Users),
+                                        {
+                                            FirstName: C_Name.Value,
+                                            LastName: C_Birthday.Value,
+                                            Email: C_ExperienceLevel.Value,
+                                            PhoneNumber: R_PhoneNumber_1.Value,
+                                            Password: R_Password_1.Value
+                                        }
+                                    );
+                                    Notify("Registration Successful!", NotificationType.Success);
+                                    ResetForm(ChildForm);
+                                    Navigate(ProfileScreen),
+                                    Notify("Email already in use.", NotificationType.Error)
+                                );
+                            Text: ="Submit"
+                            Width: =120
+                            X: =140
+                            Y: =250
+                            ZIndex: =1
+
+                        C_ExperienceDropdown As Dropdown.pcfdataset:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Items: =["Beginner", "Elementry", "Intermediate", "Advanced"]
+                            Required: =true
+                            Width: =320
+                            X: =40
+                            Y: =190
+                            ZIndex: =2
+
+                        "C_BirthdayPicker As 'Date picker'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Width: =320
+                            X: =40
+                            Y: =131
+                            ZIndex: =3
+
+                        "C_Name As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            OnChange: |-
+                                =UpdateContext({forceUpdate: Now()})
+                            Placeholder: ="Full name"
+                            Width: =320
+                            X: =40
+                            Y: =72
+                            ZIndex: =5
+
+                        Label6_2 As label:
+                            Align: =Align.Center
+                            BorderColor: =App.Theme.Colors.Darker40
+                            Color: =RGBA(255, 255, 255, 1)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            Font: =App.Theme.Font
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =20
+                            Text: ="Child"
+                            X: =125
+                            Y: =18
+                            ZIndex: =6
+
+        C_Footer As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(19, 16, 22, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            Label1_6 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
+                BorderColor: =App.Theme.Colors.Darker40
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FillPortions: =1
+                Font: =App.Theme.Font
+                Size: =10
+                Text: ="Built by Jayden Houghton"
+                Width: =200
+                ZIndex: =26
+

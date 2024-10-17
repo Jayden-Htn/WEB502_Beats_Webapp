@@ -14,36 +14,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Items"
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Items",
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 36,
+                  "charLength": 10,
+                  "charOffset": 46,
                   "snippet": {
-                    "text": ";"
+                    "text": "C_Birthday"
                   }
                 }
               },
               "properties": {
-                "member": "Items",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4"
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "C_Birthday"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrOperatorExpected",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -51,35 +54,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Items"
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Items",
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charOffset": 37,
+                  "charLength": 6,
+                  "charOffset": 56,
                   "snippet": {
-                    "text": ""
+                    "text": ".Value"
                   }
                 }
               },
               "properties": {
-                "member": "Items",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4"
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Error"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrOperandExpected",
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 1
         },
         {
@@ -87,39 +94,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Items"
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Items",
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 8,
-                  "charOffset": 17,
+                  "charLength": 7,
+                  "charOffset": 38,
                   "snippet": {
-                    "text": "ParentID"
+                    "text": "IsBlank"
                   }
                 }
               },
               "properties": {
-                "member": "Items",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4"
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
               }
             }
           ],
           "message": {
             "arguments": [
-              "ParentID"
+              "IsBlank"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidName",
+          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 2
         },
         {
@@ -127,77 +134,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Items"
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Items",
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 26,
+                  "charLength": 17,
+                  "charOffset": 80,
                   "snippet": {
-                    "text": "="
+                    "text": "C_ExperienceLevel"
                   }
                 }
               },
               "properties": {
-                "member": "Items",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4"
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
               }
             }
           ],
           "message": {
             "arguments": [
-              "Error",
-              "Record"
+              "C_ExperienceLevel"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 36,
-                  "snippet": {
-                    "text": ";"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -205,32 +174,112 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Title5.Text"
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Title5.Text",
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
+                  "charLength": 6,
+                  "charOffset": 97,
                   "snippet": {
-                    "text": ".Name"
+                    "text": ".Value"
                   }
                 }
               },
               "properties": {
-                "member": "Text",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.Title5"
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
               }
             }
           ],
           "message": {
             "arguments": [
-              "Name"
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 72,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 121,
+                  "snippet": {
+                    "text": "R_PhoneNumber_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "R_PhoneNumber_1"
             ],
             "id": "issue"
           },
@@ -238,7 +287,609 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 136,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 113,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 160,
+                  "snippet": {
+                    "text": "R_Password_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "R_Password_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 172,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 152,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 146,
+                  "snippet": {
+                    "text": "C_Birthday"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "C_Birthday"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 156,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 183,
+                  "snippet": {
+                    "text": "C_ExperienceLevel"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "C_ExperienceLevel"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 200,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 233,
+                  "snippet": {
+                    "text": "R_PhoneNumber_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "R_PhoneNumber_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 248,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 278,
+                  "snippet": {
+                    "text": "R_Password_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "R_Password_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 290,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 30,
+                  "snippet": {
+                    "text": "Patch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 221,
+                  "charOffset": 85,
+                  "snippet": {
+                    "text": "{\n            FirstName: C_Name.Value,\n            LastName: C_Birthday.Value,\n            Email: C_ExperienceLevel.Value,\n            PhoneNumber: R_PhoneNumber_1.Value,\n            Password: R_Password_1.Value\n        }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Email",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1115,6 +1766,156 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.C_ExperienceDropdown.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.C_ExperienceDropdown.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.C_ExperienceDropdown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.C_BirthdayPicker.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.C_BirthdayPicker.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.C_BirthdayPicker"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.C_Name.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.C_Name.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildScreen",
+                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.C_Name"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.NextArrow5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.NextArrow5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Gallery4.NextArrow5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.varChild"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.varChild",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "varChild",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.Logo_1"
                 }
               ],
@@ -1138,7 +1939,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1168,7 +1969,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1198,7 +1999,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1228,7 +2029,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1258,7 +2059,37 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 8
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildScreen.forceUpdate"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildScreen.forceUpdate",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "forceUpdate",
+                "module": "ChildScreen",
+                "type": "ChildScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 7
         }
       ],
       "tool": {
@@ -1266,40 +2097,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrOperatorExpected",
-              "messageStrings": {
-                "issue": {
-                  "text": "Expected operator. We expect an operator such as +, *, or & at this point in the formula."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Edit your formula so that it includes an operator between the operands."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrOperandExpected",
-              "messageStrings": {
-                "issue": {
-                  "text": "Expected an operand. The formula or expression expects a valid operand. For example, you can add the operand '2' to the expression ' 1 +_' so that the result is '3'. Or, you can add the operand \"there\" to the expression '\"Hi \"& _ ' so that the result is 'Hi there'."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Supply an operand value that will complete the expression. Ensure that the operand's type (text, number, date, or true/false) fits the expression. Match numbers with numbers, text with text, and so on. For example, '1 + \"Hi\"' isn't valid, but '1 + 2' is valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "app-ErrInvalidName",
               "messageStrings": {
@@ -1318,18 +2115,42 @@
               }
             },
             {
-              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
+              "id": "app-ErrInvalidDot",
               "messageStrings": {
                 "issue": {
-                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
+                  "text": "The '.' operator cannot be used on {0} values."
                 }
               },
               "properties": {
                 "componentType": "app",
-                "howToFix": [
-                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
-                  "If you’re comparing records or tables, the field or column types must match exactly."
-                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrTypeError-Arg-Expected-Found",
+              "messageStrings": {
+                "issue": {
+                  "text": "The type of this argument '{0}' does not match the expected type '{1}'. Found type '{2}'."
+                }
+              },
+              "properties": {
+                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
@@ -1387,23 +2208,6 @@
               }
             },
             {
-              "id": "app-UnusedMediaResources",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unused media files"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove the unused media file in the Media pane."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
-              }
-            },
-            {
               "id": "app-UnusedVariables",
               "messageStrings": {
                 "issue": {
@@ -1418,6 +2222,23 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
+              }
+            },
+            {
+              "id": "app-UnusedMediaResources",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused media files"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused media file in the Media pane."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
               }
             }
           ],

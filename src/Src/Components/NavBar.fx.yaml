@@ -109,7 +109,7 @@ NavBar As CanvasComponent:
                 =Set(varUser, Blank());
                 Navigate(HomeScreen);
             Size: =13
-            Text: ="Booking"
+            Text: ="Logout"
             Visible: =!IsBlank(varUser)
             Width: =80
             ZIndex: =7

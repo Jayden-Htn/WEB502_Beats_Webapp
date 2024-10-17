@@ -176,7 +176,7 @@
                         Y: =0
                         ZIndex: =3
 
-                "Gallery4 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+                "ChildGallery As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
                     BorderColor: =App.Theme.Colors.Darker40
                     DelayItemLoading: =true
                     Height: =220
@@ -207,7 +207,8 @@
                         Height: =50
                         Icon: =Icon.ChevronRight
                         OnSelect: |-
-                            =Set(varChild, Parent);
+                            =Select(Parent);
+                            Set(varChild, ChildGallery.Selected);
                             Navigate(ChildScreen);
                         PaddingBottom: =12
                         PaddingLeft: =12
@@ -272,7 +273,7 @@
                     Text: ="Upcoming Lessons"
                     ZIndex: =1
 
-                Gallery3 As gallery.galleryVertical:
+                LessonGallery As gallery.galleryVertical:
                     BorderColor: =App.Theme.Colors.Darker40
                     DelayItemLoading: =true
                     Height: =180

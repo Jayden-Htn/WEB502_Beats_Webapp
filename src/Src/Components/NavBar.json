@@ -2961,7 +2961,7 @@
               },
               {
                 "Category": "Data",
-                "InvariantScript": "\"Booking\"",
+                "InvariantScript": "\"Logout\"",
                 "Property": "Text",
                 "RuleProviderType": "Unknown"
               },
@@ -3866,7 +3866,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638648019512430443",
+    "LastModifiedTimestamp": "638648019879208622",
     "Name": "NavBar",
     "Rules": [
       {
@@ -3925,7 +3925,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638648019512430443",
+  "LastModifiedTimestamp": "638648019879208622",
   "Name": "704cebd900874ecc844136eeff5e53d8",
   "OverridableProperties": {},
   "Version": "1.0"

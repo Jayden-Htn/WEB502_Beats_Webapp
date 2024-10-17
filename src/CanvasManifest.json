@@ -102,7 +102,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 24,
+    "BindingErrorCount": 17,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -121,7 +121,7 @@
     "ManualOfflineProfileId": "",
     "Name": "Beats Webapp",
     "OriginatingVersion": "1.343",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 9,
     "ShowStatusBar": false
   },
   "PublishInfo": {

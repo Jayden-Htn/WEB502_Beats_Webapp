@@ -105,10 +105,8 @@
                             DisplayMode: |-
                                 =If(
                                     IsBlank(C_Name.Value) || 
-                                    IsBlank(C_Birthday.Value) || 
-                                    IsBlank(C_ExperienceLevel.Value) || 
-                                    IsBlank(R_PhoneNumber_1.Value) || 
-                                    IsBlank(R_Password_1.Value),
+                                    IsBlank(C_BirthdayPicker.SelectedDate) || 
+                                    IsBlank(C_ExperienceDropdown.Selected)
                                     DisplayMode.Disabled,
                                     DisplayMode.Edit
                                 )
@@ -187,16 +185,6 @@
                             X: =125
                             Y: =18
                             ZIndex: =6
-
-                Label15 As label:
-                    BorderColor: =App.Theme.Colors.Darker40
-                    Color: =RGBA(255, 255, 255, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    Font: =App.Theme.Font
-                    Size: =13
-                    Text: |
-                        =varChild.Name
-                    ZIndex: =6
 
         C_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

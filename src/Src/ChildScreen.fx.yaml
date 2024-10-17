@@ -1,7 +1,12 @@
 "ChildScreen As screen.'autoLayout_HeaderFooter_ver1.0'":
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
-    OnVisible: =
+    OnVisible: |-
+        =If(varChild, 
+            Set(C_Name.Value, varChild.Name); 
+            Set(C_BirthdayPicker.Value, varChild.Birthday); 
+            Set(C_ExperienceDropdown.Value, varChild.ExperienceLevel)
+        );
 
     C_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -76,7 +81,7 @@
                 ChildForm As form.PowerApps_CoreControls_Form:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     BorderColor: =App.Theme.Colors.Darker40
-                    DataSource: =Users
+                    DataSource: =Children
                     DefaultMode: =FormMode.New
                     FillPortions: =0
                     Height: =300

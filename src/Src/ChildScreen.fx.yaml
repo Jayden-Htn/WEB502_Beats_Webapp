@@ -112,7 +112,9 @@
                                 )
                             FontWeight: =FontWeight.Normal
                             Height: =32
-                            OnSelect: =Navigate(ProfileScreen);
+                            OnSelect: |-
+                                =ResetForm(ChildForm);
+                                Navigate(ProfileScreen);
                             Text: ="Back"
                             Width: =120
                             X: =64
@@ -120,7 +122,8 @@
                             ZIndex: =1
 
                         C_ExperienceDropdown As Dropdown.pcfdataset:
-                            DefaultSelectedItems: =varChild.ExperienceLevel
+                            DefaultSelectedItems: |-
+                                =[{Value: varChild.ExperienceLevel}]
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Items: =["Beginner", "Elementry", "Intermediate", "Advanced"]
@@ -167,18 +170,6 @@
                             X: =125
                             Y: =18
                             ZIndex: =6
-
-                        Label4 As label:
-                            BorderColor: =App.Theme.Colors.Darker40
-                            Color: =RGBA(255, 255, 255, 1)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            Font: =App.Theme.Font
-                            Size: =13
-                            Text: =varChild.ExperienceLevel
-                            Width: =90
-                            X: =2
-                            Y: =222
-                            ZIndex: =7
 
                         ChildSubmitButton_1 As Button:
                             AccessibleLabel: ="Submit form button"

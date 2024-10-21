@@ -1,7 +1,7 @@
 "ProfileScreen As screen.'autoLayout_HeaderFooter_ver1.0'":
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
-    OnVisible: =Refresh('Children');
+    OnVisible: =Refresh(Children);
 
     P_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -371,4 +371,24 @@
                 Text: ="Built by Jayden Houghton"
                 Width: =200
                 ZIndex: =12
+
+    Timer1 As timer:
+        BorderColor: =App.Theme.Colors.Primary
+        Color: =App.Theme.Colors.PrimaryForeground
+        DisabledBorderColor: =RGBA(244, 244, 244, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Duration: =100
+        Fill: =App.Theme.Colors.Primary
+        Font: =App.Theme.Font
+        HoverBorderColor: =App.Theme.Colors.Darker10
+        HoverColor: =App.Theme.Colors.PrimaryForeground
+        HoverFill: =App.Theme.Colors.Darker10
+        OnTimerEnd: =Refresh(Children);
+        PressedBorderColor: =App.Theme.Colors.Darker40
+        PressedColor: =Self.Color
+        PressedFill: =App.Theme.Colors.Darker40
+        X: =104
+        Y: =604
+        ZIndex: =3
 

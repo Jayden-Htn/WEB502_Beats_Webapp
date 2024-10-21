@@ -494,6 +494,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Email.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Email.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Email"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Password.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Password.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Password"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName.AccessibleLabel"
                 }
               ],
@@ -1058,66 +1118,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Email.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Email.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "LoginScreen",
-                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Email"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Password.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Password.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "LoginScreen",
-                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.L_Password"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
         },
         {
           "locations": [

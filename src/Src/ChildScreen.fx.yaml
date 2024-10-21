@@ -130,7 +130,9 @@
                                 Refresh(Children);
                                 Notify("Child updated!", NotificationType.Success);
                                 ResetForm(ChildForm);
+                                Refresh(Children);
                                 Navigate(ProfileScreen);
+                                Refresh(Children);
                             Text: ="Save"
                             Width: =120
                             X: =215

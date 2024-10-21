@@ -113,7 +113,16 @@
                             FontWeight: =FontWeight.Normal
                             Height: =32
                             OnSelect: |-
-                                =Patch(
+                                =UpdateIf(
+                                    varChildren, 
+                                    ID = varChild.ID,
+                                    { 
+                                        Name: C_Name.Value,
+                                        DoB: C_BirthdayPicker.SelectedDate,
+                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value 
+                                    }
+                                );
+                                Patch(
                                     Children,
                                     Coalesce(
                                         LookUp(Children, ID = varChild.ID),

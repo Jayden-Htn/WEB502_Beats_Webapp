@@ -1,7 +1,7 @@
 "ProfileScreen As screen.'autoLayout_HeaderFooter_ver1.0'":
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
-    OnVisible: =Refresh(Children);
+    OnVisible: =
 
     P_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -168,22 +168,22 @@
                     Icon1 As icon.Link:
                         AlignInContainer: =AlignInContainer.Center
                         BorderColor: =App.Theme.Colors.Darker40
-                        Color: =App.Theme.Colors.Darker30
+                        Color: =RGBA(240, 98, 15, 1)
                         DisabledBorderColor: =RGBA(166, 166, 166, 1)
                         DisabledColor: =RGBA(244, 244, 244, 1)
-                        Height: =40
+                        Height: =30
                         Icon: =Icon.Add
                         OnSelect: |-
                             =Set(varChild, Blank());
                             Navigate(ChildScreen);
-                        Width: =40
+                        Width: =30
                         ZIndex: =4
 
                 "ChildGallery As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
                     BorderColor: =App.Theme.Colors.Darker40
                     DelayItemLoading: =true
                     Height: =220
-                    Items: =Filter(Children, ParentID = varUser.Email)
+                    Items: =varChildren
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =250
                     LayoutMinWidth: =320
@@ -347,6 +347,15 @@
                             =ThisItem.Student
                         ZIndex: =5
 
+                Label7 As label:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =RGBA(0, 0, 0, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =App.Theme.Font
+                    Size: =13
+                    Text: =Text(First(varChildren).Name)
+                    ZIndex: =3
+
         P_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light
@@ -371,25 +380,4 @@
                 Text: ="Built by Jayden Houghton"
                 Width: =200
                 ZIndex: =12
-
-    Timer1 As timer:
-        AutoStart: =true
-        BorderColor: =App.Theme.Colors.Primary
-        Color: =App.Theme.Colors.PrimaryForeground
-        DisabledBorderColor: =RGBA(244, 244, 244, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Duration: =130000
-        Fill: =App.Theme.Colors.Primary
-        Font: =App.Theme.Font
-        HoverBorderColor: =App.Theme.Colors.Darker10
-        HoverColor: =App.Theme.Colors.PrimaryForeground
-        HoverFill: =App.Theme.Colors.Darker10
-        OnTimerEnd: =Refresh(Children);
-        PressedBorderColor: =App.Theme.Colors.Darker40
-        PressedColor: =Self.Color
-        PressedFill: =App.Theme.Colors.Darker40
-        X: =104
-        Y: =604
-        ZIndex: =3
 

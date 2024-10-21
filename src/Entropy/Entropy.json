@@ -105,6 +105,7 @@
     "Label6": 38,
     "Label6_1": 53,
     "Label6_2": 105,
+    "Label7": 148,
     "LblDate": 138,
     "LblDuration": 137,
     "LblName": 136,
@@ -155,12 +156,11 @@
     "Separator5": 126,
     "TextCanvas3": 74,
     "TextCanvas3_1": 76,
-    "Timer1": 146,
     "Title5": 128
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/21/2024 21:36:10",
+  "HeaderLastSavedDateTimeUTC": "10/21/2024 22:45:14",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ade7df42-a62c-4b54-bdbe-bb93e405ba06": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/ed3572af571a4940a7296938aa3e91b3\""
@@ -209,14 +209,13 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "form": 4,
-    "gallery": 7,
+    "gallery": 6,
     "groupContainer": 0,
     "htmlViewer": 3,
     "icon": 5,
     "image": 2,
     "label": 1,
-    "rectangle": 8,
-    "timer": 6
+    "rectangle": 7
   },
   "OverridablePropertiesEntry": {
     "A_Article_1": {},
@@ -311,6 +310,7 @@
     "Label6": {},
     "Label6_1": {},
     "Label6_2": {},
+    "Label7": {},
     "LblDate": {},
     "LblDuration": {},
     "LblName": {},
@@ -361,7 +361,6 @@
     "Separator5": {},
     "TextCanvas3": {},
     "TextCanvas3_1": {},
-    "Timer1": {},
     "Title5": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -684,6 +683,7 @@
     "Label6": 39,
     "Label6_1": 54,
     "Label6_2": 54,
+    "Label7": 0,
     "LblDate": 0,
     "LblDuration": 0,
     "LblName": 0,
@@ -734,7 +734,6 @@
     "Separator5": 0,
     "TextCanvas3": 10,
     "TextCanvas3_1": 12,
-    "Timer1": 0,
     "Title5": 0
   },
   "ResourcesJsonIndices": {

@@ -134,6 +134,7 @@
                                     );
                                     Notify("Registration Successful!", NotificationType.Success);
                                     ResetForm(RegisterForm);
+                                    ClearCollect(varChildren, Filter(Children, ParentID = varUser.Email));
                                     Navigate(ProfileScreen),
                                     Notify("Email already in use.", NotificationType.Error)
                                 );

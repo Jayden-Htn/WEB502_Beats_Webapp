@@ -8,7 +8,7 @@
     },
     "ConnectedDataSourceInfoNameMapping": {
       "__PowerAppsId__": "__PowerAppsId__",
-      "Birthday": "Birthday",
+      "DoB": "DoB",
       "ExperienceLevel": "ExperienceLevel",
       "Name": "Name",
       "Notes": "Notes",

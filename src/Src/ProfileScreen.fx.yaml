@@ -164,17 +164,17 @@
                         Text: ="Children"
                         ZIndex: =1
 
-                    Icon3 As Icon:
+                    Icon1 As icon.Link:
                         AlignInContainer: =AlignInContainer.Center
-                        DisplayMode: =DisplayMode.Edit
-                        Height: =32
-                        IconStyle: ='Icon.IconStyle'.Filled
-                        LayoutMinHeight: =32
-                        LayoutMinWidth: =32
-                        Width: =32
-                        X: =0
-                        Y: =0
-                        ZIndex: =3
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Color: =App.Theme.Colors.Darker30
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(244, 244, 244, 1)
+                        Height: =40
+                        Icon: =Icon.Add
+                        OnSelect: =Set(varChild, Blank());
+                        Width: =40
+                        ZIndex: =4
 
                 "ChildGallery As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
                     BorderColor: =App.Theme.Colors.Darker40
@@ -182,6 +182,8 @@
                     Height: =220
                     Items: =Filter(Children, ParentID = varUser.Email)
                     Layout: =Layout.Vertical
+                    LayoutMinHeight: =287
+                    LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0
                     TemplateSize: =70

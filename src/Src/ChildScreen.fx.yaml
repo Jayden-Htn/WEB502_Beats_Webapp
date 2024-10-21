@@ -186,6 +186,17 @@
                             Y: =18
                             ZIndex: =6
 
+                        Label4 As label:
+                            BorderColor: =App.Theme.Colors.Darker40
+                            Color: =RGBA(0, 0, 0, 1)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            Font: =App.Theme.Font
+                            Size: =13
+                            Text: =varChild.ExperienceLevel
+                            X: =24
+                            Y: =242
+                            ZIndex: =7
+
         C_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light

@@ -100,7 +100,7 @@
                         Y: =0
                         ZIndex: =6
 
-                        ChildSubmitButton As Button:
+                        ChildBackButton As Button:
                             AccessibleLabel: ="Submit form button"
                             DisplayMode: =DisplayMode.Edit
                             FontWeight: =FontWeight.Normal
@@ -164,7 +164,7 @@
                             Y: =18
                             ZIndex: =6
 
-                        ChildSubmitButton_1 As Button:
+                        ChildButton As Button:
                             AccessibleLabel: ="Submit form button"
                             DisplayMode: |-
                                 =If(
@@ -183,7 +183,9 @@
                                     {
                                         Name: C_Name.Value,
                                         DoB: C_BirthdayPicker.SelectedDate,
-                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value
+                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value,
+                                        ParentID: varUser.Email,
+                                        Notes: varChild.Notes
                                     }
                                 );
                                 Notify("Child updated!", NotificationType.Success);

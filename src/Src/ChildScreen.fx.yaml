@@ -102,14 +102,7 @@
 
                         ChildSubmitButton As Button:
                             AccessibleLabel: ="Submit form button"
-                            DisplayMode: |-
-                                =If(
-                                    IsBlank(C_Name.Value) || 
-                                    IsBlank(C_BirthdayPicker.SelectedDate) || 
-                                    IsBlank(C_ExperienceDropdown.Selected)
-                                    DisplayMode.Disabled,
-                                    DisplayMode.Edit
-                                )
+                            DisplayMode: =DisplayMode.Edit
                             FontWeight: =FontWeight.Normal
                             Height: =32
                             OnSelect: |-
@@ -177,7 +170,7 @@
                                 =If(
                                     IsBlank(C_Name.Value) || 
                                     IsBlank(C_BirthdayPicker.SelectedDate) || 
-                                    IsBlank(C_ExperienceDropdown.Selected)
+                                    IsBlank(C_ExperienceDropdown.Selected),
                                     DisplayMode.Disabled,
                                     DisplayMode.Edit
                                 )

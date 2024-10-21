@@ -14,1056 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 128,
-                  "snippet": {
-                    "text": "DisplayMode"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 139,
-                  "snippet": {
-                    "text": "."
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 140,
-                  "snippet": {
-                    "text": "Disabled"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 148,
-                  "snippet": {
-                    "text": ","
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 154,
-                  "snippet": {
-                    "text": "DisplayMode"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 165,
-                  "snippet": {
-                    "text": "."
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 166,
-                  "snippet": {
-                    "text": "Edit"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 171,
-                  "snippet": {
-                    "text": ")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charOffset": 172,
-                  "snippet": {
-                    "text": ""
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Eof",
-              "ParenClose"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 166,
-                  "snippet": {
-                    "text": "Edit"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 154,
-                  "snippet": {
-                    "text": "DisplayMode"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 140,
-                  "snippet": {
-                    "text": "Disabled"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 128,
-                  "snippet": {
-                    "text": "DisplayMode"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 2,
-                  "snippet": {
-                    "text": "("
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArityMinimum",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 128,
-                  "snippet": {
-                    "text": "DisplayMode"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 139,
-                  "snippet": {
-                    "text": "."
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 140,
-                  "snippet": {
-                    "text": "Disabled"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 148,
-                  "snippet": {
-                    "text": ","
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 154,
-                  "snippet": {
-                    "text": "DisplayMode"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 165,
-                  "snippet": {
-                    "text": "."
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 166,
-                  "snippet": {
-                    "text": "Edit"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 171,
-                  "snippet": {
-                    "text": ")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charOffset": 172,
-                  "snippet": {
-                    "text": ""
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Eof",
-              "ParenClose"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 166,
-                  "snippet": {
-                    "text": "Edit"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 154,
-                  "snippet": {
-                    "text": "DisplayMode"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 140,
-                  "snippet": {
-                    "text": "Disabled"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 128,
-                  "snippet": {
-                    "text": "DisplayMode"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 2,
-                  "snippet": {
-                    "text": "("
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "ChildScreen",
-                "type": "ChildScreen.C_ScreenWrapper.C_Body.FormContainer1_2.ChildForm.ChildCard.ChildSubmitButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArityMinimum",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "NavBar.Links.HomeLabel.FocusedBorderThickness"
                 }
               ],
@@ -1087,7 +37,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1117,7 +67,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1147,7 +97,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1177,7 +127,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1207,7 +157,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1237,7 +187,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1267,7 +217,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1297,7 +247,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1327,7 +277,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1357,7 +307,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1387,7 +337,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1417,7 +367,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1447,7 +397,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1477,7 +427,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1507,7 +457,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1537,7 +487,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1567,7 +517,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1597,7 +547,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1627,7 +577,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1657,7 +607,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1687,7 +637,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1717,7 +667,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1747,7 +697,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1777,7 +727,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1807,7 +757,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1837,7 +787,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1867,7 +817,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1897,7 +847,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1927,7 +877,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1957,7 +907,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1987,7 +937,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2017,7 +967,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2047,7 +997,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2077,7 +1027,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2107,7 +1057,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2137,7 +1087,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2167,7 +1117,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2197,7 +1147,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2227,7 +1177,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 8
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -2257,7 +1207,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 8
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -2287,7 +1237,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 8
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -2317,7 +1267,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 8
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -2347,7 +1297,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2377,7 +1327,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -2385,71 +1335,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrOperatorExpected",
-              "messageStrings": {
-                "issue": {
-                  "text": "Expected operator. We expect an operator such as +, *, or & at this point in the formula."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Edit your formula so that it includes an operator between the operands."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrBadToken",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrExpectedFound-Ex-Fnd",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters with an expected character."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrBadArityMinimum",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid number of arguments: received {0}, expected {1} or more."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "acc-FocusBorderShouldBeVisible",
               "messageStrings": {

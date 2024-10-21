@@ -105,7 +105,6 @@
     "Label6": 38,
     "Label6_1": 53,
     "Label6_2": 105,
-    "Label7": 148,
     "LblDate": 138,
     "LblDuration": 137,
     "LblName": 136,
@@ -160,7 +159,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/21/2024 22:45:22",
+  "HeaderLastSavedDateTimeUTC": "10/21/2024 22:45:29",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ade7df42-a62c-4b54-bdbe-bb93e405ba06": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/ed3572af571a4940a7296938aa3e91b3\""
@@ -310,7 +309,6 @@
     "Label6": {},
     "Label6_1": {},
     "Label6_2": {},
-    "Label7": {},
     "LblDate": {},
     "LblDuration": {},
     "LblName": {},
@@ -683,7 +681,6 @@
     "Label6": 39,
     "Label6_1": 54,
     "Label6_2": 54,
-    "Label7": 0,
     "LblDate": 0,
     "LblDuration": 0,
     "LblName": 0,

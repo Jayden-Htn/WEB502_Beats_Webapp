@@ -347,15 +347,6 @@
                             =ThisItem.Student
                         ZIndex: =5
 
-                Label7 As label:
-                    BorderColor: =App.Theme.Colors.Darker40
-                    Color: =RGBA(0, 0, 0, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    Font: =App.Theme.Font
-                    Size: =13
-                    Text: =Text(First(varChildren).Name)
-                    ZIndex: =3
-
         P_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light

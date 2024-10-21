@@ -100,6 +100,43 @@
                         Y: =0
                         ZIndex: =6
 
+                        ChildSaveButton As Button:
+                            AccessibleLabel: ="Submit form button"
+                            DisplayMode: |-
+                                =If(
+                                    IsBlank(C_Name.Value) || 
+                                    IsBlank(C_BirthdayPicker.SelectedDate) || 
+                                    IsBlank(C_ExperienceDropdown.Selected),
+                                    DisplayMode.Disabled,
+                                    DisplayMode.Edit
+                                )
+                            FontWeight: =FontWeight.Normal
+                            Height: =32
+                            OnSelect: |-
+                                =Patch(
+                                    Children,
+                                    Coalesce(
+                                        LookUp(Children, ID = varChild.ID),
+                                        Defaults(Children)
+                                    ),
+                                    {
+                                        Name: C_Name.Value,
+                                        DoB: C_BirthdayPicker.SelectedDate,
+                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value,
+                                        ParentID: varUser.Email,
+                                        Notes: varChild.Notes
+                                    }
+                                );
+                                Notify("Child updated!", NotificationType.Success);
+                                ResetForm(ChildForm);
+                                Refresh();
+                                Navigate(ProfileScreen);
+                            Text: ="Save"
+                            Width: =120
+                            X: =215
+                            Y: =250
+                            ZIndex: =1
+
                         ChildBackButton As Button:
                             AccessibleLabel: ="Submit form button"
                             DisplayMode: =DisplayMode.Edit
@@ -112,7 +149,7 @@
                             Width: =120
                             X: =64
                             Y: =250
-                            ZIndex: =1
+                            ZIndex: =2
 
                         C_ExperienceDropdown As Dropdown.pcfdataset:
                             DefaultSelectedItems: |-
@@ -124,7 +161,7 @@
                             Width: =320
                             X: =40
                             Y: =190
-                            ZIndex: =2
+                            ZIndex: =3
 
                         "C_BirthdayPicker As 'Date picker'":
                             DisplayMode: =DisplayMode.Edit
@@ -134,7 +171,7 @@
                             Width: =320
                             X: =40
                             Y: =131
-                            ZIndex: =3
+                            ZIndex: =4
 
                         "C_Name As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
@@ -163,39 +200,6 @@
                             X: =125
                             Y: =18
                             ZIndex: =6
-
-                        ChildButton As Button:
-                            AccessibleLabel: ="Submit form button"
-                            DisplayMode: |-
-                                =If(
-                                    IsBlank(C_Name.Value) || 
-                                    IsBlank(C_BirthdayPicker.SelectedDate) || 
-                                    IsBlank(C_ExperienceDropdown.Selected),
-                                    DisplayMode.Disabled,
-                                    DisplayMode.Edit
-                                )
-                            FontWeight: =FontWeight.Normal
-                            Height: =32
-                            OnSelect: |-
-                                =Patch(
-                                    Children,
-                                    Defaults(Children),
-                                    {
-                                        Name: C_Name.Value,
-                                        DoB: C_BirthdayPicker.SelectedDate,
-                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value,
-                                        ParentID: varUser.Email,
-                                        Notes: varChild.Notes
-                                    }
-                                );
-                                Notify("Child updated!", NotificationType.Success);
-                                ResetForm(ChildForm);
-                                Navigate(ProfileScreen);
-                            Text: ="Save"
-                            Width: =120
-                            X: =215
-                            Y: =250
-                            ZIndex: =8
 
         C_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

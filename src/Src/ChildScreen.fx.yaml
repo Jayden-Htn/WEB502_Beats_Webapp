@@ -198,15 +198,13 @@
                                     Defaults(Children),
                                     {
                                         Name: C_Name.Value,
-                                        DoB: C_BirthdayPicker.Value,
-                                        ExperienceLevel: C_ExperienceDropdown.Value,
+                                        DoB: C_BirthdayPicker.SelectedDate,
+                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value
                                     }
                                 );
-                                    Notify("Registration Successful!", NotificationType.Success);
-                                    ResetForm(ChildForm);
-                                    Navigate(ProfileScreen),
-                                    Notify("Email already in use.", NotificationType.Error)
-                                );
+                                Notify("Child updated!", NotificationType.Success);
+                                ResetForm(ChildForm);
+                                Navigate(ProfileScreen);
                             Text: ="Save"
                             Width: =120
                             X: =215

@@ -7219,7 +7219,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "60000",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Duration",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -7229,6 +7229,14 @@
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "false",
           "InvariantPropertyName": "OnTimerEnd",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "AutoStart",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -7255,7 +7263,12 @@
         {
           "Category": "Data",
           "PropertyName": "Duration",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "AutoStart",
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",

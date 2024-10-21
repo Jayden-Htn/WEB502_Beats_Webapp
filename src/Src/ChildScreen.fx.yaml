@@ -193,19 +193,15 @@
                             FontWeight: =FontWeight.Normal
                             Height: =32
                             OnSelect: |-
-                                =If(
-                                    IsBlank(varUser),
-                                    Patch(
-                                        Users,
-                                        Defaults(Users),
-                                        {
-                                            FirstName: C_Name.Value,
-                                            LastName: C_Birthday.Value,
-                                            Email: C_ExperienceLevel.Value,
-                                            PhoneNumber: R_PhoneNumber_1.Value,
-                                            Password: R_Password_1.Value
-                                        }
-                                    );
+                                =Patch(
+                                    Children,
+                                    Defaults(Children),
+                                    {
+                                        Name: C_Name.Value,
+                                        DoB: C_BirthdayPicker.Value,
+                                        ExperienceLevel: C_ExperienceDropdown.Value,
+                                    }
+                                );
                                     Notify("Registration Successful!", NotificationType.Success);
                                     ResetForm(ChildForm);
                                     Navigate(ProfileScreen),

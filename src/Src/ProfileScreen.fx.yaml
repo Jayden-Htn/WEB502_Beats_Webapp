@@ -95,8 +95,9 @@
 
                 Details As groupContainer.verticalAutoLayoutContainer:
                     DropShadow: =DropShadow.Light
+                    FillPortions: =1.5
                     LayoutDirection: =LayoutDirection.Vertical
-                    LayoutMinHeight: =100
+                    LayoutMinHeight: =120
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
                     RadiusBottomLeft: =4
@@ -184,7 +185,7 @@
                     Height: =220
                     Items: =Filter(Children, ParentID = varUser.Email)
                     Layout: =Layout.Vertical
-                    LayoutMinHeight: =287
+                    LayoutMinHeight: =250
                     LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0

@@ -112,28 +112,10 @@
                                 )
                             FontWeight: =FontWeight.Normal
                             Height: =32
-                            OnSelect: |-
-                                =If(
-                                    IsBlank(varUser),
-                                    Patch(
-                                        Users,
-                                        Defaults(Users),
-                                        {
-                                            FirstName: C_Name.Value,
-                                            LastName: C_Birthday.Value,
-                                            Email: C_ExperienceLevel.Value,
-                                            PhoneNumber: R_PhoneNumber_1.Value,
-                                            Password: R_Password_1.Value
-                                        }
-                                    );
-                                    Notify("Registration Successful!", NotificationType.Success);
-                                    ResetForm(ChildForm);
-                                    Navigate(ProfileScreen),
-                                    Notify("Email already in use.", NotificationType.Error)
-                                );
-                            Text: ="Submit"
+                            OnSelect: =Navigate(ProfileScreen);
+                            Text: ="Back"
                             Width: =120
-                            X: =140
+                            X: =64
                             Y: =250
                             ZIndex: =1
 
@@ -188,14 +170,52 @@
 
                         Label4 As label:
                             BorderColor: =App.Theme.Colors.Darker40
-                            Color: =RGBA(0, 0, 0, 1)
+                            Color: =RGBA(255, 255, 255, 1)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             Font: =App.Theme.Font
                             Size: =13
                             Text: =varChild.ExperienceLevel
-                            X: =24
-                            Y: =242
+                            Width: =90
+                            X: =2
+                            Y: =222
                             ZIndex: =7
+
+                        ChildSubmitButton_1 As Button:
+                            AccessibleLabel: ="Submit form button"
+                            DisplayMode: |-
+                                =If(
+                                    IsBlank(C_Name.Value) || 
+                                    IsBlank(C_BirthdayPicker.SelectedDate) || 
+                                    IsBlank(C_ExperienceDropdown.Selected)
+                                    DisplayMode.Disabled,
+                                    DisplayMode.Edit
+                                )
+                            FontWeight: =FontWeight.Normal
+                            Height: =32
+                            OnSelect: |-
+                                =If(
+                                    IsBlank(varUser),
+                                    Patch(
+                                        Users,
+                                        Defaults(Users),
+                                        {
+                                            FirstName: C_Name.Value,
+                                            LastName: C_Birthday.Value,
+                                            Email: C_ExperienceLevel.Value,
+                                            PhoneNumber: R_PhoneNumber_1.Value,
+                                            Password: R_Password_1.Value
+                                        }
+                                    );
+                                    Notify("Registration Successful!", NotificationType.Success);
+                                    ResetForm(ChildForm);
+                                    Navigate(ProfileScreen),
+                                    Notify("Email already in use.", NotificationType.Error)
+                                );
+                            Text: ="Save"
+                            Width: =120
+                            X: =215
+                            Y: =250
+                            ZIndex: =8
 
         C_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

@@ -122,26 +122,37 @@
                                         ExperienceLevel: C_ExperienceDropdown.Selected.Value 
                                     }
                                 );
-                                Patch(
-                                    Children,
-                                    Coalesce(
-                                        LookUp(Children, ID = varChild.ID),
-                                        Defaults(Children)
+                                If(
+                                    IsBlank(varChild.ID), 
+                                    // Create a new record if ID is blank
+                                    Set(varID, Last(Children).ID+1);
+                                    Patch(
+                                        Children,
+                                        Defaults(Children),
+                                        {
+                                            ID: varID,
+                                            Name: C_Name.Value,
+                                            DoB: C_BirthdayPicker.SelectedDate,
+                                            ExperienceLevel: C_ExperienceDropdown.Selected.Value,
+                                            ParentID: varUser.Email
+                                        }
                                     ),
-                                    {
-                                        Name: C_Name.Value,
-                                        DoB: C_BirthdayPicker.SelectedDate,
-                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value,
-                                        ParentID: varUser.Email,
-                                        Notes: varChild.Notes
-                                    }
+                                    // Update existing record if ID exists
+                                    Patch(
+                                        Children,
+                                        LookUp(Children, ID = varChild.ID),
+                                        {
+                                            Name: C_Name.Value,
+                                            DoB: C_BirthdayPicker.SelectedDate,
+                                            ExperienceLevel: C_ExperienceDropdown.Selected.Value,
+                                            ParentID: varUser.Email,
+                                            Notes: varChild.Notes
+                                        }
+                                    )
                                 );
-                                Refresh(Children);
                                 Notify("Child updated!", NotificationType.Success);
                                 ResetForm(ChildForm);
-                                Refresh(Children);
                                 Navigate(ProfileScreen);
-                                Refresh(Children);
                             Text: ="Save"
                             Width: =120
                             X: =215

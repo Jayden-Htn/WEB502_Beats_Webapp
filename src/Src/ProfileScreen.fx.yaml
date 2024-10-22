@@ -343,8 +343,7 @@
                         Font: =App.Theme.Font
                         OnSelect: =Select(Parent)
                         Size: =16
-                        Text: |
-                            =ThisItem.Student
+                        Text: =LookUp(varChildren, ID = ThisItem.StudentID, Name)
                         ZIndex: =5
 
         P_Footer As groupContainer.horizontalAutoLayoutContainer:

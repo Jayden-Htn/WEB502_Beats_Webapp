@@ -1,6 +1,9 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =Set(varUser, Blank())
+    OnStart: |-
+        =Set(varUser, Blank());
+        Set(varID, Blank());
+        Clear(varChildren);
     Theme: =Beats
 
     Host As hostControl.DefaultHostControlVariant:

@@ -113,19 +113,20 @@
                             FontWeight: =FontWeight.Normal
                             Height: =32
                             OnSelect: |-
-                                =UpdateIf(
-                                    varChildren, 
-                                    ID = varChild.ID,
-                                    { 
-                                        Name: C_Name.Value,
-                                        DoB: C_BirthdayPicker.SelectedDate,
-                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value 
-                                    }
-                                );
-                                If(
-                                    IsBlank(varChild.ID), 
-                                    // Create a new record if ID is blank
+                                =If(
+                                    IsBlank(varChild),
+                                    // Create new
                                     Set(varID, Last(Children).ID+1);
+                                    Set(
+                                        varChildren, 
+                                        { 
+                                            ID: varID,
+                                            Name: C_Name.Value,
+                                            DoB: C_BirthdayPicker.SelectedDate,
+                                            ExperienceLevel: C_ExperienceDropdown.Selected.Value,
+                                            ParentID: varUser.Email
+                                        }
+                                    );
                                     Patch(
                                         Children,
                                         Defaults(Children),
@@ -138,6 +139,15 @@
                                         }
                                     ),
                                     // Update existing record if ID exists
+                                    UpdateIf(
+                                        varChildren, 
+                                        ID = varChild.ID,
+                                        { 
+                                            Name: C_Name.Value,
+                                            DoB: C_BirthdayPicker.SelectedDate,
+                                            ExperienceLevel: C_ExperienceDropdown.Selected.Value 
+                                        }
+                                    );
                                     Patch(
                                         Children,
                                         LookUp(Children, ID = varChild.ID),

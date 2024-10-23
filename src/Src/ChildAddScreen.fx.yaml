@@ -114,9 +114,11 @@
                             Height: =32
                             OnSelect: |-
                                 =Set(varID, If(IsEmpty(Children), 1, Last(Children).ID + 1)); 
-                                Set(
-                                    varChildren, 
-                                    { 
+                                // Local data
+                                Patch(
+                                    varChildren,
+                                    Defaults(Children),
+                                    {
                                         ID: varID,
                                         Name: CA_Name.Value,
                                         DoB: CA_BirthdayPicker.SelectedDate,
@@ -124,6 +126,7 @@
                                         ParentID: varUser.Email
                                     }
                                 );
+                                // Excel database
                                 Patch(
                                     Children,
                                     Defaults(Children),
@@ -140,23 +143,9 @@
                                 Navigate(ProfileScreen);
                             Text: ="Save"
                             Width: =120
-                            X: =215
-                            Y: =250
+                            X: =140
+                            Y: =247
                             ZIndex: =1
-
-                        CA_BackButton As Button:
-                            AccessibleLabel: ="Submit form button"
-                            DisplayMode: =DisplayMode.Edit
-                            FontWeight: =FontWeight.Normal
-                            Height: =32
-                            OnSelect: |-
-                                =ResetForm(ChildAddForm);
-                                Navigate(ProfileScreen);
-                            Text: ="Back"
-                            Width: =120
-                            X: =64
-                            Y: =250
-                            ZIndex: =2
 
                         CA_ExperienceDropdown As Dropdown.pcfdataset:
                             DefaultSelectedItems: |-
@@ -208,6 +197,21 @@
                             X: =125
                             Y: =18
                             ZIndex: =6
+
+                        Icon3_1 As icon.ArrowLeft:
+                            BorderColor: =App.Theme.Colors.Darker40
+                            Color: =RGBA(240, 98, 15, 1)
+                            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                            DisabledColor: =RGBA(244, 244, 244, 1)
+                            Height: =32
+                            Icon: =Icon.ArrowLeft
+                            OnSelect: |-
+                                =ResetForm(ChildAddForm);
+                                Navigate(ProfileScreen);
+                            Width: =32
+                            X: =40
+                            Y: =26
+                            ZIndex: =7
 
         CA_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

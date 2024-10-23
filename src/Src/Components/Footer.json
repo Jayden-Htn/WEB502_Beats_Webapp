@@ -156,7 +156,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Box",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 104,
+            "PublishOrderIndex": 147,
             "Rules": [
               {
                 "Category": "Data",
@@ -505,7 +505,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Footer",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 103,
+        "PublishOrderIndex": 146,
         "Rules": [
           {
             "Category": "Design",

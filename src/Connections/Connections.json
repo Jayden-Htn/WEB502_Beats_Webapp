@@ -21,9 +21,9 @@
       }
     },
     "dataSources": [
-      "Users",
       "Lessons",
-      "Children"
+      "Children",
+      "Users"
     ],
     "dependencies": {},
     "dependents": [],

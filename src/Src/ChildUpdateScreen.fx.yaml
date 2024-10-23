@@ -126,31 +126,7 @@
                                 )
                             FontWeight: =FontWeight.Normal
                             Height: =32
-                            OnSelect: |-
-                                =// Update existing record if ID exists
-                                UpdateIf(
-                                    varChildren, 
-                                    ID = varChild.ID,
-                                    { 
-                                        Name: CU_Name.Value,
-                                        DoB: CU_BirthdayPicker.SelectedDate,
-                                        ExperienceLevel: CU_ExperienceDropdown.Selected.Value 
-                                    }
-                                );
-                                Patch(
-                                    Children,
-                                    LookUp(Children, ID = varChild.ID),
-                                    {
-                                        Name: CU_Name.Value,
-                                        DoB: CU_BirthdayPicker.SelectedDate,
-                                        ExperienceLevel: CU_ExperienceDropdown.Selected.Value,
-                                        ParentID: varUser.Email,
-                                        Notes: varChild.Notes
-                                    }
-                                );
-                                Notify("Child updated!", NotificationType.Success);
-                                ResetForm(ChildForm_1);
-                                Navigate(ProfileScreen);
+                            OnSelect: =
                             Text: ="Save"
                             Width: =120
                             X: =215

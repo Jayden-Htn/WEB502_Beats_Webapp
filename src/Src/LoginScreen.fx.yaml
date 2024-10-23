@@ -121,7 +121,7 @@
                                 If(
                                     !IsBlank(varUser) && varUser.Password = Trim(L_Password.Value),
                                     Notify("Login Successful!", NotificationType.Success);
-                                    ClearCollect(varChildren, Filter(Children, ParentID = varUser.Email));
+                                    // ClearCollect(varChildren, Filter(Children, ParentID = varUser.Email));
                                     Navigate(ProfileScreen),
                                     Notify("Invalid Username or Password!", NotificationType.Error)
                                 );
@@ -166,6 +166,68 @@
                             X: =125
                             Y: =18
                             ZIndex: =4
+
+                        Label4 As label:
+                            BorderColor: =App.Theme.Colors.Darker40
+                            Color: =RGBA(0, 0, 0, 1)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            Font: =App.Theme.Font
+                            Size: =13
+                            Text: =First(Filter(Children, ParentID = varUser.Email)).ID
+                            X: =26
+                            Y: =180
+                            ZIndex: =5
+
+                        Label4_1 As label:
+                            BorderColor: =App.Theme.Colors.Darker40
+                            Color: =RGBA(0, 0, 0, 1)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            Font: =App.Theme.Font
+                            Size: =13
+                            Text: =varUser.Email
+                            X: =250
+                            Y: =180
+                            ZIndex: =6
+
+                        Label7 As label:
+                            BorderColor: =App.Theme.Colors.Darker40
+                            Color: =RGBA(255, 255, 255, 1)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            Font: =App.Theme.Font
+                            Size: =13
+                            Text: =Trim(L_Email.Value)
+                            X: =250
+                            Y: =7
+                            ZIndex: =7
+
+                        Label8 As label:
+                            BorderColor: =App.Theme.Colors.Darker40
+                            Color: =RGBA(255, 255, 255, 1)
+                            DisabledColor: =RGBA(255, 255, 255, 1)
+                            Font: =App.Theme.Font
+                            Size: =13
+                            Text: =LookUp(Users, Email = Trim(L_Email.Value)).Email
+                            X: =26
+                            Y: =7
+                            ZIndex: =8
+
+                Label9 As label:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =RGBA(0, 0, 0, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =App.Theme.Font
+                    Size: =13
+                    Text: =IsBlank(varUser)
+                    ZIndex: =7
+
+                Label10 As label:
+                    BorderColor: =App.Theme.Colors.Darker40
+                    Color: =RGBA(0, 0, 0, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Font: =App.Theme.Font
+                    Size: =13
+                    Text: =varUser.Email
+                    ZIndex: =8
 
         L_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

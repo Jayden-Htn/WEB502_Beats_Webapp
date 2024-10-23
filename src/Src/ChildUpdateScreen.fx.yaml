@@ -29,7 +29,22 @@
         Width: =1366
         ZIndex: =2
 
-        C_Body_1 As groupContainer.verticalAutoLayoutContainer:
+        CU_Header As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =1
+
+            NavBar_7 As NavBar:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+
+        CU_Body As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
             LayoutDirection: =LayoutDirection.Vertical
             LayoutGap: =
@@ -85,7 +100,64 @@
                         Y: =0
                         ZIndex: =5
 
-                        "C_BirthdayPicker_1 As 'Date picker'":
+                        CU_BackButton As Button:
+                            AccessibleLabel: ="Submit form button"
+                            DisplayMode: =DisplayMode.Edit
+                            FontWeight: =FontWeight.Normal
+                            Height: =32
+                            OnSelect: |-
+                                =ResetForm(ChildForm_1);
+                                Navigate(ProfileScreen);
+                            Text: ="Back"
+                            Width: =120
+                            X: =64
+                            Y: =250
+                            ZIndex: =1
+
+                        CU_SaveButton As Button:
+                            AccessibleLabel: ="Submit form button"
+                            DisplayMode: |-
+                                =If(
+                                    IsBlank(CU_Name.Value) || 
+                                    IsBlank(CU_BirthdayPicker.SelectedDate) || 
+                                    IsBlank(CU_ExperienceDropdown.Selected),
+                                    DisplayMode.Disabled,
+                                    DisplayMode.Edit
+                                )
+                            FontWeight: =FontWeight.Normal
+                            Height: =32
+                            OnSelect: |-
+                                =// Update existing record if ID exists
+                                UpdateIf(
+                                    varChildren, 
+                                    ID = varChild.ID,
+                                    { 
+                                        Name: CU_Name.Value,
+                                        DoB: CU_BirthdayPicker.SelectedDate,
+                                        ExperienceLevel: CU_ExperienceDropdown.Selected.Value 
+                                    }
+                                );
+                                Patch(
+                                    Children,
+                                    LookUp(Children, ID = varChild.ID),
+                                    {
+                                        Name: CU_Name.Value,
+                                        DoB: CU_BirthdayPicker.SelectedDate,
+                                        ExperienceLevel: CU_ExperienceDropdown.Selected.Value,
+                                        ParentID: varUser.Email,
+                                        Notes: varChild.Notes
+                                    }
+                                );
+                                Notify("Child updated!", NotificationType.Success);
+                                ResetForm(ChildForm_1);
+                                Navigate(ProfileScreen);
+                            Text: ="Save"
+                            Width: =120
+                            X: =215
+                            Y: =250
+                            ZIndex: =2
+
+                        "CU_BirthdayPicker As 'Date picker'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Date of birth"
@@ -93,9 +165,9 @@
                             Width: =320
                             X: =40
                             Y: =131
-                            ZIndex: =6
+                            ZIndex: =3
 
-                        C_ExperienceDropdown_1 As Dropdown.pcfdataset:
+                        CU_ExperienceDropdown As Dropdown.pcfdataset:
                             DefaultSelectedItems: |-
                                 =[{Value: varChild.ExperienceLevel}]
                             DisplayMode: =DisplayMode.Edit
@@ -105,7 +177,7 @@
                             Width: =320
                             X: =40
                             Y: =190
-                            ZIndex: =7
+                            ZIndex: =4
 
                         Label6_3 As label:
                             Align: =Align.Center
@@ -118,12 +190,13 @@
                             PaddingRight: =0
                             PaddingTop: =0
                             Size: =20
-                            Text: ="Child"
-                            X: =125
-                            Y: =18
-                            ZIndex: =8
+                            Text: ="Update Child"
+                            Width: =200
+                            X: =100
+                            Y: =16
+                            ZIndex: =5
 
-                        "C_Name_1 As 'Text input'":
+                        "CU_Name As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             OnChange: |-
@@ -133,107 +206,9 @@
                             Width: =320
                             X: =40
                             Y: =72
-                            ZIndex: =9
+                            ZIndex: =6
 
-                        ChildBackButton_1 As Button:
-                            AccessibleLabel: ="Submit form button"
-                            DisplayMode: =DisplayMode.Edit
-                            FontWeight: =FontWeight.Normal
-                            Height: =32
-                            OnSelect: |-
-                                =ResetForm(ChildForm_1);
-                                Navigate(ProfileScreen);
-                            Text: ="Back"
-                            Width: =120
-                            X: =64
-                            Y: =250
-                            ZIndex: =10
-
-                        ChildSaveButton_1 As Button:
-                            AccessibleLabel: ="Submit form button"
-                            DisplayMode: |-
-                                =If(
-                                    IsBlank(C_Name_1.Value) || 
-                                    IsBlank(C_BirthdayPicker_1.SelectedDate) || 
-                                    IsBlank(C_ExperienceDropdown_1.Selected),
-                                    DisplayMode.Disabled,
-                                    DisplayMode.Edit
-                                )
-                            FontWeight: =FontWeight.Normal
-                            Height: =32
-                            OnSelect: |-
-                                =If(
-                                    !IsBlank(varChild.ID),
-                                    // Update existing record if ID exists
-                                    UpdateIf(
-                                        varChildren, 
-                                        ID = varChild.ID,
-                                        { 
-                                            Name: C_Name_1.Value,
-                                            DoB: C_BirthdayPicker_1.SelectedDate,
-                                            ExperienceLevel: C_ExperienceDropdown_1.Selected.Value 
-                                        }
-                                    );
-                                    Patch(
-                                        Children,
-                                        LookUp(Children, ID = varChild.ID),
-                                        {
-                                            Name: C_Name_1.Value,
-                                            DoB: C_BirthdayPicker_1.SelectedDate,
-                                            ExperienceLevel: C_ExperienceDropdown_1.Selected.Value,
-                                            ParentID: varUser.Email,
-                                            Notes: varChild.Notes
-                                        }
-                                    ),
-                                    // Create new record
-                                    Set(varID, If(IsEmpty(Children), 1, Last(Children).ID + 1)); 
-                                    Set(
-                                        varChildren, 
-                                        { 
-                                            ID: varID,
-                                            Name: C_Name_1.Value,
-                                            DoB: C_BirthdayPicker_1.SelectedDate,
-                                            ExperienceLevel: C_ExperienceDropdown_1.Selected.Value,
-                                            ParentID: varUser.Email
-                                        }
-                                    );
-                                    Patch(
-                                        Children,
-                                        Defaults(Children),
-                                        {
-                                            ID: varID,
-                                            Name: C_Name_1.Value,
-                                            DoB: C_BirthdayPicker_1.SelectedDate,
-                                            ExperienceLevel: C_ExperienceDropdown_1.Selected.Value,
-                                            ParentID: varUser.Email
-                                        }
-                                    )
-                                );
-                                Notify("Child updated!", NotificationType.Success);
-                                ResetForm(ChildForm_1);
-                                Navigate(ProfileScreen);
-                            Text: ="Save"
-                            Width: =120
-                            X: =215
-                            Y: =250
-                            ZIndex: =11
-
-        C_Header_1 As groupContainer.horizontalAutoLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
-            DropShadow: =DropShadow.Light
-            Fill: =RGBA(255, 255, 255, 1)
-            FillPortions: =0
-            Height: =75
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            ZIndex: =12
-
-            NavBar_Unauthorised_3 As NavBar:
-                LayoutMinHeight: =640
-                LayoutMinWidth: =640
-
-        C_Footer_1 As groupContainer.horizontalAutoLayoutContainer:
+        CU_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light
             Fill: =RGBA(19, 16, 22, 1)
@@ -243,7 +218,7 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            ZIndex: =13
+            ZIndex: =3
 
             Label1_7 As label:
                 Align: =Align.Center

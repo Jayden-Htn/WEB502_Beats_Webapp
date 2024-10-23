@@ -14,6 +14,604 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 467,
+                  "snippet": {
+                    "text": "ClearCollect"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ClearCollect"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 480,
+                  "snippet": {
+                    "text": "varChildren"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_BirthdayPicker.SelectedDate"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_BirthdayPicker.SelectedDate",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".DoB"
+                  }
+                }
+              },
+              "properties": {
+                "member": "SelectedDate",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_BirthdayPicker"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DoB"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_ExperienceDropdown.DefaultSelectedItems"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_ExperienceDropdown.DefaultSelectedItems",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": ".ExperienceLevel"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DefaultSelectedItems",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_ExperienceDropdown"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ExperienceLevel"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_Name.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_Name.Value",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Name"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_Name"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Name"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 53,
+                  "snippet": {
+                    "text": "varChildren"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 39,
+                  "snippet": {
+                    "text": "UpdateIf"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "UpdateIf"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 71,
+                  "snippet": {
+                    "text": "ID"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ID"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 84,
+                  "snippet": {
+                    "text": ".ID"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ID"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 74,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 297,
+                  "snippet": {
+                    "text": ".ID"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ID"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 287,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 502,
+                  "snippet": {
+                    "text": ".Notes"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Notes"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 242,
+                  "snippet": {
+                    "text": "Patch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 207,
+                  "charOffset": 307,
+                  "snippet": {
+                    "text": "{\n        Name: CU_Name.Value,\n        DoB: CU_BirthdayPicker.SelectedDate,\n        ExperienceLevel: CU_ExperienceDropdown.Selected.Value,\n        ParentID: varUser.Email,\n        Notes: varChild.Notes\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Notes",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.Items"
                 }
               ],
@@ -48,7 +646,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -88,7 +686,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -125,7 +723,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -165,7 +763,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -205,7 +803,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -246,7 +844,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -286,7 +884,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -326,7 +924,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -366,7 +964,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -403,685 +1001,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 467,
-                  "snippet": {
-                    "text": "ClearCollect"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ClearCollect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 480,
-                  "snippet": {
-                    "text": "varChildren"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_BirthdayPicker_1.SelectedDate"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_BirthdayPicker_1.SelectedDate",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".DoB"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SelectedDate",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_BirthdayPicker_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DoB"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_ExperienceDropdown_1.DefaultSelectedItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_ExperienceDropdown_1.DefaultSelectedItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": ".ExperienceLevel"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DefaultSelectedItems",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_ExperienceDropdown_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ExperienceLevel"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_Name_1.Value"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_Name_1.Value",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Value",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_Name_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 3,
-                  "charOffset": 25,
-                  "snippet": {
-                    "text": ".ID"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ID"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 9,
-                  "snippet": {
-                    "text": "IsBlank"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "IsBlank"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 96,
-                  "snippet": {
-                    "text": "varChildren"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 78,
-                  "snippet": {
-                    "text": "UpdateIf"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "UpdateIf"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 118,
-                  "snippet": {
-                    "text": "ID"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ID"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 3,
-                  "charOffset": 131,
-                  "snippet": {
-                    "text": ".ID"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ID"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 121,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 3,
-                  "charOffset": 383,
-                  "snippet": {
-                    "text": ".ID"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ID"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 373,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 615,
-                  "snippet": {
-                    "text": ".Notes"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Notes"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 320,
-                  "snippet": {
-                    "text": "Patch"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 234,
-                  "charOffset": 397,
-                  "snippet": {
-                    "text": "{\n            Name: C_Name_1.Value,\n            DoB: C_BirthdayPicker_1.SelectedDate,\n            ExperienceLevel: C_ExperienceDropdown_1.Selected.Value,\n            ParentID: varUser.Email,\n            Notes: varChild.Notes\n        }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.ChildSaveButton_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Notes",
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
-          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1568,19 +1488,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.C_BirthdayPicker.AccessibleLabel"
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.C_BirthdayPicker.AccessibleLabel",
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ChildAddScreen",
-                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.C_BirthdayPicker"
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName"
               }
             }
           ],
@@ -1598,19 +1518,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.C_ExperienceDropdown.AccessibleLabel"
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.C_ExperienceDropdown.AccessibleLabel",
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ChildAddScreen",
-                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.C_ExperienceDropdown"
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName"
               }
             }
           ],
@@ -1628,19 +1548,379 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.C_Name.AccessibleLabel"
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.C_Name.AccessibleLabel",
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "HomeScreen",
+                "type": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "HomeScreen",
+                "type": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "HomeScreen",
+                "type": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "HomeScreen",
+                "type": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_BirthdayPicker.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_BirthdayPicker.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_BirthdayPicker"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_ExperienceDropdown.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_ExperienceDropdown.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_ExperienceDropdown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_Name.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_Name.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.ChildForm_1.ChildCard_1.CU_Name"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_BirthdayPicker.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_BirthdayPicker.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ChildAddScreen",
-                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.C_Name"
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_BirthdayPicker"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_ExperienceDropdown.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_ExperienceDropdown.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_ExperienceDropdown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_Name.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_Name.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_Name"
               }
             }
           ],
@@ -1928,366 +2208,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "HomeScreen",
-                "type": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "HomeScreen",
-                "type": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8.Icon2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "HomeScreen",
-                "type": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "HomeScreen",
-                "type": "HomeScreen.H_ScreenWrapper.H_Body.H_Article.H_Buttons.Container8_1.Icon2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_BirthdayPicker_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_BirthdayPicker_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_BirthdayPicker_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_ExperienceDropdown_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_ExperienceDropdown_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_ExperienceDropdown_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_Name_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_Name_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ChildUpdateScreen",
-                "type": "ChildUpdateScreen.CU_ScreenWrapper.C_Body_1.FormContainer1_3.ChildForm_1.ChildCard_1.C_Name_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.Logo_1"
                 }
               ],
@@ -2408,36 +2328,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ChildAddScreen.forceUpdate"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildAddScreen.forceUpdate",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "forceUpdate",
-                "module": "ChildAddScreen",
-                "type": "ChildAddScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "RegisterScreen.forceUpdate"
                 }
               ],
@@ -2492,6 +2382,36 @@
           },
           "ruleId": "app-UnusedVariables",
           "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.forceUpdate"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.forceUpdate",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "forceUpdate",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 11
         }
       ],
       "tool": {
@@ -2500,34 +2420,14 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+              "id": "app-ErrInvalidArgs-Func",
               "messageStrings": {
                 "issue": {
-                  "text": "Expected {0} value."
+                  "text": "The function '{0}' has some invalid arguments."
                 }
               },
               "properties": {
                 "componentType": "app",
-                "howToFix": [
-                  "Change the rule to produce a {0} value."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
@@ -2548,14 +2448,17 @@
               }
             },
             {
-              "id": "app-ErrInvalidArgs-Func",
+              "id": "app-ErrInvalidName",
               "messageStrings": {
                 "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
+                  "text": "Name isn't valid. '{0}' isn't recognized."
                 }
               },
               "properties": {
                 "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
@@ -2580,10 +2483,10 @@
               }
             },
             {
-              "id": "app-ErrBadType-Type",
+              "id": "app-ErrTypeError-Arg-Expected-Found",
               "messageStrings": {
                 "issue": {
-                  "text": "Invalid argument type. Cannot use {0} values in this context."
+                  "text": "The type of this argument '{0}' does not match the expected type '{1}'. Found type '{2}'."
                 }
               },
               "properties": {
@@ -2594,10 +2497,27 @@
               }
             },
             {
-              "id": "app-ErrTypeError-Arg-Expected-Found",
+              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
               "messageStrings": {
                 "issue": {
-                  "text": "The type of this argument '{0}' does not match the expected type '{1}'. Found type '{2}'."
+                  "text": "Expected {0} value."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Change the rule to produce a {0} value."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadType-Type",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid argument type. Cannot use {0} values in this context."
                 }
               },
               "properties": {

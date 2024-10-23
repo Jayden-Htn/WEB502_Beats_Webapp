@@ -100,13 +100,13 @@
                         Y: =0
                         ZIndex: =6
 
-                        ChildSaveButton As Button:
+                        CA_AddButton As Button:
                             AccessibleLabel: ="Submit form button"
                             DisplayMode: |-
                                 =If(
-                                    IsBlank(C_Name.Value) || 
-                                    IsBlank(C_BirthdayPicker.SelectedDate) || 
-                                    IsBlank(C_ExperienceDropdown.Selected),
+                                    IsBlank(CA_Name.Value) || 
+                                    IsBlank(CA_BirthdayPicker.SelectedDate) || 
+                                    IsBlank(CA_ExperienceDropdown.Selected),
                                     DisplayMode.Disabled,
                                     DisplayMode.Edit
                                 )
@@ -118,9 +118,9 @@
                                     varChildren, 
                                     { 
                                         ID: varID,
-                                        Name: C_Name.Value,
-                                        DoB: C_BirthdayPicker.SelectedDate,
-                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value,
+                                        Name: CA_Name.Value,
+                                        DoB: CA_BirthdayPicker.SelectedDate,
+                                        ExperienceLevel: CA_ExperienceDropdown.Selected.Value,
                                         ParentID: varUser.Email
                                     }
                                 );
@@ -129,9 +129,9 @@
                                     Defaults(Children),
                                     {
                                         ID: varID,
-                                        Name: C_Name.Value,
-                                        DoB: C_BirthdayPicker.SelectedDate,
-                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value,
+                                        Name: CA_Name.Value,
+                                        DoB: CA_BirthdayPicker.SelectedDate,
+                                        ExperienceLevel: CA_ExperienceDropdown.Selected.Value,
                                         ParentID: varUser.Email
                                     }
                                 );
@@ -144,7 +144,7 @@
                             Y: =250
                             ZIndex: =1
 
-                        ChildBackButton As Button:
+                        CA_BackButton As Button:
                             AccessibleLabel: ="Submit form button"
                             DisplayMode: =DisplayMode.Edit
                             FontWeight: =FontWeight.Normal
@@ -158,7 +158,7 @@
                             Y: =250
                             ZIndex: =2
 
-                        C_ExperienceDropdown As Dropdown.pcfdataset:
+                        CA_ExperienceDropdown As Dropdown.pcfdataset:
                             DefaultSelectedItems: |-
                                 =[{Value: "Beginner"}]
                             DisplayMode: =DisplayMode.Edit
@@ -170,7 +170,7 @@
                             Y: =190
                             ZIndex: =3
 
-                        "C_BirthdayPicker As 'Date picker'":
+                        "CA_BirthdayPicker As 'Date picker'":
                             AccessibleLabel: =""
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
@@ -181,7 +181,7 @@
                             Y: =131
                             ZIndex: =4
 
-                        "C_Name As 'Text input'":
+                        "CA_Name As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             OnChange: |-

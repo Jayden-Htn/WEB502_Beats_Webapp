@@ -1,0 +1,4 @@
+"Screen1 As screen.'tabletLayout_Calendar_ver3.0'":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+

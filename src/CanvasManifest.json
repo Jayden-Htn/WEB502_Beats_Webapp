@@ -141,7 +141,8 @@
     "LoginScreen",
     "RegisterScreen",
     "ProfileScreen",
-    "ChildScreen",
+    "ChildAddScreen",
+    "ChildUpdateScreen",
     "BookingScreen"
   ]
 }

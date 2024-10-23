@@ -1,9 +1,9 @@
-"ChildScreen As screen.'autoLayout_HeaderFooter_ver1.0'":
+"ChildAddScreen As screen.'autoLayout_HeaderFooter_ver1.0'":
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
     OnVisible: =
 
-    C_GradientBackground As htmlViewer:
+    CA_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         Font: =App.Theme.Font
         Height: =768
@@ -19,7 +19,7 @@
         X: =1
         ZIndex: =1
 
-    C_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
+    CA_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
@@ -29,7 +29,7 @@
         Width: =1366
         ZIndex: =2
 
-        C_Header As groupContainer.horizontalAutoLayoutContainer:
+        CA_Header As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light
             Fill: =RGBA(255, 255, 255, 1)
@@ -40,11 +40,11 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =1
 
-            NavBar_Unauthorised_2 As NavBar:
+            NavBar_5 As NavBar:
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
 
-        C_Body As groupContainer.verticalAutoLayoutContainer:
+        CA_Body As groupContainer.verticalAutoLayoutContainer:
             DropShadow: =DropShadow.Light
             LayoutDirection: =LayoutDirection.Vertical
             LayoutGap: =
@@ -73,7 +73,7 @@
                 RadiusTopRight: =4
                 ZIndex: =4
 
-                ChildForm As form.PowerApps_CoreControls_Form:
+                ChildAddForm As form.PowerApps_CoreControls_Form:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     BorderColor: =App.Theme.Colors.Darker40
                     DataSource: =Children
@@ -88,7 +88,7 @@
                     Width: =400
                     ZIndex: =5
 
-                    ChildCard As typedDataCard.blankCard:
+                    ChildAddCard As typedDataCard.blankCard:
                         BorderColor: =App.Theme.Colors.Darker40
                         BorderStyle: =BorderStyle.Solid
                         DisplayMode: =DisplayMode.Edit
@@ -113,55 +113,30 @@
                             FontWeight: =FontWeight.Normal
                             Height: =32
                             OnSelect: |-
-                                =If(
-                                    !IsBlank(varChild.ID),
-                                    // Update existing record if ID exists
-                                    UpdateIf(
-                                        varChildren, 
-                                        ID = varChild.ID,
-                                        { 
-                                            Name: C_Name.Value,
-                                            DoB: C_BirthdayPicker.SelectedDate,
-                                            ExperienceLevel: C_ExperienceDropdown.Selected.Value 
-                                        }
-                                    );
-                                    Patch(
-                                        Children,
-                                        LookUp(Children, ID = varChild.ID),
-                                        {
-                                            Name: C_Name.Value,
-                                            DoB: C_BirthdayPicker.SelectedDate,
-                                            ExperienceLevel: C_ExperienceDropdown.Selected.Value,
-                                            ParentID: varUser.Email,
-                                            Notes: varChild.Notes
-                                        }
-                                    ),
-                                    // Create new record
-                                    Set(varID, If(IsEmpty(Children), 1, Last(Children).ID + 1)); 
-                                    Set(
-                                        varChildren, 
-                                        { 
-                                            ID: varID,
-                                            Name: C_Name.Value,
-                                            DoB: C_BirthdayPicker.SelectedDate,
-                                            ExperienceLevel: C_ExperienceDropdown.Selected.Value,
-                                            ParentID: varUser.Email
-                                        }
-                                    );
-                                    Patch(
-                                        Children,
-                                        Defaults(Children),
-                                        {
-                                            ID: varID,
-                                            Name: C_Name.Value,
-                                            DoB: C_BirthdayPicker.SelectedDate,
-                                            ExperienceLevel: C_ExperienceDropdown.Selected.Value,
-                                            ParentID: varUser.Email
-                                        }
-                                    )
+                                =Set(varID, If(IsEmpty(Children), 1, Last(Children).ID + 1)); 
+                                Set(
+                                    varChildren, 
+                                    { 
+                                        ID: varID,
+                                        Name: C_Name.Value,
+                                        DoB: C_BirthdayPicker.SelectedDate,
+                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value,
+                                        ParentID: varUser.Email
+                                    }
                                 );
-                                Notify("Child updated!", NotificationType.Success);
-                                ResetForm(ChildForm);
+                                Patch(
+                                    Children,
+                                    Defaults(Children),
+                                    {
+                                        ID: varID,
+                                        Name: C_Name.Value,
+                                        DoB: C_BirthdayPicker.SelectedDate,
+                                        ExperienceLevel: C_ExperienceDropdown.Selected.Value,
+                                        ParentID: varUser.Email
+                                    }
+                                );
+                                Notify("Child added!", NotificationType.Success);
+                                ResetForm(ChildAddForm);
                                 Navigate(ProfileScreen);
                             Text: ="Save"
                             Width: =120
@@ -175,7 +150,7 @@
                             FontWeight: =FontWeight.Normal
                             Height: =32
                             OnSelect: |-
-                                =ResetForm(ChildForm);
+                                =ResetForm(ChildAddForm);
                                 Navigate(ProfileScreen);
                             Text: ="Back"
                             Width: =120
@@ -185,7 +160,7 @@
 
                         C_ExperienceDropdown As Dropdown.pcfdataset:
                             DefaultSelectedItems: |-
-                                =[{Value: varChild.ExperienceLevel}]
+                                =[{Value: "Beginner"}]
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Items: =["Beginner", "Elementry", "Intermediate", "Advanced"]
@@ -196,10 +171,11 @@
                             ZIndex: =3
 
                         "C_BirthdayPicker As 'Date picker'":
+                            AccessibleLabel: =""
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Date of birth"
-                            SelectedDate: =varChild.DoB
+                            SelectedDate: =
                             Width: =320
                             X: =40
                             Y: =131
@@ -211,7 +187,7 @@
                             OnChange: |-
                                 =UpdateContext({forceUpdate: Now()})
                             Placeholder: ="Full name"
-                            Value: =varChild.Name
+                            Value: =
                             Width: =320
                             X: =40
                             Y: =72
@@ -228,12 +204,12 @@
                             PaddingRight: =0
                             PaddingTop: =0
                             Size: =20
-                            Text: ="Child"
+                            Text: ="New Child"
                             X: =125
                             Y: =18
                             ZIndex: =6
 
-        C_Footer As groupContainer.horizontalAutoLayoutContainer:
+        CA_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light
             Fill: =RGBA(19, 16, 22, 1)

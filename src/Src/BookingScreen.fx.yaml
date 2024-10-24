@@ -127,7 +127,7 @@
                         DisplayMode: =DisplayMode.Edit
                         Height: =32
                         OnSelect: |-
-                            =Set(varID, If(IsEmpty(Children), 1, Last(Children).ID + 1)); 
+                            =Set(varID, If(IsEmpty(Lessons), 1, Last(Lessons).ID + 1)); 
                             // Local data
                             /*Patch(
                                 varLessons,
@@ -141,20 +141,19 @@
                                 }
                             );*/
                             // Excel database
-                            /*
                             Patch(
                                 Lessons,
                                 Defaults(Lessons),
                                 {
                                     ID: varID,
                                     Date: _dateSelected,
+                                    StartTime: TimeGallery.Selected.Value,
                                     Duration: "30 minutes",
                                     StudentID: ChildrenGallery.Selected.ID,
                                     Paid: "No",
                                     ParentID: varUser.Email
                                 }
                             );
-                            */
                             Notify("Booking successful!", NotificationType.Success);
                             Navigate(ProfileScreen);
                         Text: ="Confirm"

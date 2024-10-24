@@ -35,9 +35,9 @@
       }
     },
     "dataSources": [
-      "Lessons",
       "Children",
-      "Users"
+      "Users",
+      "Lessons"
     ],
     "dependencies": {},
     "dependents": [],

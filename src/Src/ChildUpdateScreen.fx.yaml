@@ -74,14 +74,10 @@
                 ZIndex: =3
 
                 CU_Form As form.PowerApps_CoreControls_Form:
-                    AlignInContainer: =AlignInContainer.SetByContainer
                     BorderColor: =App.Theme.Colors.Darker40
                     DataSource: =Children
                     DefaultMode: =FormMode.New
-                    FillPortions: =0
                     Height: =340
-                    LayoutMinHeight: =400
-                    LayoutMinWidth: =0
                     NumberOfColumns: =1
                     SnapToColumns: =false
                     UseFluentV9Cards: =true

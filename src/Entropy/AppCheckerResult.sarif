@@ -14,6 +14,2514 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "NavBar.Links.ProfileLabel.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NavBar.Links.ProfileLabel.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 1,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "NavBar",
+                "type": "NavBar.Links.ProfileLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NavBar.Links.ProfileLabel.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NavBar.Links.ProfileLabel.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "varUser"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "NavBar",
+                "type": "NavBar.Links.ProfileLabel"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NavBar.Links.LoginLabel.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NavBar.Links.LoginLabel.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "NavBar",
+                "type": "NavBar.Links.LoginLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NavBar.Links.LoginLabel.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NavBar.Links.LoginLabel.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": "varUser"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "NavBar",
+                "type": "NavBar.Links.LoginLabel"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NavBar.Links.BookingLabel.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NavBar.Links.BookingLabel.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 1,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "NavBar",
+                "type": "NavBar.Links.BookingLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NavBar.Links.BookingLabel.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NavBar.Links.BookingLabel.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "varUser"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "NavBar",
+                "type": "NavBar.Links.BookingLabel"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NavBar.Links.RegisterLabel.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NavBar.Links.RegisterLabel.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "NavBar",
+                "type": "NavBar.Links.RegisterLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NavBar.Links.RegisterLabel.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NavBar.Links.RegisterLabel.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": "varUser"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "NavBar",
+                "type": "NavBar.Links.RegisterLabel"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NavBar.Links.LogoutLabel.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NavBar.Links.LogoutLabel.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 1,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "NavBar",
+                "type": "NavBar.Links.LogoutLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NavBar.Links.LogoutLabel.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NavBar.Links.LogoutLabel.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "varUser"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "NavBar",
+                "type": "NavBar.Links.LogoutLabel"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 64,
+                  "charOffset": 22,
+                  "snippet": {
+                    "text": "LookUp(\n        Users,\n        Email = Trim(L_Email.Value)\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 99,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 107,
+                  "snippet": {
+                    "text": "varUser"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 126,
+                  "snippet": {
+                    "text": ".Password"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 136,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 286,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 277,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 359,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 350,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LoginScreen",
+                "type": "LoginScreen.L_ScreenWrapper.L_Body.FormContainer1.LoginForm.LoginCard.LoginSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 315,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 74,
+                  "snippet": {
+                    "text": "Patch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 232,
+                  "charOffset": 126,
+                  "snippet": {
+                    "text": "{\n        ID: varChild.ID,\n        Name: CU_Name.Value,\n        DoB: CU_BirthdayPicker.SelectedDate,\n        ExperienceLevel: CU_ExperienceDropdown.Selected.Value,\n        ParentID: varUser.Email,\n        Notes: varChild.Notes\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ParentID",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 609,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 380,
+                  "snippet": {
+                    "text": "Patch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 207,
+                  "charOffset": 445,
+                  "snippet": {
+                    "text": "{\n        Name: CU_Name.Value,\n        DoB: CU_BirthdayPicker.SelectedDate,\n        ExperienceLevel: CU_ExperienceDropdown.Selected.Value,\n        ParentID: varUser.Email,\n        Notes: varChild.Notes\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildUpdateScreen",
+                "type": "ChildUpdateScreen.CU_ScreenWrapper.CU_Body.FormContainer1_3.CU_Form.CU_Card.CU_SaveButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ParentID",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.NameLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.NameLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": ".FirstName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.NameLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.NameLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.NameLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 33,
+                  "snippet": {
+                    "text": ".LastName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.NameLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.EmailLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.EmailLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.EmailLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.PhoneNumberLabel.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.PhoneNumberLabel.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": ".PhoneNumber"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Details.PhoneNumberLabel"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 311,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 76,
+                  "snippet": {
+                    "text": "Patch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 195,
+                  "charOffset": 128,
+                  "snippet": {
+                    "text": "{\n        ID: varID,\n        Name: CA_Name.Value,\n        DoB: CA_BirthdayPicker.SelectedDate,\n        ExperienceLevel: CA_ExperienceDropdown.Selected.Value,\n        ParentID: varUser.Email\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ParentID",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 577,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 345,
+                  "snippet": {
+                    "text": "Patch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 195,
+                  "charOffset": 394,
+                  "snippet": {
+                    "text": "{\n        ID: varID,\n        Name: CA_Name.Value,\n        DoB: CA_BirthdayPicker.SelectedDate,\n        ExperienceLevel: CA_ExperienceDropdown.Selected.Value,\n        ParentID: varUser.Email\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_AddButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ParentID",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.Label7.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.Label7.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": ".FirstName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.Label7"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_FirstName.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_FirstName.Value",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": ".FirstName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_FirstName"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Password.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Password.Value",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": ".Password"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Password"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 52,
+                  "snippet": {
+                    "text": "CU_BirthdayPicker_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "CU_BirthdayPicker_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 71,
+                  "snippet": {
+                    "text": ".SelectedDate"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 44,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 23,
+                  "charOffset": 102,
+                  "snippet": {
+                    "text": "CU_ExperienceDropdown_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "CU_ExperienceDropdown_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 125,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 94,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 162,
+                  "charOffset": 36,
+                  "snippet": {
+                    "text": "{\n        FirstName: PU_FirstName,\n        LastName:PU_LastName,\n        Email: PU_Email,\n        PhoneNumber: PU_PhoneNumber,\n        Password: PU_Password\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 271,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 262,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.CU_SaveButton_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_PhoneNumber.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_PhoneNumber.Value",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": ".PhoneNumber"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_PhoneNumber"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 346,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 74,
+                  "snippet": {
+                    "text": "Patch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 234,
+                  "charOffset": 124,
+                  "snippet": {
+                    "text": "{\n        ID: varID,\n        Date: _dateSelected,\n        StartTime: TimeGallery.Selected.Value,\n        Duration: \"30 minutes\",\n        StudentID: ChildrenGallery.Selected.ID,\n        Paid: \"No\",\n        ParentID: varUser.Email\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ParentID",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 649,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 380,
+                  "snippet": {
+                    "text": "Patch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 234,
+                  "charOffset": 427,
+                  "snippet": {
+                    "text": "{\n        ID: varID,\n        Date: _dateSelected,\n        StartTime: TimeGallery.Selected.Value,\n        Duration: \"30 minutes\",\n        StudentID: ChildrenGallery.Selected.ID,\n        Paid: \"No\",\n        ParentID: varUser.Email\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ParentID",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 36,
+                  "charOffset": 22,
+                  "snippet": {
+                    "text": "LookUp(Users, Email = R_Email.Value)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 71,
+                  "snippet": {
+                    "text": "IsBlank"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 79,
+                  "snippet": {
+                    "text": "varUser"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 528,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 519,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 601,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 592,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.RegisterSubmitButton"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Email.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Email.Value",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": ".Email"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Email"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_LastName.Value"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_LastName.Value",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": ".LastName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Value",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_LastName"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "NavBar.Links.HomeLabel.FocusedBorderThickness"
                 }
               ],
@@ -37,7 +2545,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -67,7 +2575,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -97,7 +2605,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -127,7 +2635,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -157,7 +2665,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -187,7 +2695,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -217,7 +2725,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -247,7 +2755,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -277,7 +2785,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -307,7 +2815,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -337,7 +2845,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -367,7 +2875,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -397,7 +2905,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -427,7 +2935,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -457,7 +2965,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -487,697 +2995,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.NextArrow5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.NextArrow5.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.NextArrow5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ProfileScreen",
-                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ResetToday.iconCalendar1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ResetToday.iconCalendar1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "BookingScreen",
-                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ResetToday.iconCalendar1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconPrevMonth1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconPrevMonth1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "BookingScreen",
-                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconPrevMonth1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconNextMonth1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconNextMonth1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "BookingScreen",
-                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconNextMonth1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.WeekdayGallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.WeekdayGallery1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "BookingScreen",
-                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.WeekdayGallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.MonthDayGallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.MonthDayGallery1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "BookingScreen",
-                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.MonthDayGallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "BookingScreen",
-                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "BookingScreen",
-                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "BookingScreen",
-                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.CancelBookingButton.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.CancelBookingButton.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "BookingScreen",
-                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.CancelBookingButton"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1207,7 +3025,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1237,7 +3055,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1267,7 +3085,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1297,7 +3115,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1327,7 +3145,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1357,7 +3175,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1387,7 +3205,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1417,7 +3235,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1447,7 +3265,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1477,7 +3295,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1507,307 +3325,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ChildAddScreen",
-                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ChildAddScreen",
-                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_Name.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_Name.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ChildAddScreen",
-                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_Name"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_BirthdayPicker.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_BirthdayPicker.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ChildAddScreen",
-                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_BirthdayPicker"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_ExperienceDropdown.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_ExperienceDropdown.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ChildAddScreen",
-                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_ExperienceDropdown"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_FirstName.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_FirstName.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ProfileUpdateScreen",
-                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_FirstName"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_LastName.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_LastName.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ProfileUpdateScreen",
-                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_LastName"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Email.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Email.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ProfileUpdateScreen",
-                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Email"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_PhoneNumber.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_PhoneNumber.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ProfileUpdateScreen",
-                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_PhoneNumber"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Password.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Password.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ProfileUpdateScreen",
-                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Password"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1837,7 +3355,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1867,7 +3385,1057 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.Container1.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.NextArrow5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.NextArrow5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Article.ChildGallery.NextArrow5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ProfileScreen",
+                "type": "ProfileScreen.P_ScreenWrapper.P_Body.P_Aside.LessonGallery.Icon4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.Icon3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_Name.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_Name.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_Name"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_BirthdayPicker.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_BirthdayPicker.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_BirthdayPicker"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_ExperienceDropdown.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_ExperienceDropdown.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChildAddScreen",
+                "type": "ChildAddScreen.CA_ScreenWrapper.CA_Body.FormContainer1_2.ChildAddForm.ChildAddCard.CA_ExperienceDropdown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.Icon3_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.Icon3_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.Icon3_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.Icon3_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.Icon3_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.Icon3_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_FirstName.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_FirstName.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_FirstName"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Password.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Password.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Password"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_PhoneNumber.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_PhoneNumber.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_PhoneNumber"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ResetToday.iconCalendar1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ResetToday.iconCalendar1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ResetToday.iconCalendar1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconPrevMonth1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconPrevMonth1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconPrevMonth1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconNextMonth1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconNextMonth1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.iconNextMonth1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.WeekdayGallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.WeekdayGallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.WeekdayGallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.MonthDayGallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.MonthDayGallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.MonthDayGallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ConfirmBookingButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.CancelBookingButton.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.CancelBookingButton.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.CancelBookingButton"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_FirstName"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_LastName"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Email"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_PhoneNumber"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen.R_ScreenWrapper.R_Body.FormContainer1_1.RegisterForm.RegisterCard.R_Password"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Email.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Email.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_Email"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_LastName.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_LastName.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen.PU_ScreenWrapper.PU_Body.FormContainer1_4.UpdateUserForm.UpdateUserCard.PU_LastName"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -1897,7 +4465,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -1927,7 +4495,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -1957,7 +4525,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -1987,97 +4555,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "BookingScreen._showLoading"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "BookingScreen._showLoading",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "_showLoading",
-                "module": "BookingScreen",
-                "type": "BookingScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProfileUpdateScreen.forceUpdate"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProfileUpdateScreen.forceUpdate",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "forceUpdate",
-                "module": "ProfileUpdateScreen",
-                "type": "ProfileUpdateScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RegisterScreen.forceUpdate"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RegisterScreen.forceUpdate",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "forceUpdate",
-                "module": "RegisterScreen",
-                "type": "RegisterScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -2107,7 +4585,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -2137,7 +4615,97 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ProfileUpdateScreen.forceUpdate"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ProfileUpdateScreen.forceUpdate",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "forceUpdate",
+                "module": "ProfileUpdateScreen",
+                "type": "ProfileUpdateScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen._showLoading"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen._showLoading",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "_showLoading",
+                "module": "BookingScreen",
+                "type": "BookingScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RegisterScreen.forceUpdate"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RegisterScreen.forceUpdate",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "forceUpdate",
+                "module": "RegisterScreen",
+                "type": "RegisterScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 11
         }
       ],
       "tool": {
@@ -2145,6 +4713,114 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid argument type."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleCtxtVariableTypes",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible type. We can't evaluate your formula because the context variable types are incompatible with the types of values in other places in your app."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Look at places where you use a context variable and make sure that the type (e.g., text, number, date, record, table) is compatible."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "The '.' operator cannot be used on {0} values."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
+                  "If you’re comparing records or tables, the field or column types must match exactly."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrTypeError-Arg-Expected-Found",
+              "messageStrings": {
+                "issue": {
+                  "text": "The type of this argument '{0}' does not match the expected type '{1}'. Found type '{2}'."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-FocusBorderShouldBeVisible",
               "messageStrings": {

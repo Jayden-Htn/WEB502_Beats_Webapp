@@ -53,6 +53,16 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
+            Label7 As label:
+                BorderColor: =App.Theme.Colors.Darker40
+                Color: =RGBA(215, 58, 60, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(12, 59, 94, 1)
+                Font: =App.Theme.Font
+                Size: =13
+                Text: =varUser.FirstName
+                ZIndex: =5
+
             FormContainer1_4 As groupContainer.verticalAutoLayoutContainer:
                 DropShadow: =DropShadow.Light
                 LayoutAlignItems: =LayoutAlignItems.Center
@@ -71,23 +81,22 @@
                 RadiusBottomRight: =4
                 RadiusTopLeft: =4
                 RadiusTopRight: =4
-                ZIndex: =4
+                ZIndex: =6
 
                 UpdateUserForm As form.PowerApps_CoreControls_Form:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     BorderColor: =App.Theme.Colors.Darker40
-                    DataSource: =Users
+                    DataSource: =Children
                     DefaultMode: =FormMode.New
                     FillPortions: =0
                     Height: =380
-                    Item: =varUser
                     LayoutMinHeight: =400
                     LayoutMinWidth: =0
                     NumberOfColumns: =1
                     SnapToColumns: =false
                     UseFluentV9Cards: =true
                     Width: =400
-                    ZIndex: =5
+                    ZIndex: =4
 
                     UpdateUserCard As typedDataCard.blankCard:
                         BorderColor: =App.Theme.Colors.Darker40
@@ -99,17 +108,15 @@
                         WidthFit: =true
                         X: =0
                         Y: =0
-                        ZIndex: =6
+                        ZIndex: =5
 
-                        UpdateSubmitButton As Button:
+                        CU_SaveButton_1 As Button:
                             AccessibleLabel: ="Submit form button"
                             DisplayMode: |-
                                 =If(
                                     IsBlank(PU_FirstName.Value) || 
-                                    IsBlank(PU_LastName.Value) || 
-                                    IsBlank(PU_Email.Value) || 
-                                    IsBlank(PU_PhoneNumber.Value) || 
-                                    IsBlank(PU_Password.Value),
+                                    IsBlank(CU_BirthdayPicker_1.SelectedDate) || 
+                                    IsBlank(CU_ExperienceDropdown_1.Selected),
                                     DisplayMode.Disabled,
                                     DisplayMode.Edit
                                 )
@@ -120,11 +127,11 @@
                                 Set(
                                     varUser,
                                     {
-                                        FirstName: PU_FirstName.Value,
-                                        LastName: PU_LastName.Value,
-                                        Email: PU_Email.Value,
-                                        PhoneNumber: PU_PhoneNumber.Value,
-                                        Password: PU_Password.Value
+                                        FirstName: PU_FirstName,
+                                        LastName:PU_LastName,
+                                        Email: PU_Email,
+                                        PhoneNumber: PU_PhoneNumber,
+                                        Password: PU_Password
                                     }
                                 );
                                 // Excel database
@@ -132,11 +139,11 @@
                                     Users,
                                     LookUp(Users, Email = varUser.Email),
                                     {
-                                        FirstName: PU_FirstName.Value,
-                                        LastName: PU_LastName.Value,
-                                        Email: PU_Email.Value,
-                                        PhoneNumber: PU_PhoneNumber.Value,
-                                        Password: PU_Password.Value
+                                        FirstName: PU_FirstName,
+                                        LastName:PU_LastName,
+                                        Email: PU_Email,
+                                        PhoneNumber: PU_PhoneNumber,
+                                        Password: PU_Password
                                     }
                                 );
                                 Notify("User details updated!", NotificationType.Success);
@@ -144,75 +151,76 @@
                                 Navigate(ProfileScreen);
                             Text: ="Save"
                             Width: =120
-                            X: =211
-                            Y: =337
-                            ZIndex: =1
-
-                        UpdateSubmitButton_1 As Button:
-                            AccessibleLabel: ="Submit form button"
-                            DisplayMode: =DisplayMode.Edit
-                            FontWeight: =FontWeight.Normal
-                            Height: =32
-                            OnSelect: =Navigate(ProfileScreen);
-                            Text: ="Cancel"
-                            Width: =120
-                            X: =58
-                            Y: =337
+                            X: =140
+                            Y: =326
                             ZIndex: =2
 
                         "PU_Password As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Password"
-                            Type: ='TextInputCanvas.Type'.Password
                             Value: =varUser.Password
                             Width: =320
                             X: =40
-                            Y: =284
-                            ZIndex: =3
+                            Y: =270
+                            ZIndex: =4
 
                         "PU_PhoneNumber As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Phone number"
-                            Type: ='TextInputCanvas.Type'.Text
                             Value: =varUser.PhoneNumber
                             Width: =320
                             X: =40
-                            Y: =232
-                            ZIndex: =4
+                            Y: =220
+                            ZIndex: =5
 
                         "PU_Email As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
-                            Placeholder: ="Email address"
+                            Placeholder: ="Email"
                             Value: =varUser.Email
                             Width: =320
                             X: =40
-                            Y: =179
-                            ZIndex: =5
+                            Y: =170
+                            ZIndex: =6
 
                         "PU_LastName As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
-                            Placeholder: ="Parent last name"
+                            Placeholder: ="Last name"
                             Value: =varUser.LastName
                             Width: =320
                             X: =40
-                            Y: =125
-                            ZIndex: =6
+                            Y: =121
+                            ZIndex: =7
 
                         "PU_FirstName As 'Text input'":
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             OnChange: |-
                                 =UpdateContext({forceUpdate: Now()})
-                            Placeholder: ="Parent first name"
+                            Placeholder: ="Full name"
                             Value: =varUser.FirstName
                             Width: =320
                             X: =40
                             Y: =72
-                            ZIndex: =7
+                            ZIndex: =8
+
+                        Icon3_2 As icon.ArrowLeft:
+                            BorderColor: =App.Theme.Colors.Darker40
+                            Color: =RGBA(240, 98, 15, 1)
+                            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                            DisabledColor: =RGBA(244, 244, 244, 1)
+                            Height: =32
+                            Icon: =Icon.ArrowLeft
+                            OnSelect: |-
+                                =ResetForm(UpdateUserForm);
+                                Navigate(ProfileScreen);
+                            Width: =32
+                            X: =40
+                            Y: =24
+                            ZIndex: =9
 
                         Label6_4 As label:
                             Align: =Align.Center
@@ -220,27 +228,16 @@
                             Color: =RGBA(255, 255, 255, 1)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             Font: =App.Theme.Font
-                            Height: =41
                             PaddingBottom: =0
                             PaddingLeft: =0
                             PaddingRight: =0
                             PaddingTop: =0
                             Size: =20
                             Text: ="Update Details"
-                            Width: =178
-                            X: =111
-                            Y: =14
-                            ZIndex: =8
-
-            Label7 As label:
-                BorderColor: =App.Theme.Colors.Darker40
-                Color: =RGBA(215, 58, 60, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(12, 59, 94, 1)
-                Font: =App.Theme.Font
-                Size: =13
-                Text: =varUser.FirstName
-                ZIndex: =5
+                            Width: =200
+                            X: =100
+                            Y: =16
+                            ZIndex: =10
 
         Footer_8 As Footer:
             LayoutMinHeight: =640

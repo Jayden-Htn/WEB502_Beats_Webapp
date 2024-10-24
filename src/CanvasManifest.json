@@ -142,6 +142,7 @@
     "AboutScreen",
     "LoginScreen",
     "RegisterScreen",
+    "ProfileUpdateScreen",
     "ProfileScreen",
     "ChildAddScreen",
     "ChildUpdateScreen",

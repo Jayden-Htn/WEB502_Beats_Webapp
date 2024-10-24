@@ -76,22 +76,48 @@
                 RadiusTopRight: =4
                 ZIndex: =3
 
-                Jumbo_2 As label:
-                    AlignInContainer: =AlignInContainer.Stretch
-                    AutoHeight: =true
-                    BorderColor: =App.Theme.Colors.Darker40
-                    Color: =RGBA(250, 100, 44, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    Font: =App.Theme.Font
-                    LayoutMinHeight: =20
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
+                Container2 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    FillPortions: =0.5
+                    LayoutMinHeight: =60
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
                     PaddingTop: =20
-                    Size: =26
-                    Text: ="Profile"
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
                     ZIndex: =1
+
+                    Jumbo_2 As label:
+                        AlignInContainer: =AlignInContainer.Center
+                        AutoHeight: =true
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Color: =RGBA(250, 100, 44, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        Font: =App.Theme.Font
+                        LayoutMinHeight: =20
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Size: =26
+                        Text: ="Profile"
+                        Width: =130
+                        ZIndex: =1
+
+                    Icon5 As icon.Edit:
+                        AlignInContainer: =AlignInContainer.Center
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Color: =RGBA(240, 98, 15, 1)
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(244, 244, 244, 1)
+                        Height: =30
+                        Icon: =Icon.Edit
+                        OnSelect: =Navigate(ProfileUpdateScreen)
+                        Width: =30
+                        ZIndex: =2
 
                 Details As groupContainer.verticalAutoLayoutContainer:
                     DropShadow: =DropShadow.Light
@@ -113,6 +139,7 @@
                         Font: =App.Theme.Font
                         Size: =13
                         Text: =varUser.FirstName & " " & varUser.LastName
+                        Width: =500
                         ZIndex: =1
 
                     EmailLabel As label:
@@ -122,6 +149,7 @@
                         Font: =App.Theme.Font
                         Size: =13
                         Text: =varUser.Email
+                        Width: =500
                         ZIndex: =2
 
                     PhoneNumberLabel As label:
@@ -131,6 +159,7 @@
                         Font: =App.Theme.Font
                         Size: =13
                         Text: =varUser.PhoneNumber
+                        Width: =500
                         ZIndex: =3
 
                 Container1 As groupContainer.horizontalAutoLayoutContainer:
@@ -191,7 +220,7 @@
                     TemplatePadding: =0
                     TemplateSize: =70
                     Width: =600
-                    ZIndex: =5
+                    ZIndex: =4
 
                     Separator5 As rectangle:
                         BorderColor: =App.Theme.Colors.Darker40

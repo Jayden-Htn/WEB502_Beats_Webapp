@@ -1,0 +1,249 @@
+"ProfileUpdateScreen As screen.'headerFormLayout_ver1.0'":
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+    OnVisible: =
+
+    PU_GradientBackground As htmlViewer:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        Font: =App.Theme.Font
+        Height: =768
+        HtmlText: |-
+            =$"<div style='width:100%;height:{App.Height-1}px; background: rgb(21,19,20);
+            background: linear-gradient(135deg, rgba(21,19,20,1) 0%, rgba(93,35,31,1) 100%);'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =13
+        Width: =1365
+        X: =1
+        ZIndex: =1
+
+    PU_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        ZIndex: =2
+
+        PU_Header As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            NavBar_8 As NavBar:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+
+        PU_Body As groupContainer.verticalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutGap: =
+            LayoutMinHeight: =200
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            FormContainer1_4 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =16
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =200
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                LayoutOverflowY: =LayoutOverflow.Scroll
+                PaddingBottom: =15
+                PaddingLeft: =15
+                PaddingRight: =15
+                PaddingTop: =15
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =4
+
+                UpdateUserForm As form.PowerApps_CoreControls_Form:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    BorderColor: =App.Theme.Colors.Darker40
+                    DataSource: =Users
+                    DefaultMode: =FormMode.New
+                    FillPortions: =0
+                    Height: =380
+                    Item: =varUser
+                    LayoutMinHeight: =400
+                    LayoutMinWidth: =0
+                    NumberOfColumns: =1
+                    SnapToColumns: =false
+                    UseFluentV9Cards: =true
+                    Width: =400
+                    ZIndex: =5
+
+                    UpdateUserCard As typedDataCard.blankCard:
+                        BorderColor: =App.Theme.Colors.Darker40
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =380
+                        Width: =400
+                        WidthFit: =true
+                        X: =0
+                        Y: =0
+                        ZIndex: =6
+
+                        UpdateSubmitButton As Button:
+                            AccessibleLabel: ="Submit form button"
+                            DisplayMode: |-
+                                =If(
+                                    IsBlank(PU_FirstName.Value) || 
+                                    IsBlank(PU_LastName.Value) || 
+                                    IsBlank(PU_Email.Value) || 
+                                    IsBlank(PU_PhoneNumber.Value) || 
+                                    IsBlank(PU_Password.Value),
+                                    DisplayMode.Disabled,
+                                    DisplayMode.Edit
+                                )
+                            FontWeight: =FontWeight.Normal
+                            Height: =32
+                            OnSelect: |-
+                                =// Local data
+                                Set(
+                                    varUser,
+                                    {
+                                        FirstName: PU_FirstName.Value,
+                                        LastName: PU_LastName.Value,
+                                        Email: PU_Email.Value,
+                                        PhoneNumber: PU_PhoneNumber.Value,
+                                        Password: PU_Password.Value
+                                    }
+                                );
+                                // Excel database
+                                Patch(
+                                    Users,
+                                    LookUp(Users, Email = varUser.Email),
+                                    {
+                                        FirstName: PU_FirstName.Value,
+                                        LastName: PU_LastName.Value,
+                                        Email: PU_Email.Value,
+                                        PhoneNumber: PU_PhoneNumber.Value,
+                                        Password: PU_Password.Value
+                                    }
+                                );
+                                Notify("User details updated!", NotificationType.Success);
+                                ResetForm(UpdateUserForm);
+                                Navigate(ProfileScreen);
+                            Text: ="Save"
+                            Width: =120
+                            X: =211
+                            Y: =337
+                            ZIndex: =1
+
+                        UpdateSubmitButton_1 As Button:
+                            AccessibleLabel: ="Submit form button"
+                            DisplayMode: =DisplayMode.Edit
+                            FontWeight: =FontWeight.Normal
+                            Height: =32
+                            OnSelect: =Navigate(ProfileScreen);
+                            Text: ="Cancel"
+                            Width: =120
+                            X: =58
+                            Y: =337
+                            ZIndex: =2
+
+                        "PU_Password As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Password"
+                            Type: ='TextInputCanvas.Type'.Password
+                            Value: =varUser.Password
+                            Width: =320
+                            X: =40
+                            Y: =284
+                            ZIndex: =3
+
+                        "PU_PhoneNumber As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Phone number"
+                            Type: ='TextInputCanvas.Type'.Text
+                            Value: =varUser.PhoneNumber
+                            Width: =320
+                            X: =40
+                            Y: =232
+                            ZIndex: =4
+
+                        "PU_Email As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Email address"
+                            Value: =varUser.Email
+                            Width: =320
+                            X: =40
+                            Y: =179
+                            ZIndex: =5
+
+                        "PU_LastName As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            Placeholder: ="Parent last name"
+                            Value: =varUser.LastName
+                            Width: =320
+                            X: =40
+                            Y: =125
+                            ZIndex: =6
+
+                        "PU_FirstName As 'Text input'":
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =32
+                            OnChange: |-
+                                =UpdateContext({forceUpdate: Now()})
+                            Placeholder: ="Parent first name"
+                            Value: =varUser.FirstName
+                            Width: =320
+                            X: =40
+                            Y: =72
+                            ZIndex: =7
+
+                        Label6_4 As label:
+                            Align: =Align.Center
+                            BorderColor: =App.Theme.Colors.Darker40
+                            Color: =RGBA(255, 255, 255, 1)
+                            DisabledColor: =RGBA(166, 166, 166, 1)
+                            Font: =App.Theme.Font
+                            Height: =41
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =20
+                            Text: ="Update Details"
+                            Width: =178
+                            X: =111
+                            Y: =14
+                            ZIndex: =8
+
+            Label7 As label:
+                BorderColor: =App.Theme.Colors.Darker40
+                Color: =RGBA(215, 58, 60, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(12, 59, 94, 1)
+                Font: =App.Theme.Font
+                Size: =13
+                Text: =varUser.FirstName
+                ZIndex: =5
+
+        Footer_8 As Footer:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+            ZIndex: =4
+

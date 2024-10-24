@@ -307,7 +307,7 @@
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.Duration
-                        X: =202
+                        X: =229
                         Y: =40
                         ZIndex: =2
 
@@ -319,8 +319,8 @@
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.StartTime
-                        Width: =76
-                        X: =112
+                        Width: =90
+                        X: =139
                         Y: =40
                         ZIndex: =3
 
@@ -332,7 +332,7 @@
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.Date
-                        Width: =112
+                        Width: =139
                         Y: =40
                         ZIndex: =4
 
@@ -362,28 +362,8 @@
                         Y: =28
                         ZIndex: =6
 
-        P_Footer As groupContainer.horizontalAutoLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
-            DropShadow: =DropShadow.Light
-            Fill: =RGBA(19, 16, 22, 1)
-            FillPortions: =0
-            Height: =75
-            LayoutJustifyContent: =LayoutJustifyContent.Center
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
+        Footer_4 As Footer:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
             ZIndex: =3
-
-            Label1_4 As label:
-                Align: =Align.Center
-                AlignInContainer: =AlignInContainer.Center
-                BorderColor: =App.Theme.Colors.Darker40
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FillPortions: =1
-                Font: =App.Theme.Font
-                Size: =10
-                Text: ="Built by Jayden Houghton"
-                Width: =200
-                ZIndex: =12
 

@@ -24,7 +24,7 @@ Footer As CanvasComponent:
             FillPortions: =1
             Font: =App.Theme.Font
             Size: =10
-            Text: ="Built by Jayden Houghton"
+            Text: ="© 2024 Jayden Houghton    •    Built with Microsoft Power Platforms"
             Width: =200
             ZIndex: =1
 

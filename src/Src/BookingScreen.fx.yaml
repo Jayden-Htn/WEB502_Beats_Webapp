@@ -129,17 +129,19 @@
                         OnSelect: |-
                             =Set(varID, If(IsEmpty(Lessons), 1, Last(Lessons).ID + 1)); 
                             // Local data
-                            /*Patch(
+                            Patch(
                                 varLessons,
                                 Defaults(Lessons),
                                 {
                                     ID: varID,
-                                    Name: CA_Name.Value,
-                                    DoB: CA_BirthdayPicker.SelectedDate,
-                                    ExperienceLevel: CA_ExperienceDropdown.Selected.Value,
+                                    Date: _dateSelected,
+                                    StartTime: TimeGallery.Selected.Value,
+                                    Duration: "30 minutes",
+                                    StudentID: ChildrenGallery.Selected.ID,
+                                    Paid: "No",
                                     ParentID: varUser.Email
                                 }
-                            );*/
+                            );
                             // Excel database
                             Patch(
                                 Lessons,
@@ -318,7 +320,7 @@
                             =true
                         Width: =252
                         Wrap: =false
-                        X: =761
+                        X: =747
                         Y: =
                         ZIndex: =8
 
@@ -331,9 +333,9 @@
                         Text: =Text(_dateSelected, DateTimeFormat.LongDate)
                         Visible: |
                             =true
-                        Width: =252
+                        Width: =259
                         Wrap: =false
-                        X: =451
+                        X: =436
                         Y: =
                         ZIndex: =9
 
@@ -471,10 +473,10 @@
                                 Set(_firstDayInView, DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days));
                                 Set(_lastDayOfMonth, DateAdd(DateAdd(_firstDayOfMonth, 1, TimeUnit.Months), -1, TimeUnit.Days));
                                 If(_minDate > _firstDayOfMonth, Set(_minDate, _firstDayOfMonth));
-                            PaddingBottom: =7
+                            PaddingBottom: =10
                             PaddingLeft: =7
                             PaddingRight: =7
-                            PaddingTop: =7
+                            PaddingTop: =10
                             TabIndex: =0
                             Tooltip: ="View previous month"
                             Width: =59
@@ -494,10 +496,10 @@
                                 Set(_firstDayInView, DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days));
                                 Set(_lastDayOfMonth, DateAdd(DateAdd(_firstDayOfMonth, 1, TimeUnit.Months), -1, TimeUnit.Days));
                                 If(_lastDayOfMonth > _maxDate, Set(_maxDate, _lastDayOfMonth))
-                            PaddingBottom: =7
+                            PaddingBottom: =10
                             PaddingLeft: =7
                             PaddingRight: =7
-                            PaddingTop: =7
+                            PaddingTop: =10
                             TabIndex: =0
                             Tooltip: ="View next month"
                             Width: =59

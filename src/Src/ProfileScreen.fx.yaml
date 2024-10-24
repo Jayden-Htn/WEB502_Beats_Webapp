@@ -307,7 +307,7 @@
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.Duration
-                        X: =167
+                        X: =202
                         Y: =40
                         ZIndex: =2
 
@@ -320,7 +320,7 @@
                         Size: =13
                         Text: =ThisItem.StartTime
                         Width: =76
-                        X: =91
+                        X: =112
                         Y: =40
                         ZIndex: =3
 
@@ -332,7 +332,7 @@
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.Date
-                        Width: =91
+                        Width: =112
                         Y: =40
                         ZIndex: =4
 
@@ -345,6 +345,22 @@
                         Size: =16
                         Text: =LookUp(varChildren, ID = ThisItem.StudentID, Name)
                         ZIndex: =5
+
+                    Icon4 As icon.Cancel:
+                        BorderColor: =App.Theme.Colors.Darker40
+                        Color: =App.Theme.Colors.Darker30
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(244, 244, 244, 1)
+                        Height: =32
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =RemoveIf(varLessons, ID = ThisItem.ID);
+                            RemoveIf(Lessons, ID = ThisItem.ID);
+                            Notify("Deleted lesson booking.", NotificationType.Success);
+                        Width: =32
+                        X: =486
+                        Y: =28
+                        ZIndex: =6
 
         P_Footer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

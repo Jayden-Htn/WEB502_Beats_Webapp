@@ -129,7 +129,7 @@
                         OnSelect: |-
                             =Set(varID, If(IsEmpty(Children), 1, Last(Children).ID + 1)); 
                             // Local data
-                            Patch(
+                            /*Patch(
                                 varLessons,
                                 Defaults(Lessons),
                                 {
@@ -139,8 +139,9 @@
                                     ExperienceLevel: CA_ExperienceDropdown.Selected.Value,
                                     ParentID: varUser.Email
                                 }
-                            );
+                            );*/
                             // Excel database
+                            /*
                             Patch(
                                 Lessons,
                                 Defaults(Lessons),
@@ -153,6 +154,7 @@
                                     ParentID: varUser.Email
                                 }
                             );
+                            */
                             Notify("Booking successful!", NotificationType.Success);
                             Navigate(ProfileScreen);
                         Text: ="Confirm"

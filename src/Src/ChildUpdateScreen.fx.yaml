@@ -131,8 +131,9 @@
                             OnSelect: |-
                                 =// Local data
                                 Remove(varChildren, LookUp(varChildren, ID = varChild.ID));
-                                Collect(
+                                Patch(
                                     varChildren,
+                                    Defaults(Children),
                                     {
                                         ID: varChild.ID,
                                         Name: CU_Name.Value,

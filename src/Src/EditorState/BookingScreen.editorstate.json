@@ -6885,7 +6885,8 @@
           "NameMapSourceSchema": "?"
         },
         "WrapCount",
-        "DelayItemLoading"
+        "DelayItemLoading",
+        "Default"
       ],
       "GalleryTemplateChildName": "galleryTemplate6",
       "HasDynamicProperties": false,
@@ -6915,6 +6916,11 @@
         {
           "Category": "Data",
           "PropertyName": "WrapCount",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Default",
           "RuleProviderType": "Unknown"
         },
         {

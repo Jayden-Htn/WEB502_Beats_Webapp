@@ -282,7 +282,7 @@
                     BorderColor: =App.Theme.Colors.Darker40
                     DelayItemLoading: =true
                     Height: =180
-                    Items: =Filter(Lessons, ParentID = varUser.Email)
+                    Items: =varLessons
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =150
                     LayoutMinWidth: =320
@@ -319,7 +319,7 @@
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.StartTime
-                        Width: =59
+                        Width: =76
                         X: =91
                         Y: =40
                         ZIndex: =3

@@ -93,6 +93,7 @@
                     LayoutMinHeight: =400
                     LayoutMinWidth: =0
                     NumberOfColumns: =1
+                    OnReset: =PU_Email.Value = varUser.FirstName;
                     SnapToColumns: =false
                     UseFluentV9Cards: =true
                     Width: =400
@@ -115,8 +116,10 @@
                             DisplayMode: |-
                                 =If(
                                     IsBlank(PU_FirstName.Value) || 
-                                    IsBlank(CU_BirthdayPicker_1.SelectedDate) || 
-                                    IsBlank(CU_ExperienceDropdown_1.Selected),
+                                    IsBlank(PU_LastName) || 
+                                    IsBlank(PU_Email) ||
+                                    IsBlank(PU_PhoneNumber) ||
+                                    IsBlank(PU_Password),
                                     DisplayMode.Disabled,
                                     DisplayMode.Edit
                                 )
@@ -127,11 +130,11 @@
                                 Set(
                                     varUser,
                                     {
-                                        FirstName: PU_FirstName,
-                                        LastName:PU_LastName,
-                                        Email: PU_Email,
-                                        PhoneNumber: PU_PhoneNumber,
-                                        Password: PU_Password
+                                        FirstName: PU_FirstName.Value,
+                                        LastName:PU_LastName.Value,
+                                        Email: PU_Email.Value,
+                                        PhoneNumber: PU_PhoneNumber.Value,
+                                        Password: PU_Password.Value
                                     }
                                 );
                                 // Excel database
@@ -139,15 +142,14 @@
                                     Users,
                                     LookUp(Users, Email = varUser.Email),
                                     {
-                                        FirstName: PU_FirstName,
-                                        LastName:PU_LastName,
-                                        Email: PU_Email,
-                                        PhoneNumber: PU_PhoneNumber,
-                                        Password: PU_Password
+                                        FirstName: PU_FirstName.Value,
+                                        LastName: PU_LastName.Value,
+                                        Email: PU_Email.Value,
+                                        PhoneNumber: PU_PhoneNumber.Value,
+                                        Password: PU_Password.Value
                                     }
                                 );
                                 Notify("User details updated!", NotificationType.Success);
-                                ResetForm(UpdateUserForm);
                                 Navigate(ProfileScreen);
                             Text: ="Save"
                             Width: =120
@@ -159,6 +161,7 @@
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Password"
+                            Type: ='TextInputCanvas.Type'.Password
                             Value: =varUser.Password
                             Width: =320
                             X: =40

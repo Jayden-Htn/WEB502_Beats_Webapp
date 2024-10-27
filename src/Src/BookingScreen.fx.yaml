@@ -491,7 +491,7 @@
                             Height: =50
                             Icon: =Icon.ChevronRight
                             OnSelect: |-
-                                =/*changes month view to next month*/
+                                =/* Changes month view to next month */
                                 Set(_firstDayOfMonth, DateAdd(_firstDayOfMonth, 1, TimeUnit.Months));
                                 Set(_firstDayInView, DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days));
                                 Set(_lastDayOfMonth, DateAdd(DateAdd(_firstDayOfMonth, 1, TimeUnit.Months), -1, TimeUnit.Days));

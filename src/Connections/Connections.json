@@ -1,18 +1,4 @@
 {
-  "99437055-b4c0-4204-96f3-82719943f3d6": {
-    "connectionRef": {
-      "displayName": "Office 365 Outlook",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1716/1.0.1716.3922/office365/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_office365"
-    },
-    "datasets": {},
-    "dataSources": [
-      "Office365Outlook"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "99437055-b4c0-4204-96f3-82719943f3d6"
-  },
   "ade7df42-a62c-4b54-bdbe-bb93e405ba06": {
     "connectionRef": {
       "displayName": "Excel Online (Business)",

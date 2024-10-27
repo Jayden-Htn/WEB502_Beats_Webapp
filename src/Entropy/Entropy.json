@@ -234,10 +234,9 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/27/2024 21:14:24",
+  "HeaderLastSavedDateTimeUTC": "10/27/2024 23:15:43",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "99437055-b4c0-4204-96f3-82719943f3d6": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/41910ab6fa5547a4ab76bec93550702c\"",
     "ade7df42-a62c-4b54-bdbe-bb93e405ba06": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/ed3572af571a4940a7296938aa3e91b3\""
   },
   "LocalDatabaseReferencesAsEmpty": true,
@@ -268,12 +267,11 @@
     "704cebd900874ecc844136eeff5e53d8": 1
   },
   "OrderDataSource": {
-    "Children": 4,
-    "CustomGallerySample": 1,
-    "DropDownSample": 5,
-    "Lessons": 3,
-    "Office365Outlook": 0,
-    "Users": 2
+    "Children": 3,
+    "CustomGallerySample": 0,
+    "DropDownSample": 4,
+    "Lessons": 2,
+    "Users": 1
   },
   "OrderGroupControls": {
     "CalendarSelector": {

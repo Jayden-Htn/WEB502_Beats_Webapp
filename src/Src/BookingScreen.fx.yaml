@@ -2,14 +2,14 @@
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
     OnVisible: |
-        =UpdateContext({_showLoading: true});             
-        Set(_dateSelected, Today());         
+        =Set(_dateSelected, Today());         
         Set(_firstDayOfMonth, DateAdd(Today(), 1 - Day(Today()), TimeUnit.Days));         
         Set(_firstDayInView, DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days));         
         Set(_lastDayOfMonth, DateAdd(DateAdd(_firstDayOfMonth, 1, TimeUnit.Months), -1, TimeUnit.Days));                          
         Set(_minDate, DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days));         
-        Set(_maxDate, DateAdd(DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days), 40, TimeUnit.Days));                 
-        UpdateContext({_showLoading: false});         
+        Set(_maxDate, DateAdd(DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days), 40, TimeUnit.Days));
+        
+        Set(varPossibleTimes, ["9:00am", "9:40am", "10:20am", "11:00am", "11:40am", "12:20pm", "1:30pm", "2:10pm", "2:50pm", "3:30pm", "4:10pm", "4:50pm", "5:30pm"]);
 
     A_GradientBackground_2 As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -524,8 +524,7 @@
                         BorderColor: =App.Theme.Colors.Darker40
                         DelayItemLoading: =true
                         Height: =Parent.Height - Self.Y
-                        Items: |-
-                            =["9:00am", "9:40am", "10:20am", "11:00am", "11:40am", "12:20pm", "1:30pm", "2:10pm", "2:50pm", "3:30pm", "4:10pm", "4:50pm", "5:30pm"]
+                        Items: =varPossibleTimes
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
                         ShowScrollbar: =false

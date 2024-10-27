@@ -1,7 +1,9 @@
 "ProfileUpdateScreen As screen.'headerFormLayout_ver1.0'":
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
-    OnVisible: =
+    OnVisible: |-
+        =Set(varUserDup, varUser);
+        Set(varPasswordToggle, false);
 
     PU_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -53,16 +55,6 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            Label7 As label:
-                BorderColor: =App.Theme.Colors.Darker40
-                Color: =RGBA(215, 58, 60, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(12, 59, 94, 1)
-                Font: =App.Theme.Font
-                Size: =13
-                Text: =varUser.FirstName
-                ZIndex: =5
-
             FormContainer1_4 As groupContainer.verticalAutoLayoutContainer:
                 DropShadow: =DropShadow.Light
                 LayoutAlignItems: =LayoutAlignItems.Center
@@ -97,7 +89,7 @@
                     RadiusTopLeft: =4
                     RadiusTopRight: =4
                     Width: =320
-                    ZIndex: =1
+                    ZIndex: =2
 
                     Icon3_2 As icon.ArrowLeft:
                         BorderColor: =App.Theme.Colors.Darker40
@@ -142,11 +134,11 @@
                     OnChange: |-
                         =UpdateContext({forceUpdate: Now()})
                     Placeholder: ="Full name"
-                    Value: =varUser.FirstName
+                    Value: =varUserDup.FirstName
                     Width: =320
                     X: =669
                     Y: =56
-                    ZIndex: =4
+                    ZIndex: =3
 
                 "PU_LastName As 'Text input'":
                     DisplayMode: =DisplayMode.Edit
@@ -154,11 +146,11 @@
                     LayoutMinHeight: =32
                     LayoutMinWidth: =320
                     Placeholder: ="Last name"
-                    Value: =varUser.LastName
+                    Value: =varUserDup.LastName
                     Width: =320
                     X: =669
                     Y: =105
-                    ZIndex: =5
+                    ZIndex: =4
 
                 "PU_Email As 'Text input'":
                     DisplayMode: =DisplayMode.Edit
@@ -166,11 +158,11 @@
                     LayoutMinHeight: =32
                     LayoutMinWidth: =320
                     Placeholder: ="Email"
-                    Value: =varUser.Email
+                    Value: =varUserDup.Email
                     Width: =320
                     X: =669
                     Y: =154
-                    ZIndex: =6
+                    ZIndex: =5
 
                 "PU_PhoneNumber As 'Text input'":
                     DisplayMode: =DisplayMode.Edit
@@ -178,11 +170,11 @@
                     LayoutMinHeight: =32
                     LayoutMinWidth: =320
                     Placeholder: ="Phone number"
-                    Value: =varUser.PhoneNumber
+                    Value: =varUserDup.PhoneNumber
                     Width: =320
                     X: =669
                     Y: =204
-                    ZIndex: =7
+                    ZIndex: =6
 
                 "PU_Password As 'Text input'":
                     DisplayMode: =DisplayMode.Edit
@@ -190,12 +182,12 @@
                     LayoutMinHeight: =32
                     LayoutMinWidth: =320
                     Placeholder: ="Password"
-                    Type: ='TextInputCanvas.Type'.Password
-                    Value: =varUser.Password
+                    Type: =If(varPasswordToggle = true, 'TextInputCanvas.Type'.Text, 'TextInputCanvas.Type'.Password)
+                    Value: =varUserDup.Password
                     Width: =320
                     X: =669
                     Y: =254
-                    ZIndex: =8
+                    ZIndex: =7
 
                 CU_SaveButton_1 As Button:
                     AccessibleLabel: ="Submit form button"
@@ -243,10 +235,24 @@
                     Width: =120
                     X: =100
                     Y: =310
-                    ZIndex: =9
+                    ZIndex: =8
 
         Footer_8 As Footer:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
             ZIndex: =4
+
+    Icon6 As icon.Hide:
+        BorderColor: =App.Theme.Colors.Darker40
+        Color: =App.Theme.Colors.Darker30
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =20
+        Icon: =Icon.Hide
+        OnSelect: |
+            =Set(varPasswordToggle, !varPasswordToggle);
+        Width: =28
+        X: =808
+        Y: =474
+        ZIndex: =3
 

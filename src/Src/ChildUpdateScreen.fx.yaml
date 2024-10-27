@@ -54,6 +54,7 @@
             ZIndex: =2
 
             FormContainer1_3 As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.Center
                 DropShadow: =DropShadow.Light
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutDirection: =LayoutDirection.Vertical
@@ -74,12 +75,14 @@
                 ZIndex: =3
 
                 CU_Form As form.PowerApps_CoreControls_Form:
+                    AlignInContainer: =AlignInContainer.Center
                     BorderColor: =App.Theme.Colors.Darker40
                     DataSource: =Children
                     DefaultMode: =FormMode.New
-                    Height: =340
+                    FillPortions: =0
+                    Height: =310
                     LayoutMinHeight: =250
-                    LayoutMinWidth: =400
+                    LayoutMinWidth: =200
                     NumberOfColumns: =1
                     SnapToColumns: =false
                     UseFluentV9Cards: =true
@@ -91,7 +94,7 @@
                         BorderStyle: =BorderStyle.Solid
                         DisplayMode: =DisplayMode.Edit
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =340
+                        Height: =300
                         Width: =400
                         WidthFit: =true
                         X: =0

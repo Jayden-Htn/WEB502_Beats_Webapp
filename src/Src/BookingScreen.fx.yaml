@@ -9,7 +9,7 @@
         Set(_minDate, DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days));         
         Set(_maxDate, DateAdd(DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days), 40, TimeUnit.Days));
         
-        Set(varPossibleTimes, ["9:00am", "9:40am", "10:20am", "11:00am", "11:40am", "12:20pm", "1:30pm", "2:10pm", "2:50pm", "3:30pm", "4:10pm", "4:50pm", "5:30pm"]);
+        ClearCollect(varPossibleTimes, ["9:00am", "9:40am", "10:20am", "11:00am", "11:40am", "12:20pm", "1:30pm", "2:10pm", "2:50pm", "3:30pm", "4:10pm", "4:50pm", "5:30pm"]);
 
     A_GradientBackground_2 As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -120,7 +120,7 @@
                         Text: ="Cancel"
                         Width: =96
                         X: =746
-                        Y: =307
+                        Y: =411
                         ZIndex: =1
 
                     ConfirmBookingButton As Button:
@@ -161,7 +161,7 @@
                         Text: ="Confirm"
                         Width: =96
                         X: =880
-                        Y: =307
+                        Y: =411
                         ZIndex: =2
 
                     Label4 As label:
@@ -174,7 +174,7 @@
                         Text: =$"You are booking a 30 minutes drum lesson for $25 NZD with tutor Jayden Houghton. The lesson will take place on {Text(_dateSelected, DateTimeFormat.LongDate)} at {TimeGallery.Selected.Value} for {ChildrenGallery.Selected.Name}."
                         Width: =519
                         X: =746
-                        Y: =195
+                        Y: =299
                         ZIndex: =3
 
                     RectCalendarSeparator1_2 As rectangle:
@@ -183,7 +183,7 @@
                         Height: =2
                         Width: =575
                         X: =731
-                        Y: =177
+                        Y: =281
                         ZIndex: =4
 
                     "ChildrenGallery As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
@@ -191,7 +191,7 @@
                         BorderColor: =App.Theme.Colors.Darker40
                         Default: =First(varChildren)
                         DelayItemLoading: =true
-                        Height: =135
+                        Height: =220
                         Items: =varChildren
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
@@ -524,7 +524,16 @@
                         BorderColor: =App.Theme.Colors.Darker40
                         DelayItemLoading: =true
                         Height: =Parent.Height - Self.Y
-                        Items: =varPossibleTimes
+                        Items: |-
+                            =Filter(
+                                varPossibleTimes.Value,
+                                Not(
+                                    Value in Filter(
+                                        varLessons, 
+                                        Date = DateValue(_dateSelected)
+                                    ).StartTime
+                                )
+                            )
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
                         ShowScrollbar: =false

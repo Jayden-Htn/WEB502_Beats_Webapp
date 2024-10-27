@@ -234,7 +234,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/27/2024 02:24:33",
+  "HeaderLastSavedDateTimeUTC": "10/27/2024 04:40:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "99437055-b4c0-4204-96f3-82719943f3d6": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/41910ab6fa5547a4ab76bec93550702c\"",
@@ -1142,7 +1142,7 @@
       "group": 1,
       "groupContainer": 49,
       "htmlViewer": 9,
-      "icon": 17,
+      "icon": 18,
       "image": 3,
       "label": 43,
       "PowerApps_CoreControls_ButtonCanvas": 8,

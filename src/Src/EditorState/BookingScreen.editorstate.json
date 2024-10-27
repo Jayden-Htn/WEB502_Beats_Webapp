@@ -2539,7 +2539,14 @@
         "Color",
         "DisabledColor",
         "PressedColor",
-        "HoverColor",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "HoverColor",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Fill",
         "DisabledFill",
         "PressedFill",
@@ -2636,7 +2643,7 @@
         {
           "Category": "Design",
           "PropertyName": "HoverColor",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",

@@ -489,6 +489,8 @@
                             DisabledBorderColor: =RGBA(166, 166, 166, 1)
                             DisabledColor: =RGBA(244, 244, 244, 1)
                             Height: =50
+                            HoverColor: |
+                                =ColorFade(Self.Color, 20%)
                             Icon: =Icon.ChevronRight
                             OnSelect: |-
                                 =/* Changes month view to next month */
@@ -515,8 +517,9 @@
                             Height: =50
                             Size: =18
                             Text: =Text(_firstDayOfMonth, "mmmm yyyy")
-                            Width: =419
+                            Width: =327
                             Wrap: =false
+                            X: =46
                             ZIndex: =17
 
                     "TimeGallery As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":

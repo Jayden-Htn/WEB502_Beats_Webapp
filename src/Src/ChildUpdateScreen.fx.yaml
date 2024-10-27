@@ -78,6 +78,8 @@
                     DataSource: =Children
                     DefaultMode: =FormMode.New
                     Height: =340
+                    LayoutMinHeight: =250
+                    LayoutMinWidth: =400
                     NumberOfColumns: =1
                     SnapToColumns: =false
                     UseFluentV9Cards: =true

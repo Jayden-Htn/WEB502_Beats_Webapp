@@ -360,7 +360,7 @@
                         Font: =App.Theme.Font
                         OnSelect: =Select(Parent)
                         Size: =13
-                        Text: =ThisItem.Date
+                        Text: =DateValue(ThisItem.Date)
                         Width: =139
                         Y: =40
                         ZIndex: =4
@@ -370,9 +370,11 @@
                         Color: =RGBA(255, 255, 255, 1)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         Font: =App.Theme.Font
+                        Height: =28
                         OnSelect: =Select(Parent)
                         Size: =16
                         Text: =LookUp(varChildren, ID = ThisItem.StudentID, Name)
+                        Width: =334
                         ZIndex: =5
 
                     Icon4 As icon.Cancel:

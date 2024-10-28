@@ -124,7 +124,14 @@
                         ZIndex: =1
 
                     ConfirmBookingButton As Button:
-                        DisplayMode: =DisplayMode.Edit
+                        DisplayMode: |-
+                            =If(
+                                IsBlank(_dateSelected) || 
+                                IsBlank(_timeSelected) || 
+                                IsBlank(_studentSelected),
+                                DisplayMode.Disabled,
+                                DisplayMode.Edit
+                            )
                         Height: =32
                         OnSelect: |-
                             =Set(varID, If(IsEmpty(Lessons), 1, Last(Lessons).ID + 1)); 
@@ -135,9 +142,9 @@
                                 {
                                     ID: varID,
                                     Date: _dateSelected,
-                                    StartTime: TimeGallery.Selected.Value,
+                                    StartTime: _timeSelected,
                                     Duration: "30 minutes",
-                                    StudentID: ChildrenGallery.Selected.ID,
+                                    StudentID: _studentSelected.ID,
                                     Paid: "No",
                                     ParentID: varUser.Email
                                 }
@@ -149,9 +156,9 @@
                                 {
                                     ID: varID,
                                     Date: _dateSelected,
-                                    StartTime: TimeGallery.Selected.Value,
+                                    StartTime: _timeSelected,
                                     Duration: "30 minutes",
-                                    StudentID: ChildrenGallery.Selected.ID,
+                                    StudentID: _studentSelected.ID,
                                     Paid: "No",
                                     ParentID: varUser.Email
                                 }
@@ -208,7 +215,9 @@
                             Font: =App.Theme.Font
                             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                             Height: =Self.Size * 1.8
-                            OnSelect: =Select(Parent)
+                            OnSelect: |-
+                                =Select(Parent);
+                                Set(_studentSelected, ChildrenGallery.Selected);
                             PaddingBottom: =0
                             PaddingLeft: =0
                             PaddingRight: =0
@@ -315,7 +324,7 @@
                         Font: =App.Theme.Font
                         Height: =42
                         Size: =13
-                        Text: =TimeGallery.Selected.Value
+                        Text: =_timeSelected
                         Visible: |
                             =true
                         Width: =252
@@ -553,7 +562,9 @@
                             Font: =App.Theme.Font
                             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                             Height: =Self.Size * 1.8
-                            OnSelect: =Select(Parent)
+                            OnSelect: |-
+                                =Select(Parent);
+                                Set(_timeSelected, TimeGallery.Selected.Value);
                             PaddingBottom: =0
                             PaddingLeft: =0
                             PaddingRight: =0

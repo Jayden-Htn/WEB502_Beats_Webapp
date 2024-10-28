@@ -1994,6 +1994,126 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery.Title8.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery.Title8.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery.Title8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery.Title8.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery.Title8.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.TimeGallery.Title8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery.Title9.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery.Title9.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery.Title9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery.Title9.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery.Title9.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "BookingScreen",
+                "type": "BookingScreen.B_ScreenWrapper.B_Body.B_Article.Calendar.ChildrenGallery.Title9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.Logo_1"
                 }
               ],

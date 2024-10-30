@@ -1553,9 +1553,9 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "!IsBlank(varUser)",
+                "InvariantScript": "varAuthorised",
                 "Property": "Visible",
-                "RuleProviderType": "Unknown"
+                "RuleProviderType": "User"
               },
               {
                 "Category": "Behavior",
@@ -1962,9 +1962,9 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "IsBlank(varUser)",
+                "InvariantScript": "!varAuthorised",
                 "Property": "Visible",
-                "RuleProviderType": "Unknown"
+                "RuleProviderType": "User"
               },
               {
                 "Category": "Behavior",
@@ -2371,9 +2371,9 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "!IsBlank(varUser)",
+                "InvariantScript": "varAuthorised",
                 "Property": "Visible",
-                "RuleProviderType": "Unknown"
+                "RuleProviderType": "User"
               },
               {
                 "Category": "Behavior",
@@ -2780,9 +2780,9 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "IsBlank(varUser)",
+                "InvariantScript": "!varAuthorised",
                 "Property": "Visible",
-                "RuleProviderType": "Unknown"
+                "RuleProviderType": "User"
               },
               {
                 "Category": "Behavior",
@@ -3189,15 +3189,15 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "!IsBlank(varUser)",
+                "InvariantScript": "varAuthorised",
                 "Property": "Visible",
-                "RuleProviderType": "Unknown"
+                "RuleProviderType": "User"
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Set(varUser, Blank());\nNavigate(HomeScreen);",
+                "InvariantScript": "Set(varUser, Blank());\nSet(varAuthorised, false);\nNavigate(HomeScreen);",
                 "Property": "OnSelect",
-                "RuleProviderType": "Unknown"
+                "RuleProviderType": "User"
               }
             ],
             "StyleName": "defaultLabelStyle",
@@ -3866,7 +3866,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638658555311165034",
+    "LastModifiedTimestamp": "638659260389575648",
     "Name": "NavBar",
     "Rules": [
       {
@@ -3925,7 +3925,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638658555311165034",
+  "LastModifiedTimestamp": "638659260389575648",
   "Name": "704cebd900874ecc844136eeff5e53d8",
   "OverridableProperties": {},
   "Version": "1.0"

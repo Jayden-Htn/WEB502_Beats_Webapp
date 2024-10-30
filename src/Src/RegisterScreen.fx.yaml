@@ -145,6 +145,7 @@
                                     ClearCollect(varChildren, Filter(Children, ParentID = R_Email.Value));
                                     ClearCollect(varLessons, Filter(Lessons, ParentID = R_Email.Value));
                                     ResetForm(RegisterForm);
+                                    Set(varAuthorised, true);
                                     Navigate(ProfileScreen),
                                     Notify("Email already in use.", NotificationType.Error)
                                 );

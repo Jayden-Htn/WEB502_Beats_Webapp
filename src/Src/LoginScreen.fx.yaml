@@ -123,6 +123,7 @@
                                     Notify("Login Successful!", NotificationType.Success);
                                     ClearCollect(varChildren, Filter(Children, ParentID = varUser.Email));
                                     ClearCollect(varLessons, Filter(Lessons, ParentID = varUser.Email));
+                                    Set(varAuthorised, true);
                                     Navigate(ProfileScreen),
                                     Notify("Invalid Username or Password!", NotificationType.Error)
                                 );

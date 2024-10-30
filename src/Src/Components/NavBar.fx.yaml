@@ -60,7 +60,7 @@ NavBar As CanvasComponent:
             OnSelect: =Navigate(LoginScreen)
             Size: =13
             Text: ="Login"
-            Visible: =IsBlank(varUser)
+            Visible: =!varAuthorised
             Width: =80
             ZIndex: =3
 
@@ -72,7 +72,7 @@ NavBar As CanvasComponent:
             OnSelect: =Navigate(RegisterScreen)
             Size: =13
             Text: ="Register"
-            Visible: =IsBlank(varUser)
+            Visible: =!varAuthorised
             Width: =80
             ZIndex: =4
 
@@ -84,7 +84,7 @@ NavBar As CanvasComponent:
             OnSelect: =Navigate(ProfileScreen)
             Size: =13
             Text: ="Profile"
-            Visible: =!IsBlank(varUser)
+            Visible: =varAuthorised
             Width: =80
             ZIndex: =5
 
@@ -96,7 +96,7 @@ NavBar As CanvasComponent:
             OnSelect: =Navigate(BookingScreen)
             Size: =13
             Text: ="Booking"
-            Visible: =!IsBlank(varUser)
+            Visible: =varAuthorised
             Width: =80
             ZIndex: =6
 
@@ -107,10 +107,11 @@ NavBar As CanvasComponent:
             Font: =App.Theme.Font
             OnSelect: |-
                 =Set(varUser, Blank());
+                Set(varAuthorised, false);
                 Navigate(HomeScreen);
             Size: =13
             Text: ="Logout"
-            Visible: =!IsBlank(varUser)
+            Visible: =varAuthorised
             Width: =80
             ZIndex: =7
 

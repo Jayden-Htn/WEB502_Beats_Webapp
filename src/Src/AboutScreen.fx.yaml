@@ -151,6 +151,7 @@
                 ZIndex: =2
 
                 Image1_1 As image:
+                    AccessibleLabel: ="Photo of drum tutor Jayden"
                     BorderColor: =App.Theme.Colors.Darker40
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)

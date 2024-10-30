@@ -194,10 +194,10 @@
                     DisplayMode: |-
                         =If(
                             IsBlank(PU_FirstName.Value) || 
-                            IsBlank(PU_LastName) || 
-                            IsBlank(PU_Email) ||
-                            IsBlank(PU_PhoneNumber) ||
-                            IsBlank(PU_Password),
+                            IsBlank(PU_LastName.Value) || 
+                            IsBlank(PU_Email.Value) ||
+                            IsBlank(PU_PhoneNumber.Value) ||
+                            IsBlank(PU_Password.Value),
                             DisplayMode.Disabled,
                             DisplayMode.Edit
                         )

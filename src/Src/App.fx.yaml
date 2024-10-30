@@ -3,6 +3,7 @@ App As appinfo:
     OnStart: |-
         =Set(varUser, Blank());
         Set(varID, Blank());
+        Set(varAuthorised, false);
     Theme: =Beats
 
     Host As hostControl.DefaultHostControlVariant:

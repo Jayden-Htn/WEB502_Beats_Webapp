@@ -1,6 +1,7 @@
 "RegisterScreen As screen.'headerFormLayout_ver1.0'":
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
+    OnVisible: =Set(varCurrentScreen, "RegisterScreen")
 
     R_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)

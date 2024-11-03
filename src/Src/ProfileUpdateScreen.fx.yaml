@@ -2,8 +2,11 @@
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
     OnVisible: |-
-        =Set(varUserDup, varUser);
+        =Set(varCurrentScreen, "ProfileUpdateScreen");
+        Set(varUserDup, varUser);
         Set(varPasswordToggle, false);
+
+    Validator_2 As Validator:
 
     PU_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -19,7 +22,7 @@
         Size: =13
         Width: =1365
         X: =1
-        ZIndex: =1
+        ZIndex: =2
 
     PU_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
@@ -29,7 +32,7 @@
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =1366
-        ZIndex: =2
+        ZIndex: =3
 
         PU_Header As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -254,5 +257,5 @@
         Width: =28
         X: =808
         Y: =474
-        ZIndex: =3
+        ZIndex: =4
 

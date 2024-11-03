@@ -2,7 +2,8 @@
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
     OnVisible: |
-        =Set(_dateSelected, Today());         
+        =Set(varCurrentScreen, "BookingScreen");
+        Set(_dateSelected, Today());         
         Set(_firstDayOfMonth, DateAdd(Today(), 1 - Day(Today()), TimeUnit.Days));         
         Set(_firstDayInView, DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days));         
         Set(_lastDayOfMonth, DateAdd(DateAdd(_firstDayOfMonth, 1, TimeUnit.Months), -1, TimeUnit.Days));                          
@@ -10,6 +11,8 @@
         Set(_maxDate, DateAdd(DateAdd(_firstDayOfMonth, -(Weekday(_firstDayOfMonth) - 2 + 1), TimeUnit.Days), 40, TimeUnit.Days));
         
         ClearCollect(varPossibleTimes, ["9:00am", "9:40am", "10:20am", "11:00am", "11:40am", "12:20pm", "1:30pm", "2:10pm", "2:50pm", "3:30pm", "4:10pm", "4:50pm", "5:30pm"]);
+
+    Validator_5 As Validator:
 
     A_GradientBackground_2 As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -25,7 +28,7 @@
         Size: =13
         Width: =1365
         X: =1
-        ZIndex: =1
+        ZIndex: =2
 
     B_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
@@ -35,7 +38,7 @@
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =1366
-        ZIndex: =2
+        ZIndex: =3
 
         B_Header As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

@@ -19,7 +19,13 @@
     "NavBar_6": 3,
     "NavBar_7": 6,
     "NavBar_8": 3,
-    "NavBar_Unauthorised_1": 6
+    "NavBar_Unauthorised_1": 6,
+    "Validator": 11,
+    "Validator_1": 11,
+    "Validator_2": 11,
+    "Validator_3": 11,
+    "Validator_4": 11,
+    "Validator_5": 11
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -225,16 +231,23 @@
     "TextCanvas3": 138,
     "TextCanvas3_1": 140,
     "TimeGallery": 78,
+    "Timer1": 211,
     "Title3": 70,
     "Title4": 73,
     "Title5": 197,
     "Title8": 82,
     "Title9": 88,
+    "Validator": 210,
+    "Validator_1": 212,
+    "Validator_2": 214,
+    "Validator_3": 215,
+    "Validator_4": 216,
+    "Validator_5": 217,
     "WeekdayGallery1": 69
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/03/2024 03:07:03",
+  "HeaderLastSavedDateTimeUTC": "11/03/2024 03:26:53",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ade7df42-a62c-4b54-bdbe-bb93e405ba06": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/ed3572af571a4940a7296938aa3e91b3\""
@@ -259,10 +272,12 @@
     "Profile": "https://docserverpwaprodseau.blob.core.windows.net/dcefa915-0b2f-4e7b-ac54-27a3b02583fb-1/resource/Assets0Images0d9ad99d2-18ea-4392-86de-741fe70a0c2f.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-11-03T03%3A05%3A05Z&ske=2024-11-04T03%3A20%3A05Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-11-04T03%3A20%3A05Z&sr=b&sp=r&sig=uePLmrz4lTj2H9Kwe5RA95RP5W%2FbZqLtTBU%2B5TqdXZY%3D"
   },
   "OrderComponentMetadata": {
+    "1084086fa30d42ae9bfa049a59f79344": 2,
     "2ef70503b6ee469493d3be44f117f8b9": 0,
     "704cebd900874ecc844136eeff5e53d8": 1
   },
   "OrderComponentTemplate": {
+    "1084086fa30d42ae9bfa049a59f79344": 2,
     "2ef70503b6ee469493d3be44f117f8b9": 0,
     "704cebd900874ecc844136eeff5e53d8": 1
   },
@@ -291,15 +306,16 @@
   },
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "circle": 8,
-    "form": 3,
-    "gallery": 7,
-    "groupContainer": 0,
-    "htmlViewer": 5,
-    "icon": 4,
-    "image": 2,
-    "label": 1,
-    "rectangle": 6
+    "circle": 9,
+    "form": 4,
+    "gallery": 8,
+    "groupContainer": 1,
+    "htmlViewer": 6,
+    "icon": 5,
+    "image": 3,
+    "label": 2,
+    "rectangle": 7,
+    "timer": 0
   },
   "OverridablePropertiesEntry": {
     "A_Article_1": {},
@@ -504,11 +520,18 @@
     "TextCanvas3": {},
     "TextCanvas3_1": {},
     "TimeGallery": {},
+    "Timer1": {},
     "Title3": {},
     "Title4": {},
     "Title5": {},
     "Title8": {},
     "Title9": {},
+    "Validator": {},
+    "Validator_1": {},
+    "Validator_2": {},
+    "Validator_3": {},
+    "Validator_4": {},
+    "Validator_5": {},
     "WeekdayGallery1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -1109,11 +1132,18 @@
     "TextCanvas3": 10,
     "TextCanvas3_1": 12,
     "TimeGallery": 0,
+    "Timer1": 0,
     "Title3": 0,
     "Title4": 0,
     "Title5": 79,
     "Title8": 0,
     "Title9": 0,
+    "Validator": 0,
+    "Validator_1": 0,
+    "Validator_2": 0,
+    "Validator_3": 0,
+    "Validator_4": 0,
+    "Validator_5": 0,
     "WeekdayGallery1": 0
   },
   "ResourcesJsonIndices": {
@@ -1131,6 +1161,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 1.9877926,
     "ControlCount": {
+      "1084086fa30d42ae9bfa049a59f79344": 6,
       "2ef70503b6ee469493d3be44f117f8b9": 10,
       "704cebd900874ecc844136eeff5e53d8": 10,
       "circle": 2,

@@ -1,0 +1,41 @@
+Validator As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Timer1 As timer:
+        AutoPause: =false
+        AutoStart: =true
+        BorderColor: =App.Theme.Colors.Primary
+        Color: =App.Theme.Colors.PrimaryForeground
+        DisabledBorderColor: =RGBA(244, 244, 244, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Duration: =100
+        Fill: =App.Theme.Colors.Primary
+        Font: =App.Theme.Font
+        HoverBorderColor: =App.Theme.Colors.Darker10
+        HoverColor: =App.Theme.Colors.PrimaryForeground
+        HoverFill: =App.Theme.Colors.Darker10
+        OnTimerEnd: |-
+            =If(
+                IsBlank(varUser) || varAuthorised = false
+                && (varCurrentScreen in [
+                    "ProfileScreen", "ProfileUpdateScreen", "ChildAddScreen", 
+                    "ChildUpdateScreen", "BookingScreen"
+                    ]
+                ), 
+                Navigate(LoginScreen)
+            )
+        PressedBorderColor: =App.Theme.Colors.Darker40
+        PressedColor: =Self.Color
+        PressedFill: =App.Theme.Colors.Darker40
+        Repeat: =true
+        Visible: =false
+        X: =40
+        Y: =40
+        ZIndex: =1
+

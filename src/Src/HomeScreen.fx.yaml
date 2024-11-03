@@ -1,6 +1,7 @@
 "HomeScreen As screen.'autoLayout_HeaderFooter_ver1.0'":
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
+    OnVisible: =Set(varCurrentScreen, "HomeScreen")
 
     H_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)

@@ -1,7 +1,9 @@
 "ProfileScreen As screen.'autoLayout_HeaderFooter_ver1.0'":
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
-    OnVisible: =
+    OnVisible: =Set(varCurrentScreen, "ProfileScreen")
+
+    Validator_1 As Validator:
 
     P_GradientBackground As htmlViewer:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -17,7 +19,7 @@
         Size: =13
         Width: =1365
         X: =1
-        ZIndex: =1
+        ZIndex: =2
 
     P_ScreenWrapper As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
@@ -27,7 +29,7 @@
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =1366
-        ZIndex: =2
+        ZIndex: =3
 
         P_Header As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer

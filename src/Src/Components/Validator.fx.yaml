@@ -14,7 +14,7 @@ Validator As CanvasComponent:
         DisabledBorderColor: =RGBA(244, 244, 244, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Duration: =100
+        Duration: =500
         Fill: =App.Theme.Colors.Primary
         Font: =App.Theme.Font
         HoverBorderColor: =App.Theme.Colors.Darker10

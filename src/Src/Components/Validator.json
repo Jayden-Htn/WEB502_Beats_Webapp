@@ -109,7 +109,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "100",
+            "InvariantScript": "500",
             "Property": "Duration",
             "RuleProviderType": "Unknown"
           },
@@ -331,7 +331,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638662011835600910",
+    "LastModifiedTimestamp": "638662014661752780",
     "Name": "Validator",
     "Rules": [
       {
@@ -390,7 +390,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638662011835600910",
+  "LastModifiedTimestamp": "638662014661752780",
   "Name": "1084086fa30d42ae9bfa049a59f79344",
   "OverridableProperties": {},
   "Version": "1.0"

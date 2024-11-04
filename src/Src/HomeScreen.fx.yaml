@@ -4,11 +4,13 @@
     OnVisible: =Set(varCurrentScreen, "HomeScreen")
 
     H_GradientBackground As htmlViewer:
+        AutoHeight: =true
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         Font: =App.Theme.Font
-        Height: =768
+        Height: |
+            =2000
         HtmlText: |-
-            =$"<div style='width:100%;height:{App.Height-1}px; background: rgb(21,19,20);
+            =$"<div style='width:{App.Width};height:{App.DesignHeight}px; background: rgb(21,19,20);
             background: linear-gradient(135deg, rgba(21,19,20,1) 0%, rgba(93,35,31,1) 100%);'></div>"
         PaddingBottom: =0
         PaddingLeft: =0
@@ -102,7 +104,6 @@
                     ZIndex: =3
 
                 H_Buttons As groupContainer.verticalAutoLayoutContainer:
-                    DropShadow: =DropShadow.Light
                     FillPortions: =0
                     Height: =180
                     LayoutDirection: =LayoutDirection.Vertical

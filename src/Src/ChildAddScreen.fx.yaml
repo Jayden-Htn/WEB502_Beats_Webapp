@@ -10,7 +10,7 @@
         Font: =App.Theme.Font
         Height: =768
         HtmlText: |-
-            =$"<div style='width:100%;height:{App.Height-1}px; background: rgb(21,19,20);
+            =$"<div style='width:{App.Width};height:{App.DesignHeight}px; background: rgb(21,19,20);
             background: linear-gradient(135deg, rgba(21,19,20,1) 0%, rgba(93,35,31,1) 100%);'></div>"
         PaddingBottom: =0
         PaddingLeft: =0

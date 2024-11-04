@@ -1,5 +1,7 @@
 App As appinfo:
     BackEnabled: =true
+    MinScreenHeight: =768
+    MinScreenWidth: =1366
     OnStart: |-
         =Set(varUser, Blank());
         Set(varID, Blank());

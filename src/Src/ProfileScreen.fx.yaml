@@ -110,6 +110,7 @@
                         ZIndex: =1
 
                     Icon5 As icon.Edit:
+                        AccessibleLabel: ="Edit account information icon"
                         AlignInContainer: =AlignInContainer.Center
                         BorderColor: =App.Theme.Colors.Darker40
                         Color: =RGBA(240, 98, 15, 1)
@@ -197,6 +198,7 @@
                         ZIndex: =1
 
                     Icon1 As icon.Link:
+                        AccessibleLabel: ="Add new child icon"
                         AlignInContainer: =AlignInContainer.Center
                         BorderColor: =App.Theme.Colors.Darker40
                         Color: =RGBA(240, 98, 15, 1)
@@ -235,7 +237,7 @@
                         ZIndex: =1
 
                     NextArrow5 As icon.ChevronRight:
-                        AccessibleLabel: =Self.Tooltip
+                        AccessibleLabel: ="Edit child icon"
                         BorderColor: =App.Theme.Colors.Darker40
                         Color: =RGBA(240, 98, 15, 1)
                         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -380,6 +382,7 @@
                         ZIndex: =5
 
                     Icon4 As icon.Cancel:
+                        AccessibleLabel: ="Delete lesson icon"
                         BorderColor: =App.Theme.Colors.Darker40
                         Color: =RGBA(240, 98, 15, 1)
                         DisabledBorderColor: =RGBA(166, 166, 166, 1)

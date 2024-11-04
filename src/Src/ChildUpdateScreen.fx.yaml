@@ -104,7 +104,7 @@
                         ZIndex: =5
 
                         CU_BackButton As Button:
-                            AccessibleLabel: ="Submit form button"
+                            AccessibleLabel: ="Delete child button"
                             DisplayMode: =DisplayMode.Edit
                             FontWeight: =FontWeight.Normal
                             Height: =32
@@ -168,6 +168,7 @@
                             ZIndex: =2
 
                         "CU_BirthdayPicker As 'Date picker'":
+                            AccessibleLabel: ="Child date of birth"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Date of birth"
@@ -178,6 +179,7 @@
                             ZIndex: =3
 
                         CU_ExperienceDropdown As Dropdown.pcfdataset:
+                            AccessibleLabel: ="Child skill level"
                             DefaultSelectedItems: |-
                                 =[{Value: varChild.ExperienceLevel}]
                             DisplayMode: =DisplayMode.Edit
@@ -207,6 +209,7 @@
                             ZIndex: =5
 
                         "CU_Name As 'Text input'":
+                            AccessibleLabel: ="Child name"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             OnChange: |-
@@ -219,6 +222,7 @@
                             ZIndex: =6
 
                         Icon3 As icon.ArrowLeft:
+                            AccessibleLabel: ="Discard update details"
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(240, 98, 15, 1)
                             DisabledBorderColor: =RGBA(166, 166, 166, 1)

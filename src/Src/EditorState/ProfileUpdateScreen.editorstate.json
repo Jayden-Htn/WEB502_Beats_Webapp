@@ -843,6 +843,14 @@
           "InvariantPropertyName": "PaddingRight",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"\"",
+          "InvariantPropertyName": "AccessibleLabel",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "DynamicProperties": [
@@ -904,6 +912,11 @@
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
+        {
+          "Category": "Data",
+          "PropertyName": "AccessibleLabel",
+          "RuleProviderType": "User"
+        },
         {
           "Category": "Design",
           "PropertyName": "Icon",
@@ -2065,6 +2078,14 @@
           "InvariantPropertyName": "Value",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "AccessibleLabel",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "DynamicProperties": [
@@ -2128,6 +2149,11 @@
           "Category": "Data",
           "PropertyName": "Value",
           "RuleProviderType": "User"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "AccessibleLabel",
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -2202,6 +2228,14 @@
           "InvariantPropertyName": "Value",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"\"",
+          "InvariantPropertyName": "AccessibleLabel",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "DynamicProperties": [
@@ -2264,6 +2298,11 @@
         {
           "Category": "Data",
           "PropertyName": "Value",
+          "RuleProviderType": "User"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "AccessibleLabel",
           "RuleProviderType": "User"
         },
         {
@@ -2745,6 +2784,14 @@
           "InvariantPropertyName": "Value",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "AccessibleLabel",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "DynamicProperties": [
@@ -2810,6 +2857,11 @@
           "RuleProviderType": "User"
         },
         {
+          "Category": "Data",
+          "PropertyName": "AccessibleLabel",
+          "RuleProviderType": "Unknown"
+        },
+        {
           "Category": "Design",
           "PropertyName": "X",
           "RuleProviderType": "Unknown"
@@ -2873,6 +2925,14 @@
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
           "InvariantPropertyName": "Type",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "AccessibleLabel",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -2945,6 +3005,11 @@
           "RuleProviderType": "User"
         },
         {
+          "Category": "Data",
+          "PropertyName": "AccessibleLabel",
+          "RuleProviderType": "Unknown"
+        },
+        {
           "Category": "Design",
           "PropertyName": "X",
           "RuleProviderType": "Unknown"
@@ -3000,6 +3065,14 @@
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "\"\"",
           "InvariantPropertyName": "Value",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "AccessibleLabel",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -3065,6 +3138,11 @@
           "Category": "Data",
           "PropertyName": "Value",
           "RuleProviderType": "User"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "AccessibleLabel",
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -3426,22 +3504,22 @@
         {
           "Category": "Design",
           "PropertyName": "Height",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "Width",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "X",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "Y",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",

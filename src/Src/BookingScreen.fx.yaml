@@ -117,6 +117,7 @@
                     ZIndex: =5
 
                     CancelBookingButton As Button:
+                        AccessibleLabel: ="Cancel lesson booking"
                         DisplayMode: =DisplayMode.Edit
                         Height: =32
                         OnSelect: =Navigate(ProfileScreen)
@@ -127,6 +128,7 @@
                         ZIndex: =1
 
                     ConfirmBookingButton As Button:
+                        AccessibleLabel: ="Confirm lesson booking"
                         DisplayMode: |-
                             =If(
                                 IsBlank(_dateSelected) || 
@@ -233,7 +235,7 @@
                             ZIndex: =1
 
                         NextArrow2 As icon.ChevronRight:
-                            AccessibleLabel: =Self.Tooltip
+                            AccessibleLabel: ="Select child"
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(166, 166, 166, 1)
                             DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -473,6 +475,7 @@
                                 ZIndex: =1
 
                         iconPrevMonth1 As icon.ChevronLeft:
+                            AccessibleLabel: ="Previous month icon"
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =App.Theme.Colors.Darker30
                             DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -496,6 +499,7 @@
                             ZIndex: =14
 
                         iconNextMonth1 As icon.ChevronRight:
+                            AccessibleLabel: ="Next month icon"
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =App.Theme.Colors.Darker30
                             DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -580,7 +584,7 @@
                             ZIndex: =1
 
                         NextArrow1 As icon.ChevronRight:
-                            AccessibleLabel: =Self.Tooltip
+                            AccessibleLabel: ="Select lesson time"
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(166, 166, 166, 1)
                             DisabledBorderColor: =RGBA(166, 166, 166, 1)

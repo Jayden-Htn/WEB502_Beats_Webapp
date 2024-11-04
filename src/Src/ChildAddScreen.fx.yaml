@@ -162,7 +162,7 @@
                             ZIndex: =3
 
                         "CA_BirthdayPicker As 'Date picker'":
-                            AccessibleLabel: =""
+                            AccessibleLabel: ="Child date of birth"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Date of birth"
@@ -173,6 +173,7 @@
                             ZIndex: =4
 
                         "CA_Name As 'Text input'":
+                            AccessibleLabel: ="Child full name"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             OnChange: |-
@@ -201,6 +202,7 @@
                             ZIndex: =6
 
                         Icon3_1 As icon.ArrowLeft:
+                            AccessibleLabel: ="Discard new child icon"
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(240, 98, 15, 1)
                             DisabledBorderColor: =RGBA(166, 166, 166, 1)

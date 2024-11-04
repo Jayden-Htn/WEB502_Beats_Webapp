@@ -95,6 +95,7 @@
                     ZIndex: =2
 
                     Icon3_2 As icon.ArrowLeft:
+                        AccessibleLabel: ="Discard updated details"
                         BorderColor: =App.Theme.Colors.Darker40
                         Color: =RGBA(240, 98, 15, 1)
                         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -130,6 +131,7 @@
                         ZIndex: =2
 
                 "PU_FirstName As 'Text input'":
+                    AccessibleLabel: ="First name"
                     DisplayMode: =DisplayMode.Edit
                     Height: =32
                     LayoutMinHeight: =32
@@ -144,6 +146,7 @@
                     ZIndex: =3
 
                 "PU_LastName As 'Text input'":
+                    AccessibleLabel: ="Last name"
                     DisplayMode: =DisplayMode.Edit
                     Height: =32
                     LayoutMinHeight: =32
@@ -156,6 +159,7 @@
                     ZIndex: =4
 
                 "PU_Email As 'Text input'":
+                    AccessibleLabel: ="Email address"
                     DisplayMode: =DisplayMode.Edit
                     Height: =32
                     LayoutMinHeight: =32
@@ -168,6 +172,7 @@
                     ZIndex: =5
 
                 "PU_PhoneNumber As 'Text input'":
+                    AccessibleLabel: ="Phone number"
                     DisplayMode: =DisplayMode.Edit
                     Height: =32
                     LayoutMinHeight: =32
@@ -180,6 +185,7 @@
                     ZIndex: =6
 
                 "PU_Password As 'Text input'":
+                    AccessibleLabel: ="Password"
                     DisplayMode: =DisplayMode.Edit
                     Height: =32
                     LayoutMinHeight: =32

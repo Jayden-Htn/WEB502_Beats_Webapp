@@ -157,6 +157,7 @@
                             ZIndex: =1
 
                         "R_Password As 'Text input'":
+                            AccessibleLabel: ="Password"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Password"
@@ -167,6 +168,7 @@
                             ZIndex: =2
 
                         "R_PhoneNumber As 'Text input'":
+                            AccessibleLabel: ="Phone number"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Phone number"
@@ -177,6 +179,7 @@
                             ZIndex: =3
 
                         "R_Email As 'Text input'":
+                            AccessibleLabel: ="Email address"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Email address"
@@ -186,6 +189,7 @@
                             ZIndex: =4
 
                         "R_LastName As 'Text input'":
+                            AccessibleLabel: ="Parent's last name"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             Placeholder: ="Parent last name"
@@ -195,6 +199,7 @@
                             ZIndex: =5
 
                         "R_FirstName As 'Text input'":
+                            AccessibleLabel: ="Parent's first name"
                             DisplayMode: =DisplayMode.Edit
                             Height: =32
                             OnChange: |-

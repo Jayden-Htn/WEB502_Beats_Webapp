@@ -151,6 +151,7 @@
                             ZIndex: =1
 
                         Icon2 As icon.Link:
+                            AccessibleLabel: ="Arrow to about page"
                             AlignInContainer: =AlignInContainer.Stretch
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(255, 255, 255, 1)
@@ -193,6 +194,7 @@
                             ZIndex: =1
 
                         Icon2_1 As icon.Link:
+                            AccessibleLabel: ="Arrow to login page"
                             AlignInContainer: =AlignInContainer.Stretch
                             BorderColor: =App.Theme.Colors.Darker40
                             Color: =RGBA(255, 255, 255, 1)
